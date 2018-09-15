@@ -1,4 +1,5 @@
 import Procedure
+import time
 from Drivers import A3200
 from Drivers import Ultimus_V as UltimusV
 
@@ -91,6 +92,8 @@ class System(Device):
         return self.returnlog()
 
     def Dwell(self, dtime=''):
+        if not self.simulation and dtime != '':
+            time.sleep(dtime)
         self.log = self.name + ' waited ' + str(dtime) + ' s.'
 
         return self.returnlog()

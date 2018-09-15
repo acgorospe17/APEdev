@@ -1,3 +1,6 @@
+#These procedures handle manual alignment where the user can move the printer to specific alignment points.
+#It assumes that the printer has the ability to report its position
+
 from Procedure import procedure
 import Procedures_Motion
 import json
@@ -19,47 +22,65 @@ class Align(procedure):
         primenoz = self.requirements['primenoz']['value']
         filename = self.requirements['filename']['value']
         
-        #Doing stuff
+        # Doing stuff
         
-        #Check for loading file
+        # Check for loading file
         alignmentscollected = False
         doalignment = input('Import alignments from file?([y]/n/filename)')
-        if doalignment in ['y','Y','yes','Yes','YES', '']:
+        if doalignment in ['y', 'Y', 'yes', 'Yes', 'YES', '']:
             afilename = input('What filename?([' + filename + '])')
             if afilename == '':
                 afilename = filename
             try:
-                print(filename)
                 with open(filename, 'r') as TPjson:
-                     self.apparatus['information']['alignments'] = json.load(TPjson)
+                    self.apparatus['information']['alignments'] = json.load(TPjson)
                 alignmentscollected = True
-            except:
+            except FileNotFoundError:
                 print('No file loaded.  Possible error in ' + afilename)
         
+        # If alignments were not collected from a file, collect them directly
         if not alignmentscollected:
             for alignment in measuredlist:
                 self.updatealign.Do({'alignmentname':alignment})
-            self.derivealign.Do({'Measured_List':measuredlist, 'primenoz':primenoz})
+        
+        # Check if any alignments need to be redone
+        alignmentsOK = False
+        while not alignmentsOK:
+            redoalignments = input('Would you like to redo any alignments?(y/[n])')
+            if redoalignments in ['y', 'Y', 'yes', 'Yes', 'YES']:
+                namestring = ''
+                for name in measuredlist:
+                    namestring += name + ' '
+                which_alignment = input('Which alignment would you like to redo? (pick from list below)\n'+namestring)
+                if which_alignment in measuredlist:
+                    self.updatealign.Do({'alignmentname': which_alignment})
+                else:
+                    print('Alignment is not in list.')
+            else:
+                alignmentsOK = True
 
+        # Use the measured alignments to derive the remaining needed alignments
+        self.derivealign.Do({'Measured_List': measuredlist, 'primenoz': primenoz})
+
+        # Save a copy of the alignments to the main folder and to the log folder
         with open(filename, 'w') as TPjson:
             json.dump(self.apparatus['information']['alignments'], TPjson)
 
-        with open('Logs/'+str(int(round(time.time(),0)))+filename, 'w') as TPjson:
+        with open('Logs/'+str(int(round(time.time(), 0)))+filename, 'w') as TPjson:
             json.dump(self.apparatus['information']['alignments'], TPjson)
-            
+
+
 class UpdateAlignment(procedure):
     def Prepare(self):
         self.name = 'GetAlignment'
-        self.requirements['alignmentname']={'source':'apparatus', 'address':'', 'value':'', 'desc':'parameters used to generate toolpath'}
+        self.requirements['alignmentname'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'parameters used to generate toolpath'}
 
-    
     def Plan(self):
-        
         alignmentname = self.requirements['alignmentname']['value']
         alignment = self.apparatus['information']['alignments'][alignmentname]
-        
-        motionname = self.apparatus.findDevice({'descriptors':'motion'})
-        
+
+        motionname = self.apparatus.findDevice({'descriptors': 'motion'})
+
         getpostion = self.apparatus.GetEproc(motionname, 'getPosition')
         
         #Doing stuff
@@ -127,101 +148,6 @@ class DeriveAlignments(procedure):
             alignments[tool+'@cal']['Y']=alignments[primenoz+'@cal']['Y'] -(alignments[primenoz+'@mark']['Y'] - alignments[tool+'@mark']['Y'])
             alignments[tool+'@cal'][zaxis]=alignments[primenoz+'@cal'][pzaxis] -(alignments[primenoz+'@mark'][pzaxis] - alignments[tool+'@mark'][zaxis])
             
-def mList(alignlist):
-    #alignlist is the list of devices that need to be aligned
-    alignable_names=[]
-    if len(alignlist)>1:
-        for alignable in alignlist:
-            alignable_names.append('m'+alignable + '@mark')
-
-def DoAlignments(alignmentnames, apparatus, filename='alignments.json'):
-    alignments = dialogue_loadfromfile(filename)
-    if alignments == {}:
-        alignments = dialogue_newalign(alignmentnames, apparatus)
-    SaveAlignments(alignments, filename)
-    RedoAlignment(apparatus, alignmentnames, alignments, filename)
-    return alignments
-
-def RedoAlignment(apparatus, alignmentnames, alignments, filename):
-    alignmentsOK = False
-    while not alignmentsOK:
-        redoalignments = input('Would you like to redo any alignments?(y/[n])')
-        if redoalignments in ['n','N','no','No','NO','']:
-            alignmentsOK = True
-        else:
-            namestring = ''
-            for name in alignmentnames:
-                namestring += name + ' '
-                
-            which_alignment = input('Which alignment would you like to redo? (pick from list below)\n'+namestring)
-            alignments[which_alignment] = GetAlignment(apparatus, which_alignment)
-        SaveAlignments(alignments, filename)
-        
-
-             
-    
-
-def Alignments_Measured2Req(apparatus, alignments, primemat, calibrate=True):
-    motion = apparatus.findDevice({'type':'A3200Dev'})
-    
-    #handle the initials point
-    alignments['initial'] = alignments['minitial']
-    #handle the safe heights
-    alignments['safeZZ1'] = {'ZZ1':alignments['minitial']['ZZ1']}
-    alignments['safeZZ2'] = {'ZZ2':alignments['minitial']['ZZ2']}
-    alignments['safeZZ3'] = {'ZZ3':alignments['minitial']['ZZ3']}
-    alignments['safeZZ4'] = {'ZZ4':alignments['minitial']['ZZ4']}
-
-    #handle the start positions of the materials
-    for material in apparatus['information']['materials']:
-        pmatzaxis = apparatus['devices'][motion]['n'+primemat]['Zaxis']
-        matzaxis = apparatus['devices'][motion]['n'+material]['Zaxis']
-        alignments['n'+material+'@start']={}
-        alignments['n'+material+'@start']['X']=alignments['mn'+primemat+'@start']['X'] -(alignments['mn'+primemat+'@mark']['X'] - alignments['mn'+material+'@mark']['X'])
-        alignments['n'+material+'@start']['Y']=alignments['mn'+primemat+'@start']['Y'] -(alignments['mn'+primemat+'@mark']['Y'] - alignments['mn'+material+'@mark']['Y'])
-        alignments['n'+material+'@start'][matzaxis]=alignments['mn'+primemat+'@start'][pmatzaxis] -(alignments['mn'+primemat+'@mark'][pmatzaxis] - alignments['mn'+material+'@mark'][matzaxis])
-        alignments['n'+material+'slide@start'] = alignments['n'+material+'@start']    
-    
-    #handle calibration positions
-    if calibrate:
-        for material in apparatus['information']['materials']:
-            pmatzaxis = apparatus['devices'][motion]['n'+primemat]['Zaxis']
-            matzaxis = apparatus['devices'][motion]['n'+material]['Zaxis']
-            alignments['n'+material+'@cal']={}
-            alignments['n'+material+'@cal']['X']=alignments['mn'+primemat+'@cal']['X'] -(alignments['mn'+primemat+'@mark']['X'] - alignments['mn'+material+'@mark']['X'])
-            alignments['n'+material+'@cal']['Y']=alignments['mn'+primemat+'@cal']['Y'] -(alignments['mn'+primemat+'@mark']['Y'] - alignments['mn'+material+'@mark']['Y'])
-            alignments['n'+material+'@cal'][matzaxis]=alignments['mn'+primemat+'@cal'][pmatzaxis] -(alignments['mn'+primemat+'@mark'][pmatzaxis] - alignments['mn'+material+'@mark'][matzaxis])
-
-
-def derive_alignments(alignments):
-    #Direct assignments
-    alignments['initial'] = alignments['Initial']   
-    alignments['safeZZ1'] = {'ZZ1':alignments['Initial']['ZZ1']}
-    alignments['safeZZ2'] = {'ZZ2':alignments['Initial']['ZZ2']}
-    alignments['safeZZ3'] = {'ZZ3':alignments['Initial']['ZZ3']}
-    alignments['safeZZ4'] = {'ZZ4':alignments['Initial']['ZZ4']}
-    alignments['nPDMS@start'] = {'X':alignments['Mat1 at Start']['X'], 'Y':alignments['Mat1 at Start']['Y'], 'ZZ1':alignments['Mat1 at Start']['ZZ1']}
-    alignments['nPDMSslide@start'] = alignments['nPDMS@start']
-    alignments['PDMScal']= {'X':alignments['Mat1 at Cal']['X'],'Y':alignments['Mat1 at Cal']['Y'],'ZZ1':alignments['Mat1 at Cal']['ZZ1']}
-    
-    #Calculated
-    alignments['nAgTPU@start']={}
-    alignments['nAgTPU@start']['X']=alignments['Mat1 at Start']['X'] -(alignments['Mat1 at corner']['X'] - alignments['Mat2 at corner']['X'])
-    alignments['nAgTPU@start']['Y']=alignments['Mat1 at Start']['Y'] -(alignments['Mat1 at corner']['Y'] - alignments['Mat2 at corner']['Y'])
-    alignments['nAgTPU@start']['ZZ2']=alignments['Mat1 at Start']['ZZ1'] -(alignments['Mat1 at corner']['ZZ1'] - alignments['Mat2 at corner']['ZZ2'])
-    alignments['nAgTPUslide@start'] = alignments['nAgTPU@start']
-    alignments['AgTPUcal'] = {}
-    alignments['AgTPUcal']['X']=alignments['Mat1 at Cal']['X'] -(alignments['Mat1 at corner']['X'] - alignments['Mat2 at corner']['X'])
-    alignments['AgTPUcal']['Y']=alignments['Mat1 at Cal']['Y'] -(alignments['Mat1 at corner']['Y'] - alignments['Mat2 at corner']['Y'])
-    alignments['AgTPUcal']['ZZ2']=alignments['Mat1 at Cal']['ZZ1'] -(alignments['Mat1 at corner']['ZZ1'] - alignments['Mat2 at corner']['ZZ2'])
-
-            
-
-
-def SaveAlignments(alignments, filename):
-    with open(filename, 'w') as TPjson:
-        json.dump(alignments, TPjson)
-
 def PrintAlignments(alignments):
     printstr = ''
     alignlist = list(alignments.keys())
