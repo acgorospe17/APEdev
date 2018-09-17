@@ -15,11 +15,15 @@ FlexPrinterApparatus.Build_FlexPrinter(materials, MyApparatus)
 
 MyApparatus['devices']['nPDMS']['descriptors'].append('PDMS')
 MyApparatus['devices']['aeropump0']['descriptors'].append('PDMS')
+MyApparatus['devices']['nAgTPU']['descriptors'].append('AgTPU')
+MyApparatus['devices']['pump1']['descriptors'].append('AgTPU')
+MyApparatus['devices']['gantry']['default']['speed'] = 40
 MyApparatus['devices']['gantry']['nPDMS']['speed'] = 5
 MyApparatus['devices']['gantry']['nAgTPU']['speed'] = 7
 MyApparatus['devices']['aeropump0']['pumpon_time'] = 1
 MyApparatus['devices']['aeropump0']['mid_time'] = 2
 MyApparatus['devices']['aeropump0']['pumpoff_time'] = 3
+MyApparatus['devices']['aeropump0']['pumpres_time'] = 0.2
 MyApparatus['devices']['pump0']['COM'] = 3
 MyApparatus['devices']['pump1']['COM'] = 5
 MyApparatus['devices']['pump1']['pumpon_time'] = 2
@@ -38,7 +42,7 @@ AlignPrinter.Do({'primenoz':'nPDMS'})
 
 MyApparatus['information']['toolpaths']={}
 MyApparatus['information']['toolpaths']['generator']=TPGen.GenerateToolpath
-MyApparatus['information']['toolpaths']['parameters']=TPGen.Make_TPGen_Data('mymat')
+MyApparatus['information']['toolpaths']['parameters']=TPGen.Make_TPGen_Data('PDMS')
 MyApparatus['information']['toolpaths']['toolpath']=[0]
 
 GenerateToolpath.Do()

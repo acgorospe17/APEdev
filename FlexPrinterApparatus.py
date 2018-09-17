@@ -11,6 +11,8 @@ def Build_FlexPrinter(materials, apparatus):
     apparatus['information']['alignmentnames']=['initial']
     apparatus['information']['alignmentsfile']='alignments.json'
     apparatus['information']['calibrationfile']='cal.json'
+    apparatus['information']['ink calibration']={}
+    apparatus['information']['ink calibration']['time'] = 60
     
     primenozzle = True
     for materialx in materials:

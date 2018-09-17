@@ -1,0 +1,57 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 3
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+aeropump0 is off.
+
+Ultimus pump1 is connected on port 5
+
+Ultimus/A3200 pump1/gantry aeropump1 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+aeropump1 is off.
+
+system is connected.
+
+system ran a program
+
+Commands Loaded
+
+Commands Loaded
+
+G01 ZZ1 20.000000 ZZ2 20.000000 ZZ3 20.000000 ZZ4 20.000000 F 40.000000 
+
+G01 X 0.000000 Y 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 1 s.
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
