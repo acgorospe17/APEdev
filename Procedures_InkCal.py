@@ -37,6 +37,7 @@ class Calibrate(procedure):
                     # Clear existing file
                     cfilename = material + filename
                     tempfile = open(cfilename, mode='w')
+                    json.dump([], tempfile)
                     tempfile.close()
                     self.cal_measurement.Do({'material': material})
                 else:
@@ -49,12 +50,7 @@ class Calibrate(procedure):
         else:
             self.cal_measurement.Do({'material': material})
 
-        # Save a copy of the alignments to the main folder and to the log folder
-        with open(filename, 'w') as TPjson:
-            json.dump(self.apparatus['information']['alignments'], TPjson)
 
-        with open('Logs/'+str(int(round(time.time(), 0)))+filename, 'w') as TPjson:
-            json.dump(self.apparatus['information']['alignments'], TPjson)
 
 
 class Cal_Measurement(procedure):
@@ -91,7 +87,7 @@ class Cal_Measurement(procedure):
         self.pmotion.Do({'priority': [['Z'], ['X', 'Y']]})
         run.Do()
 
-        #Get intial information
+        # Get intial information
         initialweightok = False
         while not initialweightok:
             initialweightstr = input('What is the initial weight of the slide in grams?')
@@ -101,168 +97,81 @@ class Cal_Measurement(procedure):
                 confirmation = input(qtext)
                 if confirmation == 'y':
                     initialweightok = True
-            except:
+            except ValueError:
                 print('That is not a number.  Try again.')
         input('Put slide in place and press ENTER.')
-        
-        #turn pumps on and off
-        ptime =self.apparatus['information']['ink calibration']['time']
-        
+
+        # turn pumps on and off
+        ptime = self.apparatus['information']['ink calibration']['time']
+
         self.pumpon.Do({'name': pump})
         dwell.Do({'dtime': ptime})
         self.pumpoff.Do({'name': pump})
-        
+
         finalweightok = False
         while not finalweightok:
-            finalweight = input('What is the final weight of the slide in grams?')
+            finalweightstr = input('What is the final weight of the slide in grams?')
             try:
-                dataline['finalweight'] = float(finalweight)
-                qtext = 'Is ' + str( dataline['finalweight']) + 'g the correct value?(y/n)'
+                finalweight = float(finalweightstr)
+                qtext = 'Is ' + str(finalweightstr + 'g the correct value?(y/n)')
                 confirmation = input(qtext)
                 if confirmation == 'y':
                     finalweightok = True
-            except:
+            except ValueError:
                 print('That is not a number.  Try again.')
-        # Save a copy of the alignments to the main folder and to the log folder
-        with open(filename, 'w') as TPjson:
-            json.dump(self.apparatus['information']['alignments'], TPjson)
 
-        with open('Logs/'+str(int(round(time.time(), 0)))+filename, 'w') as TPjson:
-            json.dump(self.apparatus['information']['alignments'], TPjson)
-            
-
-
-
-def fproc_ProcessData(apparatus, material, dataline):
-    eproclines =[]
-    nozzle = apparatus.findDevice({'descriptors':['nozzle',material]})
-    
-    density = apparatus['information']['materials'][material]['density']
-    width = apparatus['devices'][nozzle]['TraceWidth']
-    height = apparatus['devices'][nozzle]['TraceHeight']
-    
-    details = {}
-    details['programaddress']=prog_ProcessData
-    details['addresstype']='pointer'
-    details['arguments']=[dataline, density, width, height]
-    eproclines.append([{'devices':'system', 'procedure':'Run', 'details':details}])
-    
-    return eproclines
-
-def prog_ProcessData(dataline, density, width, height):
-    
-        
-    dweight = dataline['finalweight'] - dataline['initialweight'] #g
-    exvolume = dweight/density*1000 #mm^3
-    vexrate = exvolume / (60) #mm^3/s
-    target_width = width #mm
-    crossarea = target_width * height #mm^2
-    targetspeed = vexrate/crossarea #m/s
-    
-    dataline['speed'] = targetspeed 
-
-def fproc_SaveCalData(material, dataline):
-    eproclines =[]
-    
-    details = {}
-    details['programaddress']=prog_SaveCalData
-    details['addresstype']='pointer'
-    details['arguments']=[material, dataline]
-    eproclines.append([{'devices':'system', 'procedure':'Run', 'details':details}])
-    
-    return eproclines
-
-def prog_SaveCalData( material, dataline):
-    filename = material + 'log.json'
-    timevalue = time.time()
-    dataline['time'] = timevalue
-    try:
-        prevdata=LoadInkCal(material)
-    except:
-        prevdata = []
-        
-    prevdata.append(dataline)
-    
-    with open(filename, 'w') as TPjson:
-        json.dump(prevdata, TPjson) 
-
-    
-def LoadInkCal(material):
-    filename = material + 'log.json' 
-    with open(filename, 'r') as caljson:
-        data = json.load(caljson)
-    
-    return data   
-
-def fproc_UpdateInk(apparatus, material):
-    eproclines =[]
-    nozzle = apparatus.findDevice({'descriptors':['nozzle',material]})
-
-    density = apparatus['information']['materials'][material]['density']
-    width = apparatus['devices'][nozzle]['TraceWidth']
-    height = apparatus['devices'][nozzle]['TraceHeight']
-        
-    details = {}
-    details['programaddress']=prog_UpdateInk
-    details['addresstype']='pointer'
-    details['arguments']=[apparatus, material, density, width, height]
-    
-    if 'UpdateSpeed' in apparatus['information']['materials'][material]:
-        details['arguments'].append(apparatus['information']['materials'][material]['UpdateSpeed'])
-    else:
-        details['arguments'].append(True)
-    
-    if 'UpdatePumpOn' in apparatus['information']['materials'][material]:
-        details['arguments'].append(apparatus['information']['materials'][material]['UpdatePumpOn'])
-    else:
-        details['arguments'].append(True)
-    
-    eproclines.append([{'devices':'system', 'procedure':'Run', 'details':details}])
-    
-    return eproclines
-
-def prog_UpdateInk(apparatus, material, density, width, height, UpdateSpeed, UpdatePumpOn):
-    #Get the associated devices
-    motion = apparatus.findDevice({'descriptors':['motion']})
-    nozzle = apparatus.findDevice({'descriptors':['nozzle', material]})
-    pump = apparatus.findDevice({'descriptors':['pump', material]})
-    
-    #Load information for specific ink
-    data=LoadInkCal(material)
-    
-    if UpdateSpeed:
-        #Calculate and Update Speed
-        if len(data)==1:
-            dataline = data[0]
-            prog_ProcessData(dataline, density, width, height)
-            apparatus['devices'][motion][nozzle]['motion']['speed'] = dataline['speed']
-        else: #assume linear drift
-            pdataline = data[len(data)-2]
-            prog_ProcessData(pdataline, density, width, height)
-            dataline = data[len(data)-1]
-            prog_ProcessData(dataline, density, width, height)
-            current_time = time.time()
-            deltat = float(dataline['time'])-float(pdataline['time'])
-            deltas = float(dataline['speed'])-float(pdataline['speed'])
-            apparatus['devices'][motion][nozzle]['motion']['speed'] = float(dataline['speed']) + deltas/deltat * (current_time-dataline['time'])
-    
-    if UpdatePumpOn:    
-        #Calculate and Update Pumpontimes
-        apparatus['devices'][pump]['pumpontime']=apparatus['devices'][pump]['pumprestime']+1.5*apparatus['devices'][nozzle]['TraceHeight']/apparatus['devices'][motion][nozzle]['motion']['speed']
-        
-def fproc_UpdateCalStatus(apparatus, material):
-    eproclines =[]
-    
-    details = {}
-    details['programaddress']=prog_UpdateCalStatus
-    details['addresstype']='pointer'
-    details['arguments']=[apparatus, material]
-    eproclines.append([{'devices':'system', 'procedure':'Run', 'details':details}])
-    
-    return eproclines
-
-def prog_UpdateCalStatus(apparatus, material):
-    apparatus['information']['materials'][material]['calibrated'] = True
+        # Construct the data entry for the calibration log
+        dataline = {'delta_weight': finalweight-initialweight, 'test_time': ptime, 'time': time.time()}
+        cfilename = material + filename
+        # Load in the previous file
+        with open(cfilename, 'r') as caljson:
+            file_data = json.load(caljson)
+        file_data.append(dataline)
+        # Store the updated data
+        with open(cfilename, 'w') as caljson:
+            json.dump(file_data, caljson)
+        with open('Logs/' + str(int(round(time.time(), 0))) + cfilename, 'w') as caljson:
+            json.dump(file_data, caljson)
 
 
+class Cal_Calulation(procedure):
+    def Prepare(self):
+        self.name = 'Cal_Calulation'
+        self.requirements['material'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'parameters used to generate toolpath'}
+        self.requirements['filename'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'name of alignmentfile'}
+        self.requirements['filename']['address'] = ['information', 'calibrationfile']
+        self.pmotion = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
+        self.pumpon = Procedures_Pumps.PumpOn(self.apparatus, self.executor)
+        self.pumpoff = Procedures_Pumps.PumpOff(self.apparatus, self.executor)
 
+    def Plan(self):
+        # Reassignments for convienence
+        material = self.requirements['material']['value']
+        filename = self.requirements['filename']['value']
+        cfilename = material + filename
+
+        motion = self.apparatus.findDevice({'descriptors': ['motion']})
+        nozzle = self.apparatus.findDevice({'descriptors': ['nozzle', material]})
+        pump = self.apparatus.findDevice({'descriptors': ['pump', material]})
+
+        do_pumpcal = self.apparatus.getValue(['information', material, 'do_pumpcal'])
+        do_speedcal = self.apparatus.getValue(['information', material, 'do_speedcal'])
+        density = self.apparatus.getValue(['information', material, 'density'])
+        trace_width = self.apparatus.getValue(['devices', nozzle, 'trace_width'])
+        trace_height = self.apparatus.getValue(['devices', nozzle, 'trace_height'])
+        pumpres_time = self.apparatus.getValue(['devices', pump, 'pumpres_time'])
+
+        with open(cfilename, 'r') as caljson:
+            file_data = json.load(caljson)
+
+        if len(file_data) == 1:
+            dweight = file_data[0]['delta_weight']
+            exvolume = dweight / density * 1000  # mm^3
+            vexrate = exvolume / file_data[0]['test_time']  # mm^3/s
+            crossarea = trace_width * trace_height  # mm^2
+            targetspeed = vexrate/crossarea  # m/s
+
+        if do_speedcal:
+            self.apparatus['devices'][motion][nozzle]['speed'] = targetspeed
+        if do_pumpcal:
+            self.apparatus['devices'][pump]['pumpon_time'] = pumpres_time + 1.5*trace_height / targetspeed
