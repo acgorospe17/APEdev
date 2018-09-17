@@ -3,7 +3,7 @@ import time
 from Drivers import A3200
 from Drivers import Ultimus_V as UltimusV
 
-# Parent class of all devices
+# Parent class of all devices bleh
 class Device():
     def __init__(self, name):
         self.simulation = False
