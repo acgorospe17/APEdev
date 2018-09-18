@@ -16,10 +16,11 @@ A3200Lib = None
 handle = None
 
 class MotionException(Exception):
-    def __init__(self, source, message, level, controller = None):
+    def __init__(self, source, message, level, controller=None):
         self.source = source
         self.message = message
         self.level = level
+
         if controller is not None:
             bf = 100
             empty = ''
@@ -38,58 +39,24 @@ class Axis_Mask(Enum):
     # No axes selected.
     AXISMASK_None = 0,
 
-    Y      =  (1 <<  0), #1
+    Y      = (1 <<  0), #1
     YY     = (1 <<  1), #2
     X      = (1 <<  2), #4
     ZZ1    = (1 <<  6), #8
     ZZ2    = (1 <<  7), #16
     ZZ3    = (1 <<  8), #32
     ZZ4    = (1 <<  9), #64
-    #A      = (1 <<  7), #128
 
 
     #Maximum number of axes selected.
     AXISMASK_All = 0xffffffff
 
-
-
-    '''
-    Unimplemented axis_masks
-
-	AXISMASK_08 = (1 <<  8), #256
-	AXISMASK_09 = (1 <<  9), #512
-
-	AXISMASK_10 = (1 << 10), #1024
-	AXISMASK_11 = (1 << 11), #2048
-	AXISMASK_12 = (1 << 12),
-	AXISMASK_13 = (1 << 13),
-	AXISMASK_14 = (1 << 14),
-	AXISMASK_15 = (1 << 15),
-	AXISMASK_16 = (1 << 16),
-	AXISMASK_17 = (1 << 17),
-	AXISMASK_18 = (1 << 18),
-	AXISMASK_19 = (1 << 19),
-
-	AXISMASK_20 = (1 << 20),
-	AXISMASK_21 = (1 << 21),
-	AXISMASK_22 = (1 << 22),
-	AXISMASK_23 = (1 << 23),
-	AXISMASK_24 = (1 << 24),
-	AXISMASK_25 = (1 << 25),
-	AXISMASK_26 = (1 << 26),
-	AXISMASK_27 = (1 << 27),
-	AXISMASK_28 = (1 << 28),
-	AXISMASK_29 = (1 << 29),
-
-	AXISMASK_30 = (1 << 30),
-	AXISMASK_31 = (1 << 31),
-        '''
     @classmethod
     def get_mask(cls, axes):
         '''
         Returns the sum of Axes masks for a given list of axes.
         '''
-        #check if axes is iterable and not a string
+        # check if axes is iterable and not a string
         if isinstance(axes, collections.Iterable) and type(axes) is not str:
             mask = 0
             for ax in axes:
@@ -1214,84 +1181,5 @@ if __name__ == '__main__':
     print('done')
     a.absolute_move(['X', 'Y'] , [-400, -400], speed = 5)
     a.disable_queue_mode()
-    '''
-    queue_out = Queue()
-    p = Process(target = test_process, args = ('ZZ1', 1, queue_out))
-    p.start()
-    r1 = ''
-    while 'done' not in r1:
-        r1 = queue_out.get(timeout = 3)
-        print(r1)
-    p.join()
-    input()
-    '''
-
-    '''
-    __spec__ = None
-
-    bf = 100
-    empty = ''
-    for i in range(bf):
-        empty += ' '
-    errorString = ct.c_buffer(empty.encode('utf-8'))
-    bufferSize = ct.c_int(bf)
-    print(a.cmd_exe('F1'))
-
-    a.enable_queue_mode()
-    a.set_task_variable(1, [-1])
-    try:
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-        a.linear(['ZZ3'], [-1])
-    except:
-        print(a.A3200Lib.A3200GetLastErrorString(errorString, bufferSize))
-    s = time.time()
-    a.wait_for_move_done(['ZZ3'])
-    a.set_task_variable(1, [1])
-    f = time.time()
-    print(f-s)
-    time.sleep(1)
-    a.disable_queue_mode()
-
-
-    __spec__ = None
-    #a.enable_queue_mode()
-    n = 100
-    import numpy as np
-    v = np.zeros(n)
-    s = time.time()
-    for i in range(n):
-        #a.linear(['ZZ3'], [-5])
-        #a.DO('ZZ1', 0, True)
-        #a.linear(['ZZ3'], [5])
-        #a.DO('ZZ1', 0, False)
-        v[i] = a.AI('ZZ2', 0)[1]
-    f = time.time()
-    print(v)
-    print(sum(v)/n, np.std(v), min(v)-max(v))
-    print((f - s)/n)
-    #a.disable_queue_mode()
-
-    a.set_global_variable(0, [0], 1)
-    axes = ['ZZ1', 'ZZ1']
-    tasks = [1, 2]
-    procs = [Process(target = test_1, args = [axes[0], tasks[0]]),
-             Process(target = test_2, args = [axes[1], tasks[1]])]
-    for p in procs:
-        p.start()
-    time.sleep(3)
-    a.set_global_variable(0, [1], 1)
-
-    for p in procs:
-        p.join()
-    '''
 
     a.disconnect()
-    #input()
