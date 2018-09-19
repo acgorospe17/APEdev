@@ -15,7 +15,7 @@ import serial
 class Ultimus_V_Pump():
     '''
     Class to control an ultimus V pump connected via serial
-    
+
     Command Structure:
         [STX] [No. of Byte] [Command] [Data] [Checksum] [ETX]
         STX: start of packet char: 0x02h
@@ -24,7 +24,7 @@ class Ultimus_V_Pump():
         data: 0-251 chars, xmit in ascii
         ChkSum: subtrac ascii values of #btys, cmd and data from zero, 2 digit hex encoded in ascii
         ETX: end of packet char, 0x03h
-        
+
         Acknowledge :   0x06h
         Not Ack:        0x15h
         Enquiry:        0x05h
@@ -32,47 +32,45 @@ class Ultimus_V_Pump():
         Success Command: A0
         Failure Command: A2
     '''
-    
+
     VAC_UNITS = {   'kpa' :  0,
                     'inh2o': 1,
                     'inhg':  2,
                     'mmhg':  3,
                     'torr':  4}
-    
+
     PRESS_UNITS = { 'psi' :  0,
                     'bar':   1,
                     'kpa':   2}
-    
+
     VAC_MULT = {   'kpa' :   100,
                     'inh2o': 10,
                     'inhg':  100,
                     'mmhg':  10,
                     'torr':  10}
-     
+
     PRESS_MULT = { 'psi' :  10,
                     'bar':   1000,
                     'kpa':   10}
-    
+
     def __init__(self, com, **kwargs):
         '''
-        Set up a pump object, connect to the pump via serial io and optionally 
+        Set up a pump object, connect to the pump via serial io and optionally
             run initial configurations.
-        
+
         Input:
             com: the serial port number that the pump is connected to as an int.
             **kwargs <optional keyword arguments>
-                stop_on_errors: instruct the error handling to halt the program 
+                stop_on_errors: instruct the error handling to halt the program
                     upon an error if Boolean True defaults to False
                 trigger: set the trigger method 'com' or 'DO' defaults to 'com'
                 pressure_units: the pressure units you would like to set,
                     defaults to whatever is on the pump
                 vacuum_units: the vacuum units you would like to set,
                     defaults to whatever is on the pump
-                pressure: float value of the pressure to set 
+                pressure: float value of the pressure to set
                 For DO only:
                 A3200: the A3200 instance
-                
-        
         '''
         self.no_pump = False
         self.debug = False
@@ -125,8 +123,8 @@ class Ultimus_V_Pump():
             self.dispense_off_delay = kwargs['off_delay']
         else:
             self.dispense_off_delay = 0
-        
-        
+
+
     def connect(self):
         if not self.pump.isOpen():
             self.pump.open()
@@ -137,7 +135,7 @@ class Ultimus_V_Pump():
                 return 0
         else:
             return -1
-    
+
     def disconnect(self, stopPump = False):
         if self.debug:
             print("Disconnecting pump")
@@ -153,13 +151,13 @@ class Ultimus_V_Pump():
                     return 1
             else:
                 return -1
-            
+
     def calc_checksum(self, code):
         '''
         Calculate a checsum value from a given code
-        '''  
-        return '%2X' % (-(sum(ord(c) for c in code) %256) & 0xFF)          
-    
+        '''
+        return '%2X' % (-(sum(ord(c) for c in code) %256) & 0xFF)
+
     def format_command(self, code):
         '''
         For a given string containing the command and data, format a complete command
@@ -170,7 +168,7 @@ class Ultimus_V_Pump():
         code = code + self.calc_checksum(code)
         code = "\x02" + code + "\x03"
         return code
-    
+
     def transmit_command(self, command):
         '''
         Send 'command' to the pump.
@@ -195,13 +193,13 @@ class Ultimus_V_Pump():
                         print('A0/A2 not read')
                     else:
                         print(ack)
-                self.pump.write(u"\x04".encode('utf-8'))        
+                self.pump.write(u"\x04".encode('utf-8'))
                 return 1
             else:
                 if self.debug:
                     print('Cannot send command: {} , pump is not open'.format(command.encode('utf-8')))
-                return -1                                                                        
-    
+                return -1
+
     def transmit_query(self, command):
         '''
         Send 'command' to the pump.
@@ -233,20 +231,20 @@ class Ultimus_V_Pump():
                         print('ack not read')
                     else:
                         print(ack)
-                self.pump.write(u"\x04".encode('utf-8'))        
+                self.pump.write(u"\x04".encode('utf-8'))
                 return ack
             else:
                 if self.debug:
                     print('Cannot send command: {} , pump is not open'.format(command.encode('utf-8')))
-                return ""                                                                        
-    
-                                                                                                                
+                return ""
+
+
     def set_pressure(self, pressure, units = None):
         '''
         Set the pressure on the pressure pump
-        
+
         Command structure: PS--pppp 4 digit pressure excluding the decimal point.
-            The value is unitless and range is determined by the selected pressure 
+            The value is unitless and range is determined by the selected pressure
             units on the pump.
         '''
         if units is not None:
@@ -257,13 +255,13 @@ class Ultimus_V_Pump():
         r = self.transmit_command(self.format_command("PS  {:04}".format(press)))
         if r == 1:
             self.pressure = round(pressure, 1)
-        
+
     def set_vacuum(self, vacuum, units = None):
         '''
         Set the pressure on the pressure pump
-        
+
         Command structure: VS--vvvv 4 digit vacuum excluding the decimal point.
-            The value is unitless and range is determined by the selected vacuum 
+            The value is unitless and range is determined by the selected vacuum
             units on the pump.
         '''
         if units is not None:
@@ -272,12 +270,12 @@ class Ultimus_V_Pump():
         r = self.transmit_command(self.format_command("VS  {:04}".format(vac)))
         if r == 1:
             self.vacuum = round(vacuum, 1)
-    
+
     def set_vacuum_units(self, units):
         '''
         Set the vacuum units on the pressure pump.
-        
-        Command structure: E7--uu 
+
+        Command structure: E7--uu
             uu: the vacuum units:
                 00: kPa
                 01: inH2O
@@ -286,7 +284,7 @@ class Ultimus_V_Pump():
                 04: TORR
             note that the units codes are in the class dict: VAC_UNITS, keyed as seen here
         '''
-        if units.lower() in Ultimus_V_Pump.VAC_UNITS:    
+        if units.lower() in Ultimus_V_Pump.VAC_UNITS:
             if self.vacuum_units is not units.lower():
                 r = self.transmit_command(self.format_command("E7  {:02}".format(Ultimus_V_Pump.VAC_UNITS[units.lower()])))
                 if r == 1:
@@ -295,19 +293,19 @@ class Ultimus_V_Pump():
             if self.debug:
                 print("set_vac_units: improper vac units: {}".format(units))
             return -1
-    
+
     def set_pressure_units(self, units):
         '''
         Set the pressure units on the pressure pump.
-        
-        Command structure: E7--uu 
+
+        Command structure: E7--uu
             uu: the vacuum units:
                     'psi' :  00,
                     'bar':   01,
                     'kPa':   02}
             note that the units codes are in the class dict: PRESS_UNITS, keyed as seen here
         '''
-        if units.lower() in Ultimus_V_Pump.PRESS_UNITS:    
+        if units.lower() in Ultimus_V_Pump.PRESS_UNITS:
             if self.pressure_units is not units.lower():
                 r = self.transmit_command(self.format_command("E6  {:02}".format(Ultimus_V_Pump.PRESS_UNITS[units.lower()])))
                 if r == 1:
@@ -316,12 +314,12 @@ class Ultimus_V_Pump():
             if self.debug:
                 print("set_pressure_units: improper press units: {}".format(units))
             return -1
-                                                    
+
     def toggle_dispense(self):
         '''
         Toggles the dispense on/off.
         '''
-        if self.trigger == "com":        
+        if self.trigger == "com":
             r = self.transmit_command(self.format_command("DI  "))
             if r == 1:
                 self.dispensing = not self.dispensing
@@ -332,25 +330,25 @@ class Ultimus_V_Pump():
             else:
                 if self.A3200.DO(self.trigger_bit, self.trigger_axis, True):
                     self.dispensing = True
-    
+
     def startPump(self):
         if not self.dispensing:
             self.toggle_dispense()
             time.sleep(self.dispense_on_delay)
         else:
             pass
-    
+
     def stopPump(self):
         if self.dispensing:
             self.toggle_dispense()
             time.sleep(self.dispense_off_delay)
         else:
             pass
-            
+
     def get_vacuum_units(self):
         '''
         Get the vacuum_units on the pump.
-        
+
         return format:
             "DOVUuu" with uu as the unit numbers as stored in VAC_UNITS
         '''
@@ -369,11 +367,11 @@ class Ultimus_V_Pump():
             if self.debug:
                 print("get_vacuum_units: failure to communicate")
             return None
-    
+
     def get_pressure_units(self):
         '''
         Get the pressure_units on the pump.
-        
+
         return format:
             "DOPUuu" with uu as the unit numbers as stored in PRESS_UNITS
         '''
@@ -392,13 +390,13 @@ class Ultimus_V_Pump():
             if self.debug:
                 print("get_pressure_units: failure to communicate")
             return None
-        
+
 
 '''
 test code to run the pump
 '''
 if __name__ == "__main__":
-   
+
     pump = Ultimus_V_Pump(4)
     pump.connect()
     time.sleep(1)
@@ -420,5 +418,5 @@ if __name__ == "__main__":
         time.sleep(1)
     time.sleep(1)
 
-    #a.disconnect()    
+    #a.disconnect()
     pump.disconnect(True)
