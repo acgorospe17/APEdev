@@ -2,7 +2,7 @@ import Apparatus
 import Procedures_Toolpath
 import Procedures_Alignments
 import Executor
-import XlineTPGen as TPGen
+import EmbeddedHelixTPgen as TPGen
 import FlexPrinterApparatus
 
 MyApparatus = Apparatus.apparatus()
@@ -22,18 +22,18 @@ MyApparatus['devices']['nAgTPU']['trace_height'] = 0.1
 MyApparatus['devices']['nAgTPU']['trace_width'] = 0.1
 MyApparatus['devices']['pump1']['descriptors'].append('AgTPU')
 MyApparatus['devices']['gantry']['default']['speed'] = 40
-MyApparatus['devices']['gantry']['nPDMS']['speed'] = 5
-MyApparatus['devices']['gantry']['nAgTPU']['speed'] = 7
-MyApparatus['devices']['aeropump0']['pumpon_time'] = 1
+MyApparatus['devices']['gantry']['nPDMS']['speed'] = 5  # Calibration is on so this is overwritten
+MyApparatus['devices']['gantry']['nAgTPU']['speed'] = 7  # Calibration is on so this is overwritten
+MyApparatus['devices']['aeropump0']['pumpon_time'] = 1  # Calibration is on so this is overwritten
 MyApparatus['devices']['aeropump0']['mid_time'] = 2
 MyApparatus['devices']['aeropump0']['pumpoff_time'] = 3
 MyApparatus['devices']['aeropump0']['pumpres_time'] = 0.2
 MyApparatus['devices']['pump0']['COM'] = 3
 MyApparatus['devices']['pump1']['COM'] = 5
-MyApparatus['devices']['pump1']['pumpon_time'] = 2
+MyApparatus['devices']['pump1']['pumpon_time'] = 2  # Calibration is on so this is overwritten
 MyApparatus['devices']['pump1']['mid_time'] = 3
 MyApparatus['devices']['pump1']['pumpoff_time'] = 4
-
+MyApparatus['devices']['pump1']['pumpres_time'] = 0.2
 
 MyApparatus.Connect_All(MyExecutor, simulation=True)
 
@@ -47,9 +47,11 @@ MyApparatus['information']['materials']['PDMS']['density'] = 1.1
 MyApparatus['information']['materials']['AgTPU']['density'] = 3
 MyApparatus['information']['toolpaths']={}
 MyApparatus['information']['toolpaths']['generator']=TPGen.GenerateToolpath
-MyApparatus['information']['toolpaths']['parameters']=TPGen.Make_TPGen_Data('PDMS')
+MyApparatus['information']['toolpaths']['parameters']=TPGen.Make_TPGen_Data('PDMS', 'AgTPU')
+MyApparatus['information']['toolpaths']['parameters']['zlayers']=3
 MyApparatus['information']['toolpaths']['toolpath']=[0]
 
 GenerateToolpath.Do()
 PrintToolpath.Do({'toolpath':GenerateToolpath.requirements['target']['value']})
-procedure_log=MyApparatus.proclog
+
+proclist = MyApparatus.proclog

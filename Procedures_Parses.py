@@ -31,7 +31,6 @@ class StartofMotion(procedure):
         # Assign apparatus addresses to procedures
         self.pumpon.requirements['pumpon_time']['address'] = ['devices', pumpname, 'pumpon_time']
         self.pumpon.requirements['mid_time']['address'] = ['devices', pumpname, 'mid_time']
-        pumpset.requirements['pressure']['address'] = ['devices', pumpname, 'pressure']
         self.pmove.requirements['refpoint']['address'] = ['information', 'alignments', nozzlename + '@start']
         self.pmove.requirements['speed']['address'] = ['devices',motionname, 'default', 'speed']
         self.pmove.requirements['axismask']['address'] = ['devices', motionname, nozzlename, 'axismask']
@@ -39,11 +38,14 @@ class StartofMotion(procedure):
         # Doing stuff
         self.motionset.Do({'Type': 'default'})
         self.pmove.Do({'relpoint': startpoint, 'priority': [['X', 'Y'], ['Z']]})
-        self.calUpdate.Do({'material': materialname})
+        if materialname in self.apparatus['information']['materials']:
+            self.calUpdate.Do({'material': materialname})
         self.motionset.Do({'Type': nozzlename})
         runmove.Do()
-        pumpset.Do()
-        self.pumpon.Do({'name': pumpname})
+        if pumpname != 'No devices met requirments':
+            pumpset.requirements['pressure']['address'] = ['devices', pumpname, 'pressure']
+            pumpset.Do()
+            self.pumpon.Do({'name': pumpname})
 
 class EndofMotion(procedure):
   
@@ -76,11 +78,12 @@ class EndofMotion(procedure):
         else:
             self.move.requirements['spepoint']['address']=['information','alignments','safeZ']
         move.requirements['speed']['address']=['devices',motionname, 'default', 'speed']
-        
-        #Doing stuff
-        
-        self.pumpoff.Do({'name':pumpname})
-        self.motionset.Do({'Type':'default'})
+
+        # Doing stuff
+        runmove.Do()  # Run the motion up to this point
+        if pumpname != 'No devices met requirments':
+            self.pumpoff.Do({'name': pumpname})
+        self.motionset.Do({'Type': 'default'})
         move.Do()
         runmove.Do()
       
@@ -141,22 +144,22 @@ class ChangeMat(procedure):
         #Assign apparatus addresses to procedures
         self.pumpon.requirements['pumpon_time']['address']=['devices',endpump,'pumpon_time']
         self.pumpon.requirements['mid_time']['address']=['devices',endpump,'mid_time']
-        self.pumpoff.requirements['pumpon_time']['address']=['devices',startpump,'pumpon_time']
+        self.pumpoff.requirements['pumpoff_time']['address']=['devices',startpump,'pumpoff_time']
         self.pumpoff.requirements['mid_time']['address']=['devices',startpump,'mid_time']        
         
         #Doing stuff
         if startmotion['material']==endmotion['material'].replace('slide','') or endmotion['material']==startmotion['material'].replace('slide',''):
             if startmotion['material'].endswith('slide'):
-                self.motionset({'Type':endnozzle})
+                self.motionset.Do({'Type':endnozzle})
                 runmove.Do()
-                self.pumpon({'name':endpump})
+                self.pumpon.Do({'name':endpump})
             else:
-                self.pumpoff({'name':startpump})
-                self.motionset({'Type':endnozzle})
+                self.pumpoff.Do({'name':startpump})
+                self.motionset.Do({'Type':endnozzle})
                 runmove.Do()
         else:
-            self.endofmotion({'motion':startmotion})
-            self.startofmotion({'motion':endmotion})
+            self.endofmotion.Do({'motion':startmotion})
+            self.startofmotion.Do({'motion':endmotion})
 
 class EndofLayer(procedure):
     def Prepare(self): 

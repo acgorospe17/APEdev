@@ -135,8 +135,7 @@ class DeriveAlignments(procedure):
             axismask = self.apparatus['devices'][motionname][tool]['axismask']
             if 'Z' in axismask:
                 zaxis =axismask['Z']
-            print(pzaxis)
-            print(zaxis)
+
             for name in [tool+'@start',tool+'slide@start',tool+'@cal']:
                 if name not in alignments:
                     alignments[name]={}

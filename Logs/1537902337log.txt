@@ -1,0 +1,2354 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 3
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+aeropump0 is off.
+
+Ultimus pump1 is connected on port 5
+
+Ultimus/A3200 pump1/gantry aeropump1 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+aeropump1 is off.
+
+system is connected.
+
+system ran a program
+
+Commands Loaded
+
+Commands Loaded
+
+G01 ZZ1 20.000000 ZZ2 20.000000 ZZ3 20.000000 ZZ4 20.000000 F 40.000000 
+
+G01 X 0.000000 Y 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 16.284692 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 21.046256 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 21.046256 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 25.807820 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 28.188602 Y 3.374545 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 12.282038 Y 2.438157 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 16.284692 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 11.621816 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 6.761564 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 11.523128 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 6.761564 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 4.749090 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 19.869087 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 7.498181 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.145000 Y 13.932749 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 14.662820 Y 14.809063 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 18.665474 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 10.247271 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 6.761564 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 28.188602 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 12.996361 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 15.745451 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 18.494542 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 6.761564 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 21.243632 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 2.000000 Y 23.992722 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 6.761564 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 2.000000 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 10.764218 Y 2.438157 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 6.761564 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 7.498181 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 16.284692 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 11.523128 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 21.046256 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 16.284692 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 25.807820 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 21.046256 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 15.745451 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 3.374545 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 6.123635 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 23.427038 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 14.662820 Y 13.932749 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 13.145000 Y 14.809063 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 9.142346 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 8.872726 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 23.992722 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 11.621816 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 2.000000 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 14.370906 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 23.427038 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 17.119997 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 19.869087 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 22.618177 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 23.427038 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 25.367267 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 4.380782 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 4.380782 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 4.380782 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 6.761564 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 6.761564 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 6.761564 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 9.142346 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 9.142346 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 9.142346 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 11.523128 Y 2.916363 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 11.523128 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 11.523128 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 13.903910 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 13.903910 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 13.454543 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 13.903910 Y 15.287270 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 13.903910 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 13.903910 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 16.284692 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 16.284692 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 16.284692 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 18.665474 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 18.665474 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 18.665474 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 21.046256 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 21.046256 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 21.046256 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 23.427038 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 23.427038 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 8.872726 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 14.370906 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 17.119997 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 22.618177 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 25.367267 ZZ1 0.800000 F 94.696970 
+
+G01 X 23.427038 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 25.807820 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 25.807820 Y 4.749090 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 10.247271 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 12.996361 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 18.494542 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 21.243632 ZZ1 0.800000 F 94.696970 
+
+G01 X 25.807820 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 2.000000 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 28.188602 Y 6.123635 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 28.188602 Y 25.367267 F 40.000000 
+
+G01 ZZ1 0.800000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+aeropump0 is set to 0kPa pressure and kPa vacuum.
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X 28.188602 Y 26.741812 ZZ1 0.800000 F 94.696970 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+G01 ZZ1 20.000000 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+G01 X 11.523128 Y 8.000000 F 40.000000 
+
+G01 ZZ2 0.400000 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20027 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.400000 F 555.555556 
+
+G01 X 10.984503 Y 8.741354 ZZ2 0.400000 F 555.555556 
+
+G01 X 10.651615 Y 8.283172 ZZ2 0.400000 F 555.555556 
+
+G01 X 10.651615 Y 7.716828 ZZ2 0.400000 F 555.555556 
+
+G01 X 10.984503 Y 7.258646 ZZ2 0.400000 F 555.555556 
+
+G01 X 11.523128 Y 7.083637 ZZ2 0.400000 F 555.555556 
+
+G01 X 12.061753 Y 7.258646 ZZ2 0.400000 F 555.555556 
+
+G01 X 12.394641 Y 7.716828 ZZ2 0.400000 F 555.555556 
+
+G01 X 12.394641 Y 8.283172 ZZ2 0.400000 F 555.555556 
+
+G01 X 12.061753 Y 8.741354 ZZ2 0.400000 F 555.555556 
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.400000 F 555.555556 
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.600000 F 555.555556 
+
+G01 X 10.984503 Y 8.741354 ZZ2 0.600000 F 555.555556 
+
+G01 X 10.651615 Y 8.283172 ZZ2 0.600000 F 555.555556 
+
+G01 X 10.651615 Y 7.716828 ZZ2 0.600000 F 555.555556 
+
+G01 X 10.984503 Y 7.258646 ZZ2 0.600000 F 555.555556 
+
+G01 X 11.523128 Y 7.083637 ZZ2 0.600000 F 555.555556 
+
+G01 X 12.061753 Y 7.258646 ZZ2 0.600000 F 555.555556 
+
+G01 X 12.394641 Y 7.716828 ZZ2 0.600000 F 555.555556 
+
+G01 X 12.394641 Y 8.283172 ZZ2 0.600000 F 555.555556 
+
+G01 X 12.061753 Y 8.741354 ZZ2 0.600000 F 555.555556 
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.600000 F 555.555556 
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.800000 F 555.555556 
+
+G01 X 10.984503 Y 8.741354 ZZ2 0.800000 F 555.555556 
+
+G01 X 10.651615 Y 8.283172 ZZ2 0.800000 F 555.555556 
+
+G01 X 10.651615 Y 7.716828 ZZ2 0.800000 F 555.555556 
+
+G01 X 10.984503 Y 7.258646 ZZ2 0.800000 F 555.555556 
+
+G01 X 11.523128 Y 7.083637 ZZ2 0.800000 F 555.555556 
+
+G01 X 12.061753 Y 7.258646 ZZ2 0.800000 F 555.555556 
+
+G01 X 12.394641 Y 7.716828 ZZ2 0.800000 F 555.555556 
+
+G01 X 12.394641 Y 8.283172 ZZ2 0.800000 F 555.555556 
+
+G01 X 12.061753 Y 8.741354 ZZ2 0.800000 F 555.555556 
+
+G01 X 11.523128 Y 8.916363 ZZ2 0.800000 F 555.555556 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
