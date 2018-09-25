@@ -653,4 +653,4 @@ if __name__ == '__main__':
 #     testmotion.Move({'X': 1, 'Y': 2, 'Z': 3}, speed=5)
 #     print(testmotion.Run())
 # =============================================================================
-    camera = UEye('Camera')s
+    camera = UEye('Camera')
