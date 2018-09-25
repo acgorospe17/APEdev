@@ -154,9 +154,9 @@ class Cal_Calulation(procedure):
         nozzle = self.apparatus.findDevice({'descriptors': ['nozzle', material]})
         pump = self.apparatus.findDevice({'descriptors': ['pump', material]})
 
-        do_pumpcal = self.apparatus.getValue(['information', material, 'do_pumpcal'])
-        do_speedcal = self.apparatus.getValue(['information', material, 'do_speedcal'])
-        density = self.apparatus.getValue(['information', material, 'density'])
+        do_pumpcal = self.apparatus.getValue(['information', 'materials', material, 'do_pumpcal'])
+        do_speedcal = self.apparatus.getValue(['information', 'materials', material, 'do_speedcal'])
+        density = self.apparatus.getValue(['information', 'materials', material, 'density'])
         trace_width = self.apparatus.getValue(['devices', nozzle, 'trace_width'])
         trace_height = self.apparatus.getValue(['devices', nozzle, 'trace_height'])
         pumpres_time = self.apparatus.getValue(['devices', pump, 'pumpres_time'])
@@ -165,7 +165,8 @@ class Cal_Calulation(procedure):
             file_data = json.load(caljson)
 
         if len(file_data) == 1:
-            dweight = file_data[0]['delta_weight']
+            dweight = float(file_data[0]['delta_weight'])
+            print(str(dweight))
             exvolume = dweight / density * 1000  # mm^3
             vexrate = exvolume / file_data[0]['test_time']  # mm^3/s
             crossarea = trace_width * trace_height  # mm^2

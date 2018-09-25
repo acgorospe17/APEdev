@@ -9,13 +9,17 @@ MyApparatus = Apparatus.apparatus()
 MyExecutor = Executor.executor()
 MyExecutor.debug = True
 
-materials=[{'PDMS':'ZZ1'},{'AgTPU':'ZZ2'}]
+materials = [{'PDMS': 'ZZ1'}, {'AgTPU': 'ZZ2'}]
 
 FlexPrinterApparatus.Build_FlexPrinter(materials, MyApparatus)
 
 MyApparatus['devices']['nPDMS']['descriptors'].append('PDMS')
+MyApparatus['devices']['nPDMS']['trace_height'] = 0.2
+MyApparatus['devices']['nPDMS']['trace_width'] = 0.8
 MyApparatus['devices']['aeropump0']['descriptors'].append('PDMS')
 MyApparatus['devices']['nAgTPU']['descriptors'].append('AgTPU')
+MyApparatus['devices']['nAgTPU']['trace_height'] = 0.1
+MyApparatus['devices']['nAgTPU']['trace_width'] = 0.1
 MyApparatus['devices']['pump1']['descriptors'].append('AgTPU')
 MyApparatus['devices']['gantry']['default']['speed'] = 40
 MyApparatus['devices']['gantry']['nPDMS']['speed'] = 5
@@ -39,7 +43,8 @@ GenerateToolpath = Procedures_Toolpath.Generate_Toolpath(MyApparatus, MyExecutor
 PrintToolpath = Procedures_Toolpath.Print_Toolpath(MyApparatus, MyExecutor)
 
 AlignPrinter.Do({'primenoz':'nPDMS'})
-
+MyApparatus['information']['materials']['PDMS']['density'] = 1.1
+MyApparatus['information']['materials']['AgTPU']['density'] = 3
 MyApparatus['information']['toolpaths']={}
 MyApparatus['information']['toolpaths']['generator']=TPGen.GenerateToolpath
 MyApparatus['information']['toolpaths']['parameters']=TPGen.Make_TPGen_Data('PDMS')

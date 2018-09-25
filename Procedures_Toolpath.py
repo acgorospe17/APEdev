@@ -27,8 +27,8 @@ class Print_Toolpath(procedure):
   
     def Prepare(self):
         self.name = 'Print_Toolpath'
-        self.requirements['toolpath']={'source':'apparatus', 'address':'', 'value':'', 'desc':'toolpath to be printed'}
-        self.move = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
+        self.requirements['toolpath'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'toolpath to be printed'}
+        self.move = Procedures_Motion.RefRelLinearMotion(self.apparatus, self.executor)
         self.start = Procedures_Parses.Start(self.apparatus, self.executor)
         self.startmotion = Procedures_Parses.StartofMotion(self.apparatus, self.executor)
         self.endmotion = Procedures_Parses.EndofMotion(self.apparatus, self.executor)

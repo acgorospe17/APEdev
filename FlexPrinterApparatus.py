@@ -18,20 +18,23 @@ def Build_FlexPrinter(materials, apparatus):
     for materialx in materials:
         material = list(materialx)[0]
         zaxis = materialx[material]
-        #nozzle devices
+        # nozzle devices
         devices['n'+ material]={'ID':'', 'OD':'', 'TraceHeight':'','TraceWidth':'', 'type':'','addresstype':'','descriptors':['nozzle',material]}
         devices['n' + material + 'slide']={'ID':'', 'OD':'', 'type':'','addresstype':'','descriptors':['nozzle',material+'slide']}        
-        #motion details for nozzles
+        # motion details for nozzles
         devices['gantry']['n'+material] = {'axismask':{'Z':zaxis}}
         devices['gantry']['n'+material]['motion'] = {'speed':'',  'MotionRamp':devices['gantry']['default']['motion']['MotionRamp'], 'MaxAccel':devices['gantry']['default']['motion']['MaxAccel']}
         devices['gantry']['n'+material+'slide'] = {}
         devices['gantry']['n'+material+'slide']['axismask'] = devices['gantry']['n'+material]['axismask']
         devices['gantry']['n'+material+'slide']['motion']={'speed':devices['gantry']['default']['motion']['speed'],  'MotionRamp':1000, 'MaxAccel':1000}
-        #information location for each material
-        apparatus['information']['materials'][material]={}
+        # information location for each material
+        apparatus['information']['materials'][material] = {}
+        apparatus['information']['materials'][material]['calibrated'] = False
+        apparatus['information']['materials'][material]['do_pumpcal'] = True
+        apparatus['information']['materials'][material]['do_speedcal'] = True
         apparatus['information']['alignmentnames'].append('n'+material+'@mark')
         apparatus['information']['alignments']['n'+material+'@mark']= {'X':'','Y':'', zaxis:''}
-        #treat first nozzle as prime nozzles
+        # treat first nozzle as prime nozzles
         if primenozzle:
             apparatus['information']['alignmentnames'].append('n'+material+'@start')
             apparatus['information']['alignments']['n'+material+'@start']= {'X':'','Y':'', zaxis:''}
