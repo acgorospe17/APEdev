@@ -1,3 +1,4 @@
+from collections import OrderedDict
 import ctypes as ct
 
 
@@ -10,22 +11,20 @@ DLL_LOC = r"C:\Program Files (x86)\Aerotech\A3200\CLibrary\Bin64\A3200C64.dll"
 # =============================================================================
 # Global Enumerations
 # =============================================================================
-
-TASK_ID = ['TASKID_{:02d}'.format(i) for i in range(32)]
-TASK_ID.insert(0, 'TASKID_Library')
-TASK_ID = dict(enumerate(TASK_ID))
-TASK_ID = {v: ct.c_ulong(k) for k, v in TASK_ID.items()}
-
-AXIS_INDEX = ['AXIS_INDEX_{:02d}'.format(i) for i in range(32)]
-AXIS_INDEX = dict(enumerate(AXIS_INDEX))
-AXIS_INDEX = {v: ct.c_ulong(k) for k, v in AXIS_INDEX.items()}
-
-AXIS_MASK = ['AXISMASK_{:02d}'.format(i) for i in range(32)]
-AXIS_MASK = dict(enumerate(AXIS_MASK))
-AXIS_MASK = {v: ct.c_ulong(1 << k) for k, v in AXIS_MASK.items()}
+temp = ['TASKID_{:02d}'.format(i) for i in range(32)]
+temp.insert(0, 'TASKID_Library')
+temp = dict(enumerate(temp))
+TASK_ID = OrderedDict({v: ct.c_int(k) for k, v in temp.items()})
+temp = ['AXIS_INDEX_{:02d}'.format(i) for i in range(32)]
+temp = dict(enumerate(temp))
+AXIS_INDEX = OrderedDict({v: ct.c_int(k) for k, v in temp.items()})
+temp = ['AXISMASK_{:02d}'.format(i) for i in range(32)]
+temp = dict(enumerate(temp))
+AXIS_MASK = OrderedDict()
 AXIS_MASK['AXISMASK_None'] = ct.c_ulong(0)
+AXIS_MASK.update({v: ct.c_ulong(1 << k) for k, v in temp.items()})
 AXIS_MASK['AXISMASK_All'] = ct.c_ulong(0xffffffff)
-
+del temp
 TASK_MASK = {'TASK'+k[4:]: v for k, v in AXIS_MASK.items()}
 
 
@@ -1881,7 +1880,26 @@ class A3200:
 
 
 if __name__ == '__main__':
-    controller = A3200()
-    print('connected')
-    del controller
-    print('disconnected')
+    show_enums = True
+    test_connect = False
+
+    if show_enums:
+        print('GLOBAL ENUMERATIONS:\n')
+        for each in [TASK_ID, AXIS_INDEX, AXIS_MASK, TASK_MASK]:
+            for k,v in each.items():
+                print(k, '\t', v)
+            print()
+
+    if test_connect:
+        controller = A3200()
+
+        if controller.is_initialized():
+            print('connect success')
+        else:
+            print('connect fail')
+
+        del controller
+        if not controller.is_initialized():
+            print('disconnect success')
+        else:
+            print('disconnect fail')

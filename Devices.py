@@ -2,6 +2,7 @@ import Procedure
 import time
 from Drivers import A3200
 from Drivers import Ultimus_V as UltimusV
+#from pyueye import ueye as UEye
 
 # Parent class of all devices :)
 class Device():
@@ -492,15 +493,6 @@ class A3200Dev(Motion, Sensor):
             self.handle.cmd_exe(cmdmessage, task=task)
 
 
-if __name__ == '__main__':
-    testmotion = A3200Dev('testmotion')
-    testmotion.simulation = True
-    testmotion.Set_Motion(RelAbs='Abs', MotionRamp=1000, MaxAccel=2000, length_units='mm', LookAhead=True)
-    testmotion.Move({'X': 1, 'Y': 2, 'Z': 3}, speed=5)
-    testmotion.Move({'X': 1, 'Y': 2, 'Z': 3}, speed=5)
-    print(testmotion.Run())
-
-
 class Pump(Device):
     def __init__(self, name):
         Device.__init__(self, name)
@@ -544,14 +536,6 @@ class UltimusVDev(Pump):
 
         return self.returnlog()
 
-    def Connect(self, COM=''):
-        if not self.simulation:
-            self.driver_address = UltimusV.Ultimus_V_Pump(COM)
-
-        self.addlog('Ultimus ' + self.name + ' is connected on port ' + str(COM))
-
-        return self.returnlog()
-
     def Set(self, pressure='', vacuum=''):
         if pressure != '':
             if not self.simulation:
@@ -562,6 +546,14 @@ class UltimusVDev(Pump):
                 self.driver_address.set_vacuum(vacuum)
             self.vacuum = vacuum
         self.addlog(self.name + ' is set to ' + str(pressure) + 'kPa pressure and ' + str(vacuum) + 'kPa vacuum.')
+
+        return self.returnlog()
+
+    def Connect(self, COM=''):
+        if not self.simulation:
+            self.driver_address = UltimusV.Ultimus_V_Pump(COM)
+
+        self.addlog('Ultimus ' + self.name + ' is connected on port ' + str(COM))
 
         return self.returnlog()
 
@@ -630,3 +622,35 @@ class UltimusVDev_A3200(UltimusVDev):
         self.fOff(self.defaulttask, 'cmd')
 
         return self.returnlog()
+
+
+class Camera(Device):
+    def __init__(self, name):
+        Device.__init__(self, name)
+        self.descriptors.append('camera')
+        self.requirements['Set']['color_mode'] = {'value': '', 'source': 'apparatus', 'address': '', 'desc': 'Camera color mode.'}
+
+    def Set(self, color_mode=''):
+        self.color_mode = color_mode
+        self.addlog(self.name + ' set to ' + self.color_mode)
+
+        return self.returnlog()
+
+
+class UEye(Camera):
+    def __init__(self, name):
+        Camera.__init__(self, name)
+        self.descriptors = [*self.descriptors,
+                            *['IDS', 'uEye', 'camera']]
+
+
+if __name__ == '__main__':
+# =============================================================================
+#     testmotion = A3200Dev('testmotion')
+#     testmotion.simulation = True
+#     testmotion.Set_Motion(RelAbs='Abs', MotionRamp=1000, MaxAccel=2000, length_units='mm', LookAhead=True)
+#     testmotion.Move({'X': 1, 'Y': 2, 'Z': 3}, speed=5)
+#     testmotion.Move({'X': 1, 'Y': 2, 'Z': 3}, speed=5)
+#     print(testmotion.Run())
+# =============================================================================
+    camera = UEye('Camera')s
