@@ -228,7 +228,7 @@ class A3200Dev(Motion, Sensor):
         Motion.__init__(self, name)
 
         self.descriptors = [*self.descriptors,
-                            *['Aerotech', 'Flex Printer', 'sensor']]
+                            *['Aerotech', 'A3200', 'sensor']]
 
         self.tasklog = {'task1': [], 'task2': [], 'task3': [], 'task4': []}
         self.commandlog = []
@@ -391,8 +391,8 @@ class A3200Dev(Motion, Sensor):
             task = self.defaulttask
 
         if not self.simulation:
-            cmdstr = '$DO' + '['+str(bit)+'].' + axis + ' = ' + str(value) + ' /n'
-            self.tasklog['task'+str(self.task)].append(cmdstr)
+            cmdstr = '$DO' + '['+str(bit)+'].' + axis + ' = ' + str(value) + ' \n'
+            self.tasklog['task'+str(task)].append(cmdstr)
         self.addlog('Bit ' + str(bit) + ' on the ' + str(axis) + ' set to ' + str(value))
 
         self.fRun(motionmode, task)
@@ -571,7 +571,9 @@ class UltimusVDev(Pump):
 
     def Disconnect(self):
         if not self.simulation:
-            self.pumphandle.disconnect()
+            if self.pumphandle != '':
+                self.pumphandle.disconnect()
+            
         self.addlog(Pump.Disconnect(self))
 
         return self.returnlog()
@@ -611,6 +613,10 @@ class UltimusVDev_A3200(UltimusVDev):
 
     def Off(self, task='', mode='cmd'):
         self.fOff(task, mode)
+        return self.returnlog()
+
+    def Set(self, pressure='', vacuum=''):
+        self.addlog(self.pumphandle.Set(pressure=pressure, vacuum=vacuum))
         return self.returnlog()
 
     def fOff(self, task, mode):

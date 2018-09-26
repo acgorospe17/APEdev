@@ -1,15 +1,19 @@
 gantry is connected
 
-Ultimus pump0 is connected on port 3
+Ultimus pump0 is connected on port 9
 
 Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
 Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
 aeropump0 is off.
 
-Ultimus pump1 is connected on port 5
+Ultimus pump1 is connected on port 4
 
 Ultimus/A3200 pump1/gantry aeropump1 is connected using ZZ1 bit 2
 Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
 aeropump1 is off.
 
 system is connected.
@@ -20,8 +24,13 @@ Commands Loaded
 
 Commands Loaded
 
-G01 ZZ1 20.000000 ZZ2 20.000000 ZZ3 20.000000 ZZ4 20.000000 F 40.000000 
+G01 ZZ1 -65.610002 ZZ2 -64.744309 ZZ3 0.000000 ZZ4 0.000001 F 40.000000 
 
-G01 X 0.000000 Y 20.000000 F 40.000000 
+G01 X -310.949960 Y -299.452315 F 40.000000 
 
+
+
+Commands Loaded
+
+Commands Loaded
 

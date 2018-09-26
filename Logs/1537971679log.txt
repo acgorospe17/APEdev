@@ -1,0 +1,13095 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+Ultimus pump1 is connected on port 4
+
+Ultimus/A3200 pump1/gantry aeropump1 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump1 is off.
+
+system is connected.
+
+system ran a program
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 ZZ2 -64.744309 ZZ3 0.000000 ZZ4 0.000001 F 40.000000 
+
+G01 X -310.949960 Y -299.452315 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -270.593322 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -401.338134 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -279.357540 Y -402.274523 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -275.354886 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -393.090864 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -280.116450 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -284.878014 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -384.843593 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -397.214499 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -278.494578 Y -390.779930 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -276.976758 Y -389.903616 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -272.974104 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -394.465409 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -284.878014 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -263.450976 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -388.967228 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -386.218138 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -284.878014 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -380.719957 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -289.639578 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.875360 Y -402.274523 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -284.878014 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -397.214499 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -280.116450 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -275.354886 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -270.593322 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -388.967228 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -401.338134 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -398.589044 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -268.212540 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -276.976758 Y -390.779930 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -278.494578 Y -389.903616 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -282.497232 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -380.719957 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -393.090864 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -289.639578 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -390.341773 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -268.212540 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -384.843593 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -382.094503 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -268.212540 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -379.345412 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -265.831758 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -287.258796 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -287.258796 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -284.878014 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -284.878014 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -282.497232 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -282.497232 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -282.497232 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -401.796316 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -280.116450 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -280.116450 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -277.735668 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -391.258137 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -389.425410 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -277.735668 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -277.735668 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -275.354886 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -275.354886 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.974104 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -272.974104 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -272.974104 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -270.593322 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -270.593322 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -268.212540 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -268.212540 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -395.839954 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -390.341773 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -387.592683 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -382.094503 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -379.345412 ZZ1 -131.690001 F 94.696970 
+
+G01 X -268.212540 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -265.831758 Y -399.963589 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -394.465409 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -391.716318 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -386.218138 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -383.469048 ZZ1 -131.690001 F 94.696970 
+
+G01 X -265.831758 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -398.589044 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -379.345412 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -397.681584 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -128.236882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+G01 X -397.681584 Y -398.793494 ZZ2 -128.236882 F 55.555556 
+
+G01 X -398.220209 Y -398.968504 ZZ2 -128.236882 F 55.555556 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -128.236882 F 55.555556 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -128.236882 F 55.555556 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -128.236882 F 55.555556 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -128.236882 F 55.555556 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -128.236882 F 55.555556 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -128.236882 F 55.555556 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -128.236882 F 55.555556 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -128.236882 F 55.555556 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -128.236882 F 55.555556 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -128.036882 F 55.555556 
+
+G01 X -398.220209 Y -398.968504 ZZ2 -128.036882 F 55.555556 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -128.036882 F 55.555556 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -128.036882 F 55.555556 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -128.036882 F 55.555556 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -128.036882 F 55.555556 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -128.036882 F 55.555556 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -128.036882 F 55.555556 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -128.036882 F 55.555556 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -128.036882 F 55.555556 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -128.036882 F 55.555556 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -127.836882 F 55.555556 
+
+G01 X -398.220209 Y -398.968504 ZZ2 -127.836882 F 55.555556 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -127.836882 F 55.555556 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -127.836882 F 55.555556 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -127.836882 F 55.555556 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -127.836882 F 55.555556 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -127.836882 F 55.555556 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -398.220209 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.220209 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.220209 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.553097 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -398.220209 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -400.626221 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -400.451211 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.993029 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.810070 Y -399.426685 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.142959 Y -398.968504 ZZ2 -127.836882 F 40.000000 
+
+G01 X -397.681584 Y -398.793494 ZZ2 -127.836882 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.300802 Y -387.338951 F 40.000000 
+
+G01 ZZ2 -128.236882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+G01 X -395.300802 Y -386.422588 ZZ2 -128.236882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -128.236882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -128.236882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -128.236882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -128.236882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -128.236882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -128.236882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -128.236882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -128.236882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -128.236882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -128.236882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -128.036882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -128.036882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -128.036882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -128.036882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -128.036882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -128.036882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -128.036882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -128.036882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -128.036882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -128.036882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -128.036882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.836882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.836882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.836882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.836882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.836882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.836882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.836882 F 55.555556 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.836882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.836882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.836882 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -392.920020 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -388.158456 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -388.158456 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -383.396892 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+G01 X -381.016110 Y -398.335312 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -397.681584 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -392.920020 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -390.088041 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -402.443148 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -397.681584 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -402.443148 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -396.960767 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -381.840771 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -394.211677 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -396.818622 Y -388.215265 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -393.782981 Y -386.462637 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -390.539238 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -391.462586 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -402.443148 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -381.016110 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -388.713496 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -385.964406 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -383.215316 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -402.443148 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -380.466225 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -407.204712 Y -377.717135 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -402.443148 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+G01 X -407.204712 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -397.681584 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -402.443148 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -394.211677 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -392.920020 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -397.681584 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -388.158456 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -392.920020 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -383.396892 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -388.158456 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -385.964406 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -398.335312 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -395.586222 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -385.777674 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -393.782981 Y -388.215265 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -396.818622 Y -386.462637 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -400.062366 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -392.837132 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -377.717135 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -390.088041 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -407.204712 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -387.338951 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -385.777674 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -384.589861 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -381.840771 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -379.091680 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -385.777674 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -376.342590 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+G01 X -383.396892 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -404.823930 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -404.823930 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -404.823930 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -402.443148 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -402.443148 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -402.443148 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -400.062366 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -400.062366 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -400.062366 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -397.681584 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -397.681584 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -397.681584 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.300802 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -395.300802 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -389.171678 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.300802 Y -385.506224 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -395.300802 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -395.300802 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -392.920020 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -392.920020 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -392.920020 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -390.539238 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -390.539238 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -390.539238 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -388.158456 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -388.158456 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -388.158456 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -385.777674 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -385.777674 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -392.837132 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -387.338951 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -384.589861 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -379.091680 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -376.342590 ZZ2 -127.836882 F 55.555556 
+
+G01 X -385.777674 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -383.396892 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -383.396892 Y -396.960767 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -391.462586 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -388.713496 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -383.215316 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -380.466225 ZZ2 -127.836882 F 55.555556 
+
+G01 X -383.396892 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -399.709857 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+G01 X -381.016110 Y -395.586222 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -381.016110 Y -376.342590 F 40.000000 
+
+G01 ZZ2 -127.836882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+G01 X -381.016110 Y -374.968045 ZZ2 -127.836882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -402.712680 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -377.970867 F 40.000000 
+
+G01 ZZ1 -131.690001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -289.639578 Y -377.970867 ZZ1 -131.690001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+G01 X -277.735668 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+G01 X -275.354886 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -398.589044 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -394.465409 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -394.465409 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -394.465409 ZZ1 -131.090001 F 94.696970 
+
+G01 X -277.735668 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+G01 X -275.354886 Y -394.465409 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -394.465409 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -394.465409 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -390.341773 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -390.341773 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+G01 X -278.494578 Y -390.779930 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -276.976758 Y -390.779930 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -275.354886 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -390.341773 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -390.341773 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -390.341773 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -386.218138 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -386.218138 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -386.218138 ZZ1 -131.090001 F 94.696970 
+
+G01 X -277.735668 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+G01 X -275.354886 Y -386.218138 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -386.218138 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -386.218138 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+G01 X -277.735668 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+G01 X -275.354886 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -382.094503 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -377.970867 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+G01 X -284.878014 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+G01 X -282.497232 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+G01 X -280.116450 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+G01 X -277.735668 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+G01 X -275.354886 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+G01 X -272.974104 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+G01 X -270.593322 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+G01 X -268.212540 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+G01 X -265.831758 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+G01 X -263.450976 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -394.465409 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -287.258796 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -390.341773 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -386.218138 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -287.258796 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -382.094503 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -377.970867 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -398.589044 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -394.465409 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -282.497232 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -390.341773 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -386.218138 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -282.497232 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -382.094503 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -377.970867 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -275.354886 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -277.735668 Y -398.589044 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -277.735668 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -275.354886 Y -394.465409 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -275.354886 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -276.976758 Y -390.779930 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -389.425410 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -277.735668 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -275.354886 Y -386.218138 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -275.354886 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -277.735668 Y -382.094503 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -277.735668 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -275.354886 Y -377.970867 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.974104 Y -398.589044 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -272.974104 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -270.593322 Y -394.465409 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.974104 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.974104 Y -390.341773 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -272.974104 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -270.593322 Y -386.218138 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.974104 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.974104 Y -382.094503 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -272.974104 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -270.593322 Y -377.970867 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -399.963589 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -398.589044 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -395.839954 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -394.465409 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -268.212540 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -391.716318 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -390.341773 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -387.592683 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -386.218138 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -268.212540 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -383.469048 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -382.094503 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -379.345412 ZZ1 -131.090001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -377.970867 ZZ1 -131.090001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -402.712680 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -377.970867 F 40.000000 
+
+G01 ZZ1 -131.090001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -289.639578 Y -377.970867 ZZ1 -131.090001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.300802 Y -387.338951 F 40.000000 
+
+G01 ZZ2 -127.636882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.636882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.636882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.636882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.636882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.636882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.636882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.636882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.636882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.636882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.636882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.636882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.436882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.436882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.436882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.436882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.436882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.436882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.436882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.436882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.436882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.436882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.436882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.236882 F 55.555556 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.236882 F 55.555556 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.236882 F 55.555556 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.236882 F 55.555556 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.236882 F 55.555556 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.236882 F 55.555556 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.236882 F 55.555556 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.236882 F 55.555556 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.236882 F 55.555556 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.236882 F 55.555556 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.236882 F 55.555556 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.839427 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -396.172315 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.839427 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -388.255315 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -388.080305 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.622123 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.429288 Y -387.055779 ZZ2 -127.236882 F 40.000000 
+
+G01 X -394.762177 Y -386.597597 ZZ2 -127.236882 F 40.000000 
+
+G01 X -395.300802 Y -386.422588 ZZ2 -127.236882 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.300802 Y -387.338951 F 40.000000 
+
+G01 ZZ2 -127.236882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -395.019666 Y -387.501265 ZZ2 -127.236882 F 55.555556 
+
+G01 X -392.920020 Y -388.713496 ZZ2 -127.236882 F 55.555556 
+
+G01 X -392.824685 Y -388.658455 ZZ2 -127.236882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+G01 X -275.354886 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+G01 X -272.974104 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+G01 X -270.593322 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -398.589044 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -394.465409 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -394.465409 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -394.465409 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+G01 X -275.354886 Y -394.465409 ZZ1 -130.490001 F 94.696970 
+
+G01 X -272.974104 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+G01 X -270.593322 Y -394.465409 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -394.465409 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.822271 Y -390.391773 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.887502 Y -390.391773 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -270.593322 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -386.218138 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -386.218138 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -386.218138 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.822271 Y -387.542683 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.887502 Y -387.542683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -270.593322 Y -386.218138 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -386.218138 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+G01 X -275.354886 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+G01 X -272.974104 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+G01 X -270.593322 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -382.094503 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -377.970867 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -287.258796 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+G01 X -284.878014 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+G01 X -282.497232 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+G01 X -280.116450 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+G01 X -275.354886 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+G01 X -272.974104 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+G01 X -270.593322 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+G01 X -268.212540 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+G01 X -265.831758 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+G01 X -263.450976 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -398.589044 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -394.465409 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -287.258796 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -390.341773 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -386.218138 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -287.258796 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -284.878014 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -287.258796 Y -382.094503 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -284.878014 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -287.258796 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -284.878014 Y -377.970867 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -398.589044 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -394.465409 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -282.497232 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -390.341773 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -386.218138 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -282.497232 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -280.116450 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -282.497232 Y -382.094503 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -280.116450 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -282.497232 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -280.116450 Y -377.970867 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -275.354886 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -277.735668 Y -398.589044 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -277.735668 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -275.354886 Y -394.465409 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -277.735668 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+G01 X -275.354886 Y -391.816318 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -386.118138 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -275.354886 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -277.735668 Y -382.094503 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.354886 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -277.735668 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -275.354886 Y -377.970867 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.974104 Y -398.589044 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -272.974104 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -270.593322 Y -394.465409 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.974104 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.887502 Y -390.391773 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.887502 Y -387.542683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+G01 X -270.593322 Y -386.218138 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -272.887502 Y -387.542683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -270.593322 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -272.974104 Y -382.094503 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -270.593322 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -272.974104 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -270.593322 Y -377.970867 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -399.963589 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -398.589044 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -399.963589 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -395.839954 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -394.465409 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -268.212540 Y -395.839954 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -390.341773 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -391.716318 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -386.218138 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -268.212540 Y -387.592683 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -265.831758 Y -383.469048 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -268.212540 Y -382.094503 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -265.831758 Y -383.469048 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+
+Commands Loaded
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+G01 X -268.212540 Y -379.345412 ZZ1 -130.490001 F 94.696970 
+
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+Commands Loaded
+
+G01 X -265.831758 Y -377.970867 ZZ1 -130.490001 F 40.000000 
+
+
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -289.639578 Y -402.712680 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -263.450976 Y -402.712680 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -263.450976 Y -377.970867 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+G01 X -289.639578 Y -377.970867 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.259551 Y -391.661277 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -272.974104 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+G01 X -272.974104 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+G01 X -275.354886 Y -386.218138 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -387.592683 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.735668 Y -390.341773 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.454532 Y -390.504087 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -395.019666 Y -387.501265 F 40.000000 
+
+G01 ZZ2 -127.236882 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ2'}
+
+pump1 is set to 0kPa pressure and kPa vacuum.
+
+system waited 3 s.
+pump1 is on.
+
+system waited 0.20270000000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+G01 X -392.920020 Y -388.713496 ZZ2 -127.236882 F 55.555556 
+
+G01 X -392.824685 Y -388.658455 ZZ2 -127.236882 F 55.555556 
+
+G01 X -392.824685 Y -388.658455 ZZ2 -126.636882 F 55.555556 
+
+G01 X -392.553072 Y -388.501639 ZZ2 -126.636882 F 55.555556 
+
+G01 X -390.539238 Y -387.338951 ZZ2 -126.636882 F 55.555556 
+
+G01 X -390.539238 Y -387.122846 ZZ2 -126.636882 F 55.555556 
+
+
+system waited 4 s.
+pump1 is off.
+
+system waited 3 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -64.744309 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 X -275.259551 Y -391.661277 F 40.000000 
+
+G01 ZZ1 -130.490001 F 40.000000 
+
+Axis mask changed to {'Z': 'ZZ1'}
+
+pump0 is set to 0kPa pressure and kPa vacuum.
+
+
+system waited 2 s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited 0.20316800000000002 s.
+Commands Loaded
+
+Commands Loaded
+
+G01 X -275.354886 Y -391.716318 ZZ1 -130.490001 F 94.696970 
+
+G01 X -277.454532 Y -390.504087 ZZ1 -130.490001 F 94.696970 
+
+
+system waited 3 s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited 2 s.
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -65.610002 F 40.000000 
+
+

@@ -1,0 +1,25 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+Ultimus pump1 is connected on port 4
+
+Ultimus/A3200 pump1/gantry aeropump1 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump1 is off.
+
+system is connected.
+
+['X', 'Y', 'ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'] measured to be [-305.79221570737224, -322.9682593145213, -65.61000280730428, -64.74430950178139, 3.6181640625e-07, 4.5907646093749996e-07]
+['X', 'Y', 'ZZ1'] measured to be [-308.62226054707145, -402.9030871732341, -135.3017340104082]
+['X', 'Y', 'ZZ1'] measured to be [-308.2423064232218, -399.30317697760245, -135.30173175973684]
+['X', 'Y', 'ZZ1'] measured to be [-114.99533679599344, -379.37866240568144, -113.31173333038993]
+['X', 'Y', 'ZZ2'] measured to be [-414.7240516569106, -403.0531342885431, -127.61104848806654]
