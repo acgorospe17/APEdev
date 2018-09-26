@@ -18,13 +18,13 @@ def Make_TPGen_Data(dielectric, conductor):
     TPGen_Data['angtol'] = 1E-7  #Angular tolerance
     
     #Base Hexagon Dimensions
-    TPGen_Data['dima'] = 2.749090277 #side length
+    TPGen_Data['dima'] = 3.574 #side length
     TPGen_Data['dimb'] = TPGen_Data['dima'] * 3**0.5 #distance between opposite dima faces
     TPGen_Data['dimc'] = TPGen_Data['dima']/2 #height of top(bottom) triangle
     
     #Number of cells
-    TPGen_Data['cellsX'] = 5
-    TPGen_Data['cellsY'] = 6
+    TPGen_Data['cellsX'] = 10
+    TPGen_Data['cellsY'] = 8
     
     #Print parameters
     TPGen_Data['tiph'] = 0.8 #offset from printing surface
@@ -35,7 +35,7 @@ def Make_TPGen_Data(dielectric, conductor):
     TPGen_Data['through_rad'] = TPGen_Data['dima']/3
     TPGen_Data['through_layers'] = 3
     
-    TPGen_Data['groundplane'] = True
+    TPGen_Data['groundplane'] = False
     TPGen_Data['groundindex_X'] = TPGen_Data['helixindex_X'] - 4
     TPGen_Data['groundindex_Y'] = TPGen_Data['helixindex_Y']
     TPGen_Data['ground_rad'] = TPGen_Data['dima']/3

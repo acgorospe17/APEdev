@@ -3,8 +3,7 @@ def Build_FlexPrinter(materials, apparatus):
     #General Printer settings
     devices = {}
     devices['gantry']={'type':'A3200Dev', 'model':'Flex Printer', 'descriptors':['motion'],'addresstype':'pointer'}
-    devices['gantry']['default']={}
-    devices['gantry']['default']['motion']={'speed':40, 'length_units':'mm', 'MotionRamp':1000, 'MaxAccel':1000, 'RelAbs':'Abs', 'LookAhead':True, 'mode':'loadrun', 'axismask':{}}
+    devices['gantry']['default'] = {'speed':40, 'length_units':'mm', 'MotionRamp':1000, 'MaxAccel':1000, 'RelAbs':'Abs', 'LookAhead':True, 'mode':'loadrun', 'axismask':{}}
     apparatus['information']['materials']={}
     apparatus['information']['alignments']={}
     apparatus['information']['alignments']['initial']= {'X':'','Y':'', 'ZZ1':'', 'ZZ2':'', 'ZZ3':'', 'ZZ4':''}
@@ -22,10 +21,10 @@ def Build_FlexPrinter(materials, apparatus):
         devices['n'+ material]={'ID':'', 'OD':'', 'TraceHeight':'','TraceWidth':'', 'type':'','addresstype':'','descriptors':['nozzle',material]}
         devices['n' + material + 'slide']={'ID':'', 'OD':'', 'type':'','addresstype':'','descriptors':['nozzle',material+'slide']}        
         # motion details for nozzles
-        devices['gantry']['n'+material] = {'speed':'', 'MotionRamp':devices['gantry']['default']['motion']['MotionRamp'], 'MaxAccel':devices['gantry']['default']['motion']['MaxAccel']}
+        devices['gantry']['n'+material] = {'speed':'', 'MotionRamp':devices['gantry']['default']['MotionRamp'], 'MaxAccel':devices['gantry']['default']['MaxAccel']}
         devices['gantry']['n'+material] = {'axismask': {'Z': zaxis}}
         devices['gantry']['n'+material+'slide'] = {}
-        devices['gantry']['n'+material+'slide']={'speed': devices['gantry']['default']['motion']['speed'], 'MotionRamp': 1000, 'MaxAccel': 1000}
+        devices['gantry']['n'+material+'slide']={'speed': devices['gantry']['default']['speed'], 'MotionRamp': 1000, 'MaxAccel': 1000}
         devices['gantry']['n'+material+'slide']['axismask'] = devices['gantry']['n'+material]['axismask']
         # information location for each material
         apparatus['information']['materials'][material] = {}

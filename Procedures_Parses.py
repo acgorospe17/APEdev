@@ -113,6 +113,9 @@ class Start(procedure):
         self.pmove.Do({'priority': [['ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'], ['X', 'Y']]})
         runmove.Do()
         for material in matList:
+            if 'PDMS' in material:
+                self.calink.Do({'material': material})
+                input('Wait about 30 minutes then press ENTER again.')
             self.calink.Do({'material': material})
 
 
@@ -130,7 +133,7 @@ class ChangeMat(procedure):
     def Plan(self):
         #Renaming useful pieces of informaiton
         startmotion = self.requirements['startmotion']['value']
-        endmotion = self.requirements['startmotion']['value']
+        endmotion = self.requirements['endmotion']['value']
         
         #Retreiving necessary device names
         motionname = self.apparatus.findDevice({'descriptors':'motion' })
@@ -147,13 +150,15 @@ class ChangeMat(procedure):
         self.pumpoff.requirements['pumpoff_time']['address']=['devices',startpump,'pumpoff_time']
         self.pumpoff.requirements['mid_time']['address']=['devices',startpump,'mid_time']        
         
-        #Doing stuff
+        # Doing stuff
+        # Handling Print-Slide behavior
         if startmotion['material']==endmotion['material'].replace('slide','') or endmotion['material']==startmotion['material'].replace('slide',''):
             if startmotion['material'].endswith('slide'):
                 self.motionset.Do({'Type':endnozzle})
                 runmove.Do()
                 self.pumpon.Do({'name':endpump})
             else:
+                runmove.Do()
                 self.pumpoff.Do({'name':startpump})
                 self.motionset.Do({'Type':endnozzle})
                 runmove.Do()
@@ -165,3 +170,16 @@ class EndofLayer(procedure):
     def Prepare(self): 
         self.name = 'EndofLayer'
         self.requirements['layernumber']={'source':'apparatus', 'address':'', 'value':'', 'desc':'number of the layer'}
+        self.calink = Procedures_InkCal.Calibrate(self.apparatus, self.executor)
+
+    def Plan(self):
+        # Renaming useful pieces of informaiton
+        matList = list(self.apparatus['information']['materials'])
+        lnumber = self.requirements['layernumber']['value']
+        
+        # Doing stuff
+        if lnumber != 0 and lnumber % 4 == 0:
+            for material in matList:
+                if 'PDMS' in material:
+                    self.calink.Do({'material':material})
+            
