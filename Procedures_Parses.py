@@ -3,6 +3,7 @@ import Procedures_Motion
 import Procedures_Pumps
 import Procedures_A3200
 import Procedures_InkCal
+import Procedures_TouchProbe
 
 
 class StartofMotion(procedure): 
@@ -93,6 +94,8 @@ class Start(procedure):
         self.motionset = Procedures_A3200.A3200SetMotonType(self.apparatus, self.executor)
         self.pmove = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
         self.calink = Procedures_InkCal.Calibrate(self.apparatus, self.executor)
+        self.initTouch = Procedures_TouchProbe.Initialize_TouchProbe(self.apparatus, self.executor)
+        self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
 
     def Plan(self):
         # Renaming useful pieces of informaiton
@@ -112,12 +115,15 @@ class Start(procedure):
         self.motionset.Do({'Type': 'default'})
         self.pmove.Do({'priority': [['ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'], ['X', 'Y']]})
         runmove.Do()
+        # Calibrate Materials
         for material in matList:
             if 'PDMS' in material:
                 self.calink.Do({'material': material})
                 input('Wait about 30 minutes then press ENTER again.')
             self.calink.Do({'material': material})
-
+        # Initiate Touch probe
+        self.initTouch.Do()
+        self.measureTouch.Do({'point':{'X': 0, 'Y': 0}})
 
 class ChangeMat(procedure):
     def Prepare(self):

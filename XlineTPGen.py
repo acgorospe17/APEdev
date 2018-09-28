@@ -6,17 +6,23 @@ import math
 def Make_TPGen_Data(material):
     TPGen_Data={}
     
+    # Material naming
     TPGen_Data['materialname'] = material
     
+    # Structure Geometry
     TPGen_Data['length'] = 5
     TPGen_Data['tiph'] = 0.8 #offset from printing surface
     
-    #Computational Geometry Tolerances
+    # Computational Geometry Tolerances
     TPGen_Data['disttol'] = 1E-12 #Distance tolerance
     TPGen_Data['angtol'] = 1E-7  #Angular tolerance
     
-    #Print parameters
-    
+    # Utility parameters
+    TPGen_Data['Xoffset'] = 0
+    TPGen_Data['Yoffset'] = 0
+    TPGen_Data['Zoffset'] = 0
+
+    # Graphing information
     materials = []
     materials.append({'material': TPGen_Data['materialname'], 'color': 'b', 'linestyle': '-', 'linewidth': 3, 'alpha': 0.5})
     materials.append({'material': TPGen_Data['materialname']+'slide', 'color': 'r', 'linestyle': ':', 'linewidth': 2, 'alpha': 1})
@@ -27,27 +33,30 @@ def Make_TPGen_Data(material):
 
     
 def GenerateToolpath(data, target):
-    #Unpack data
+    # Unpack data
     
-    #Dimensional tolerances for computational geometry
+    # Dimensional tolerances for computational geometry
     disttol = data['disttol']
     angtol = data['angtol']    
     
-    #line dimensions
+    # line dimensions
     length = data['length'] 
     
-    #Print parameters
+    # Print parameters
     tiph = data['tiph']
     materialname = data['materialname']
-   
+
+    x_offset = data['Xoffset']
+    y_offset = data['Yoffset']
+    z_offset = data['Zoffset']
     #-----------------STUFF-----------------------------#
 
     toolpath3D = []
     toolpath3D.append({'parse':'start'})
     zpos = tiph
     #CONSTRUCTING TOOLPATH
-    startpoint = {'X':0 , 'Y':0, 'Z':zpos}
-    endpoint = {'X':length , 'Y':0, 'Z':zpos}
+    startpoint = {'X': x_offset, 'Y': y_offset, 'Z': z_offset + zpos}
+    endpoint = {'X': startpoint['X'] + length , 'Y': startpoint['Y'], 'Z': startpoint['Z']}
     toolpath3D.append({'startpoint':startpoint,'endpoint':endpoint, 'material':materialname})
     toolpath3D.append({'parse':'end'})
     #ADDING in Parsing
