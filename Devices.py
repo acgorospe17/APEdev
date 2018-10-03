@@ -1,9 +1,6 @@
 import Procedure
 import time
-from Drivers import A3200
-from Drivers import Ultimus_V as UltimusV
-import numpy as np
-from Drivers import camera
+
 
 # Parent class of all devices bleh
 class Device():
@@ -280,6 +277,7 @@ class A3200Dev(Motion, Sensor):
 
     def Connect(self):
         if not self.simulation:
+            from Drivers import A3200
             self.handle = A3200.A3200()
         self.addlog(self.name + ' is connected')
 
@@ -554,6 +552,7 @@ class UltimusVDev(Pump):
 
     def Connect(self, COM=''):
         if not self.simulation:
+            from Drivers import Ultimus_V as UltimusV
             self.driver_address = UltimusV.Ultimus_V_Pump(COM)
 
         self.addlog('Ultimus ' + self.name + ' is connected on port ' + str(COM))
@@ -709,6 +708,8 @@ class Keyence_TouchProbe(Sensor):
         self.AIchannel = AIchannel
         self.systemname = systemname
         self.systemhandle = systemaddress
+        if not self.simulation:
+            import numpy as np
         
         self.addlog('Keyence Touchprobe using ' + A3200name + ' using ' + str(self.DOaxis) + ' bit ' + str(self.DObit))
         return self.returnlog()
@@ -721,30 +722,33 @@ class Keyence_TouchProbe(Sensor):
             num_points = 2
         
         # Calibration routine
-        datavessel = [0]
-        self.set_voltage_window()
-        v = []
-        z = []
-        v_target = [self.v_low + i*(self.v_high-self.v_low)/(num_points+1) for i in range(1,num_points+1)]
+        if not self.simulation:
+            datavessel = [0]
+            self.set_voltage_window()
+            v = []
+            z = []
+            v_target = [self.v_low + i*(self.v_high-self.v_low)/(num_points+1) for i in range(1, num_points+1)]
 
-        self.extend()
-        self.goto_contact()
-        for value in v_target:
-            self.goto_voltage(value, step = self.z_window/num_points)
-            self.wait_for_settle(timing = 'normal')
-            self.sample(10, 1)
-            v.append(self.sampleresult)
-            self.addlog(self.A3200handle.getPosition(address=datavessel, addresstype='pointer', axislist=[self.axis]))
-            z.append(datavessel[0][0])
+            self.extend()
+            self.goto_contact()
+            for value in v_target:
+                self.goto_voltage(value, step=self.z_window/num_points)
+                self.wait_for_settle(timing='normal')
+                self.sample(10, 1)
+                v.append(self.sampleresult)
+                self.addlog(self.A3200handle.getPosition(address=datavessel, addresstype='pointer', axislist=[self.axis]))
+                z.append(datavessel[0][0])
 
-       #use the z and v arrays to get the slope, then calculate the reference z
-        p = np.polyfit(v, z, 1)
-        self.dzdv = p[0]
-        #loglines += self.get_z() + '\n'
-        #self.ref_position[self.axis] = self.zresult
-       
-        self.configured = True
-        self.addlog('Height to voltage slope is ' + str(self.dzdv))
+           # use the z and v arrays to get the slope, then calculate the reference z
+            p = np.polyfit(v, z, 1)
+            self.dzdv = p[0]
+            # loglines += self.get_z() + '\n'
+            # self.ref_position[self.axis] = self.zresult
+
+            self.configured = True
+            self.addlog('Height to voltage slope is ' + str(self.dzdv))
+        else:
+            self.addlog('Initialization done.')
         return self.returnlog()
 
     def set_voltage_window(self, n = 100, t = 5):
@@ -775,27 +779,29 @@ class Keyence_TouchProbe(Sensor):
         '''
         Take a measurement.
         '''
-    
-        datavessel = [0]
-        self.addlog(self.A3200handle.getAI(address = datavessel, addresstype = 'pointer', axis = self.AIaxis, channel = self.AIchannel))
-        if datavessel[0] > 0.8 * self.v_high:
-            self.extend()
-            self.addlog(self.systemhandle.Dwell(dtime=0.25))
+        if not self.simulation:
+            datavessel = [0]
+            self.addlog(self.A3200handle.getAI(address = datavessel, addresstype = 'pointer', axis = self.AIaxis, channel = self.AIchannel))
+            if datavessel[0] > 0.8 * self.v_high:
+                self.extend()
+                self.addlog(self.systemhandle.Dwell(dtime=0.25))
+                self.wait_for_settle()
+            self.sample(3, 0.05)
+            if not (1.2 * self.v_low < self.sampleresult < 1.8 * self.v_high):
+                self.goto_contact()
+            self.goto_voltage((self.v_high+self.v_low)/2, step=self.z_window/2, diff=0.35 * (self.v_high-self.v_low))
             self.wait_for_settle()
-        self.sample(3, 0.05)
-        if not (1.2 * self.v_low < self.sampleresult < 1.8 * self.v_high):
-            self.goto_contact()
-        self.goto_voltage((self.v_high+self.v_low)/2, step = self.z_window/2, diff = 0.35 * (self.v_high-self.v_low))
-        self.wait_for_settle()
-        self.get_z()
-        result = self.zresult
+            self.get_z()
+            result = self.zresult
+        else:
+            result = float(input('What is the expected height?'))
+
         if retract:
             self.retract()
         self.StoreMeasurement(address, addresstype, result)
         return self.returnlog()
-   
-    
-    def wait_for_settle(self, limit = 0.01, timeout = 5, timing = 'normal'):
+
+    def wait_for_settle(self, limit=0.01, timeout=5, timing='normal'):
         '''
         Wait for the probe to settle prior to a measurement.
         '''
@@ -806,19 +812,16 @@ class Keyence_TouchProbe(Sensor):
             timing = 'normal'
         self.sample(*timing_values[timing], average=False)
         v = self.sampleresult
-        
         start = time.time()
         while (max(v) - min(v) > limit) and (time.time()-start < timeout):
             self.sample(*timing_values[timing], average=False)
             v = self.sampleresult
-        
         self.addlog('Voltage settled in ' + str((time.time()-start)*1000) + ' ms at ' + timing + ' rate')
-    
-    def sample(self, n, t, average = True):
+
+    def sample(self, n, t, average=True):
         v = 0
         vlist = []
         datavessel = [0]
-        
         if not self.simulation:
             for i in range(n):
                 self.addlog(self.A3200handle.getAI(address = datavessel, addresstype = 'pointer', axis = self.AIaxis, channel = self.AIchannel))
@@ -871,29 +874,28 @@ class Keyence_TouchProbe(Sensor):
         self.addlog(self.A3200handle.Move(point=point, motiontype='incremental', speed=self.speed, motionmode='cmd'))
         self.addlog(self.systemhandle.Dwell(dtime = self.step / (self.speed)))
 
-    def goto_voltage(self, v, step = 0.25, diff = 0.05):
+    def goto_voltage(self, v, step=0.25, diff=0.05):
         '''
         Move the axis until the touch-probe output is v +/- diff.
         '''
-        
         direction = 0
-        #test the voltage first to decide on a direction
+        # test the voltage first to decide on a direction
         self.addlog(self.A3200handle.Set_Motion(RelAbs='Rel', motionmode='cmd'))
-        self.wait_for_settle(limit = 0.005, timeout = 1, timing = 'fast')
+        self.wait_for_settle(limit=0.005, timeout=1, timing='fast')
         self.sample(3, 0.03)
         current_v = self.sampleresult
         while not (v - diff < current_v < v + diff):
-            #print(v - diff, '<', current_v, '<', v + diff)
+            # print(v - diff, '<', current_v, '<', v + diff)
             if v - diff > current_v:
                 direction = -1
             else:
                 direction = 1
             point = {self.axis: direction * step}
-            self.addlog(self.A3200handle.Move(point=point, motiontype='linear', speed=self.speed, motionmode='cmd'))                  
-            self.wait_for_settle(limit = 0.005, timeout = 1, timing = 'fast')
+            self.addlog(self.A3200handle.Move(point=point, motiontype='linear', speed=self.speed, motionmode='cmd'))
+            self.wait_for_settle(limit=0.005, timeout=1, timing='fast')
             self.sample(3, 0.03)
             current_v = self.sampleresult
-            #check to see if we're chainging directions
+            # check to see if we're chainging directions
             if v - diff > current_v:
                 new_direction = -1
             else:
@@ -913,49 +915,52 @@ class Keyence_TouchProbe(Sensor):
         z = datavessel[0][0]
         self.last_v = v
         self.last_z = z
-        #print('v: {:0.3f}, z: {:0.3f}, dzdv: {:0.3f}, Z: {:0.3f}'.format(v, z, self.dzdv * v, z - self.dzdv * v))
-        self.zresult = z - self.dzdv * v 
-            
+        self.zresult = z - self.dzdv * v
+
     def retract(self):
         self.addlog(self.A3200handle.Set_DO(axis=self.DOaxis, bit=self.DObit, value=0, motionmode='cmd'))
-        self.extended=False
-    
+        self.extended = False
+
     def extend(self):
         self.addlog(self.A3200handle.Set_DO(axis=self.DOaxis, bit=self.DObit, value=1, motionmode='cmd'))
-        self.extended=True
+        self.extended = True
 
 
 class Ueye_Camera(Sensor):
     def __init__(self, name):
-        Device.__init__(self,name)
-
+        Device.__init__(self, name)
         self.descriptors.append('ueye')
         self.descriptors.append('camera')
         self.handle = ''
         self.requirements['Measure'] = {}
         self.requirements['Measure']['file'] = {'value': '', 'source': 'direct', 'address': '', 'desc': 'filename to store image at'}
-        
+
     def Connect(self):
         self.fConnect()
         self.fDisconnect()
         self.addlog(self.name + ' is availible.')
         return self.returnlog()
+
     def fConnect(self):
         if not self.simulation:
+            from Drivers import camera
             try:
                 self.handle = camera.ueye()
             except:
                 temp = input('Do you want to try to connect again?([y],n)')
                 if temp in ['', 'y', 'yes']:
                     self.handle = camera.ueye()
-        self.addlog(self.name + ' is connected.')        
+        self.addlog(self.name + ' is connected.')
+
     def Disconnect(self):
         self.fDisconnect
         return self.returnlog()
+
     def fDisconnect(self):
         if not self.simulation:
             self.handle.close()
         self.addlog(self.name + ' is disconnected.')
+
     def Measure(self, file):
         if not self.simulation:
             self.fConnect()
