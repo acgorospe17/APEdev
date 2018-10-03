@@ -34,6 +34,7 @@ class Print_Toolpath(procedure):
         self.endmotion = Procedures_Parses.EndofMotion(self.apparatus, self.executor)
         self.changemat = Procedures_Parses.ChangeMat(self.apparatus, self.executor)
         self.endoflayer = Procedures_Parses.EndofLayer(self.apparatus, self.executor)
+        self.end = Procedures_Parses.End(self.apparatus, self.executor)
 
           
     
@@ -60,6 +61,8 @@ class Print_Toolpath(procedure):
                     self.changemat.Do({'startmotion':line['startmotion'],'endmotion':line['endmotion']})
                 if line['parse']=='endoflayer':
                     self.endoflayer.Do({'layernumber':line['number']})
+                if line['parse']=='end':
+                    self.end.Do()
             else:
                 motionname = self.apparatus.findDevice({'descriptors': 'motion' })
                 nozzlename = self.apparatus.findDevice({'descriptors':['nozzle', line['material']] })

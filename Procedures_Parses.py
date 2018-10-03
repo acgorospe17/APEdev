@@ -4,6 +4,7 @@ import Procedures_Pumps
 import Procedures_A3200
 import Procedures_InkCal
 import Procedures_TouchProbe
+import Procedures_Camera
 
 
 class StartofMotion(procedure): 
@@ -96,6 +97,7 @@ class Start(procedure):
         self.calink = Procedures_InkCal.Calibrate(self.apparatus, self.executor)
         self.initTouch = Procedures_TouchProbe.Initialize_TouchProbe(self.apparatus, self.executor)
         self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
+        self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
 
     def Plan(self):
         # Renaming useful pieces of informaiton
@@ -123,7 +125,8 @@ class Start(procedure):
             self.calink.Do({'material': material})
         # Initiate Touch probe
         self.initTouch.Do()
-        self.measureTouch.Do({'point':{'X': 0, 'Y': 0}})
+        self.measureTouch.Do({'point':{'X': 0, 'Y': -5}})
+        self.capture_image.Do({'point':{'X': 2, 'Y': 0}, 'file':'Data\\start.tif', 'camera_name': 'camera'})
 
 class ChangeMat(procedure):
     def Prepare(self):
@@ -188,4 +191,32 @@ class EndofLayer(procedure):
             for material in matList:
                 if 'PDMS' in material:
                     self.calink.Do({'material':material})
-            
+
+
+class End(procedure):
+    def Prepare(self):
+        self.name = 'End'
+        self.motionset = Procedures_A3200.A3200SetMotonType(self.apparatus, self.executor)
+        self.pmove = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
+        self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
+        self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
+
+    def Plan(self):
+        # Renaming useful pieces of informaiton
+
+        # Retreiving necessary device names
+        motionname = self.apparatus.findDevice({'descriptors': 'motion'})
+
+        # Getting necessary eprocs
+        runmove = self.apparatus.GetEproc(motionname, 'Run')
+
+        # Assign apparatus addresses to procedures
+        self.pmove.requirements['speed']['address'] = ['devices', motionname, 'default', 'speed']
+        self.pmove.requirements['refpoint']['address'] = ['information', 'alignments', 'initial']
+
+        # Doing stuff
+        self.motionset.Do({'Type': 'default'})
+        self.pmove.Do({'priority': [['ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'], ['X', 'Y']]})
+        runmove.Do()
+        self.measureTouch.Do({'point':{'X': 0, 'Y': -5}})
+        self.capture_image.Do({'point':{'X': 2, 'Y': 0}, 'file':'Data\\end.tif', 'camera_name': 'camera'})            

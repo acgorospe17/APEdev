@@ -1,6 +1,7 @@
 import Apparatus
 import Procedures_Toolpath
 import Procedures_Alignments
+import Procedures_Camera
 import Executor
 import XlineTPGen as TPGen
 import FlexPrinterApparatus
@@ -32,17 +33,24 @@ MyApparatus['devices']['TProbe']['DObit'] = 0
 MyApparatus['devices']['TProbe']['AIaxis'] = 'ZZ2'
 MyApparatus['devices']['TProbe']['AIchannel'] = 0
 
+MyApparatus['devices']['camera'] = {'type':'Ueye_Camera', 'addresstype':'pointer', 'settle_time':5}
+
 MyApparatus.Connect_All(MyExecutor, simulation=False)
 
 
 AlignPrinter = Procedures_Alignments.Align(MyApparatus, MyExecutor)
 GenerateToolpath = Procedures_Toolpath.Generate_Toolpath(MyApparatus, MyExecutor)
 PrintToolpath = Procedures_Toolpath.Print_Toolpath(MyApparatus, MyExecutor)
+CameraTest = Procedures_Camera.Capture_Image(MyApparatus, MyExecutor)
 
 MyApparatus['devices']['gantry']['TProbe']={'axismask': {'Z': 'ZZ3'}}
 MyApparatus['information']['alignmentnames'].append('TProbe@mark')
 MyApparatus['information']['alignments']['TProbe@mark'] = {'X': '', 'Y': '', 'ZZ3': ''}
 MyApparatus['information']['alignments']['TProbe@TP_init'] = {'X': -200, 'Y': -250, 'ZZ3': -50}
+
+MyApparatus['devices']['gantry']['camera']={'axismask': {'Z': 'ZZ4'}}
+MyApparatus['information']['alignmentnames'].append('camera@mark')
+MyApparatus['information']['alignments']['camera@mark'] = {'X': '', 'Y': '', 'ZZ4': ''}
 
 AlignPrinter.Do({'primenoz':'nstuff'})
 MyApparatus['information']['materials']['stuff']['density'] = 1.13
@@ -55,4 +63,4 @@ MyApparatus['information']['height_data']=[0]
 
 GenerateToolpath.Do()
 PrintToolpath.Do({'toolpath':GenerateToolpath.requirements['target']['value']})
-
+#CameraTest.Do({'file':'Data\\test.tif', 'settle_time': 2, 'camera_name':'camera'})

@@ -1,0 +1,29 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system is connected.
+
+Keyence Touchprobe using gantry using ZZ1 bit 0
+
+camera is connected.
+camera is disconnected.
+camera is availible.
+
+['X', 'Y', 'ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'] measured to be [-296.80006122384987, -403.01085044138074, -82.73460529720761, -64.74431006887724, -62.93999574115051, -16.330067784015952]
+['X', 'Y', 'ZZ1'] measured to be [-309.3002543316002, -402.76075619205795, -126.53460589180344]
+['X', 'Y', 'ZZ1'] measured to be [-299.3001967765296, -392.76086471852665, -126.53460604439131]
+['X', 'Y', 'ZZ1'] measured to be [-115.13121126788532, -372.93365808054875, -89.75460516485704]
+['X', 'Y', 'ZZ3'] measured to be [-488.9041304911924, -409.17165919126165, -103.41571445902703]
+['X', 'Y', 'ZZ4'] measured to be [-305.52378362931654, -400.9766431801681, -24.101569576041758]
+system waited 2 s.
+camera is connected.
+camera is disconnected.
+camera took image and saved at Data\test.tif
+

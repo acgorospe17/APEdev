@@ -3,6 +3,7 @@ import time
 from Drivers import A3200
 from Drivers import Ultimus_V as UltimusV
 import numpy as np
+from Drivers import camera
 
 # Parent class of all devices bleh
 class Device():
@@ -421,7 +422,7 @@ class A3200Dev(Motion, Sensor):
                 if axis in point:
                     axescount += 1
                     if axescount > self.maxaxis:
-                        print(cmdline)
+                        #print(cmdline)
                         raise Exception('Number of axes exceeds ITAR limit.')
                     cmdline += axis + ' ' + '{0:f}'.format(point[axis]) + ' '
             cmdline += 'F ' + '{0:f}'.format(speed) + ' '
@@ -923,21 +924,48 @@ class Keyence_TouchProbe(Sensor):
         self.addlog(self.A3200handle.Set_DO(axis=self.DOaxis, bit=self.DObit, value=1, motionmode='cmd'))
         self.extended=True
 
+
+class Ueye_Camera(Sensor):
+    def __init__(self, name):
+        Device.__init__(self,name)
+
+        self.descriptors.append('ueye')
+        self.descriptors.append('camera')
+        self.handle = ''
+        self.requirements['Measure'] = {}
+        self.requirements['Measure']['file'] = {'value': '', 'source': 'direct', 'address': '', 'desc': 'filename to store image at'}
+        
+    def Connect(self):
+        self.fConnect()
+        self.fDisconnect()
+        self.addlog(self.name + ' is availible.')
+        return self.returnlog()
+    def fConnect(self):
+        if not self.simulation:
+            try:
+                self.handle = camera.ueye()
+            except:
+                temp = input('Do you want to try to connect again?([y],n)')
+                if temp in ['', 'y', 'yes']:
+                    self.handle = camera.ueye()
+        self.addlog(self.name + ' is connected.')        
+    def Disconnect(self):
+        self.fDisconnect
+        return self.returnlog()
+    def fDisconnect(self):
+        if not self.simulation:
+            self.handle.close()
+        self.addlog(self.name + ' is disconnected.')
+    def Measure(self, file):
+        if not self.simulation:
+            self.fConnect()
+            self.handle.save_image(file)
+            self.fDisconnect()
+        self.addlog(self.name + ' took image and saved at ' + str(file))
+        return self.returnlog()
+
+
 if __name__ == '__main__':
-    gantry = A3200Dev('Test Gantry')
-    gantry.Connect()
-    system = System('this computer')
-    #gantry.simulation = True
-    #system.simulation = True
-    gt2probe = Keyence_TouchProbe('Test touch probe')
-    #gt2probe.simulation = True
-    gt2probe.Connect(A3200name = 'Test Gantry', A3200address=gantry, DOaxis = 'ZZ1', DObit = 0, AIaxis = 'ZZ2', AIchannel=0, systemname = 'this computer',systemaddress = system)
-    testvalue = [0]
-    print(gantry.Set_Motion(RelAbs='Abs', motionmode='cmd'))
-    print(gantry.Move(point={'ZZ3':-10}, motiontype='linear', speed=20, motionmode='cmd'))
-    print(gt2probe.Initialize())
-    print(gantry.Set_Motion(RelAbs='Abs', motionmode='cmd'))
-    print(gantry.Move(point={'ZZ3':-10}, motiontype='linear', speed=20, motionmode='cmd'))
-    print(gt2probe.Measure(address=testvalue, addresstype='pointer'))
-    print(gantry.Set_Motion(RelAbs='Abs', motionmode='cmd'))
-    print(gantry.Move(point={'ZZ3':-10}, motiontype='linear', speed=20, motionmode='cmd'))
+    testcamera = Ueye_Camera('Test Gantry')
+    print(testcamera.Connect())
+    print(testcamera.Measure('Data\\test.tif'))
