@@ -1,4 +1,0 @@
-gantry is connected
-
-Ultimus pump0 is connected on port 9
-
