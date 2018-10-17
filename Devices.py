@@ -934,7 +934,9 @@ class Ueye_Camera(Sensor):
         self.handle = ''
         self.requirements['Measure'] = {}
         self.requirements['Measure']['file'] = {'value': '', 'source': 'direct', 'address': '', 'desc': 'filename to store image at'}
-
+        self.requirements['Configure'] = {}
+        self.requirements['Configure']['gain'] = {'value': '', 'source': 'direct', 'address': '', 'desc': 'values for master and RGB gains (0-100)'}
+        
     def Connect(self):
         self.fConnect()
         self.fDisconnect()
@@ -968,9 +970,21 @@ class Ueye_Camera(Sensor):
             self.fDisconnect()
         self.addlog(self.name + ' took image and saved at ' + str(file))
         return self.returnlog()
+    
+    def Configure(self, **kwargs):
+        if not self.simulation:
+            if 'gain' in kwargs:
+                gain = kwargs['gain']
+                self.handle.set_gain(master=gain[0], red=gain[1], green=gain[2], blue=gain[3])
+            if 'framerate' in kwargs:
+                print('not implemented')
+        self.addlog(self.name + ' configured the following settings:\n\t' + str([k for k in kwargs.keys()]))
+        return self.returnlog()
 
 
 if __name__ == '__main__':
     testcamera = Ueye_Camera('Test Gantry')
     print(testcamera.Connect())
+    print(testcamera.Configure(gain=[20,100,10,10], framerate=50))
     print(testcamera.Measure('Data\\test.tif'))
+    print(testcamera.Disconnect())

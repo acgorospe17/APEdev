@@ -6,7 +6,6 @@ import Procedures_InkCal
 import Procedures_TouchProbe
 import Procedures_Camera
 
-
 class StartofMotion(procedure): 
     def Prepare(self):
         self.name = 'StartofMotion'
@@ -98,6 +97,8 @@ class Start(procedure):
         self.initTouch = Procedures_TouchProbe.Initialize_TouchProbe(self.apparatus, self.executor)
         self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
         self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
+        self.configure_camera = Procedures_Camera.Configure_Settings(self.apparatus, self.executor)
+        self.settings_mode = ['default', 'input', 'saved']
 
     def Plan(self):
         # Renaming useful pieces of informaiton
@@ -123,11 +124,25 @@ class Start(procedure):
                 self.calink.Do({'material': material})
                 input('Wait about 30 minutes then press ENTER again.')
             self.calink.Do({'material': material})
+        
+        if self.settings_mode == 'input':
+            # Configure Camera Settings
+            gain = []
+            gain.append( input('Enter the master gain setting (0-100): ') )
+            gain.append( input('Enter the red gain setting (0-100): ') )
+            gain.append( input('Enter the green gain setting (0-100): ') )
+            gain.append( input('Enter the blue gain setting (0-100): ') )
+            self.configure_camera.Do({'gain': gain, 'camera_name': 'camera'})
+        elif self.settings_mode == 'saved':
+            pass
+        else:
+            pass
+
         # Initiate Touch probe
         self.initTouch.Do()
         self.measureTouch.Do({'point':{'X': 0, 'Y': -5}})
         self.capture_image.Do({'point':{'X': 2, 'Y': 0}, 'file':'Data\\start.tif', 'camera_name': 'camera'})
-
+        
 class ChangeMat(procedure):
     def Prepare(self):
         self.name = 'ChangeMat'

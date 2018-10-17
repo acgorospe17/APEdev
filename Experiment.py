@@ -60,7 +60,6 @@ AlignPrinter = Procedures_Alignments.Align(MyApparatus, MyExecutor)
 BuildGrid = Procedures_SampleTray.Setup_XYGridTray(MyApparatus, MyExecutor)
 SampleGrid = Procedures_SampleTray.SampleTray(MyApparatus, MyExecutor)
 
-
 # Create procedure to do at each position in the sample grid
 class Sample(procedure):
     def Prepare(self):

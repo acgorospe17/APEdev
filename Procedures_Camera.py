@@ -75,3 +75,21 @@ class Capture_ImageXY(procedure):
         self.pmove.Do({'relpoint': {'X': point['X'], 'Y': point['Y']}, 'priority': [['X', 'Y'],['Z']]})
         runmove.Do()
         self.measure.Do({'file': file, 'camera_name': cname})
+        
+class Configure_Settings(procedure): 
+    def Prepare(self):
+        self.name = 'Configure_Settings'
+        self.requirements['gain'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'values for master and RGB gains (0-100)'}
+        self.requirements['camera_name'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'name of the camera to be used'}
+        
+    def Plan(self):
+        # Renaming useful pieces of informaiton
+        cname = self.requirements['camera_name']['value']
+        gain = self.requirements['gain']['value']
+
+        # Getting necessary eprocs
+        configure = self.apparatus.GetEproc(cname, 'Configure')
+        
+        # Doing stuff
+        configure.Do({'gain': gain, 'camera_name': cname})
+        

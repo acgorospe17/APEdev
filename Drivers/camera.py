@@ -25,9 +25,6 @@ class CameraException(Exception):
         
     def __str__(self):
         return self.message + ', ' + self.ueye_error
-
-class IDS_SUCKS(ctypes.Structure):
-    _fields_ = [('IS_BLACKLEVEL_CMD_SET_OFFSET', ctypes.c_uint)]
         
 class ueye(object):
     def __init__(self, cam_id = 0):
@@ -133,6 +130,31 @@ class ueye(object):
         if take_snapshot:
             self.capture()
         imsave(path, self.image_data)
+        
+    #
+    # CAMERA AND IMAGE CONFIGURATION FUNCTIONS
+    #
+    
+    def set_gain(self, master, red, green, blue):
+        err = pue.is_SetHardwareGain(self.cam, master, red, green, blue)
+        if err != pue.IS_SUCCESS:
+            raise CameraException(self.cam, 'ueye>set_gain>', err, False)
+            
+    def set_framerate(self, new_fps):
+        '''
+        not working
+        '''
+        fps = ctypes.c_double()
+        
+        print(fps)
+        err = pue.is_GetFramesPerSecond(self.cam, fps)
+        if err != pue.IS_SUCCESS:
+            raise CameraException(self.cam, 'ueye>set_framerate>is_GetFramesPerSecond', err, False)
+        print(fps)
+        err = pue.is_SetFrameRate(self.cam, fps, ctypes.c_double(new_fps))
+        if err != pue.IS_SUCCESS:
+            raise CameraException(self.cam, 'ueye>set_framerate>is_SetFramesRate', err, False)
+    
     
 class ColorMode:
     _modes = {'mono8' : pue.IS_CM_MONO8,
