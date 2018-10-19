@@ -1,0 +1,438 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+aeropump0 is off.
+
+system is connected.
+
+Keyence Touchprobe using gantry using ZZ1 bit 0
+
+camera is connected.
+camera is disconnected.
+camera is availible.
+
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -50.000000 F 40.000000 
+
+G01 X -200.000000 Y -250.000000 F 40.000000 
+
+
+Initialization done.
+
+
+Commands Loaded
+
+system ran a program
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -476.404073 Y -399.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -478.904073 Y -399.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -473.904073 Y -399.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -478.904073 Y -397.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -476.404073 Y -397.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -473.904073 Y -397.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -478.904073 Y -401.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -476.404073 Y -401.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -62.939996 F 40.000000 
+
+G01 X -473.904073 Y -401.171768 F 40.000000 
+
+G01 ZZ3 -103.415715 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+
+
+G91 
+
+
+G01 ZZ3 5.000000 F 40.000000 
+
+
+G90 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ4 -16.330068 F 40.000000 
+
+G01 X -293.023726 Y -390.976752 F 40.000000 
+
+G01 ZZ4 -24.101570 F 40.000000 
+
+
+system waited 5 s.
+camera took image and saved at Data\blehx0y0aE60Initial.tif
+
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -82.734605 ZZ2 -64.744310 ZZ3 -62.939996 ZZ4 -16.330068 F 40.000000 
+
+G01 X -296.800061 Y -403.010850 F 40.000000 
+
+

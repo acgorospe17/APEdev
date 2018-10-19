@@ -122,6 +122,22 @@ class apparatus(dict):
 
         return level
 
+    def setValue(self, infoAddress, value):
+        if infoAddress == '':
+            return ''
+
+        level = self
+        lastlevel = infoAddress.pop()
+
+        for branch in infoAddress:
+            try:
+                level = level[branch]
+            except TypeError:
+                return 'Invalid ApparatusAddress'
+            except KeyError:
+                return 'Invalid ApparatusAddress'
+        level[lastlevel] = value
+    
     def findDevices(self, key, value=[]):
         foundDevices = []
 

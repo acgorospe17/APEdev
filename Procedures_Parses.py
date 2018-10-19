@@ -87,18 +87,13 @@ class EndofMotion(procedure):
         self.motionset.Do({'Type': 'default'})
         move.Do()
         runmove.Do()
-      
+
+
 class Start(procedure):
     def Prepare(self):
         self.name = 'Start'
         self.motionset = Procedures_A3200.A3200SetMotonType(self.apparatus, self.executor)
         self.pmove = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
-        self.calink = Procedures_InkCal.Calibrate(self.apparatus, self.executor)
-        self.initTouch = Procedures_TouchProbe.Initialize_TouchProbe(self.apparatus, self.executor)
-        self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
-        self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
-        self.configure_camera = Procedures_Camera.Configure_Settings(self.apparatus, self.executor)
-        self.settings_mode = ['default', 'input', 'saved']
 
     def Plan(self):
         # Renaming useful pieces of informaiton
@@ -118,30 +113,6 @@ class Start(procedure):
         self.motionset.Do({'Type': 'default'})
         self.pmove.Do({'priority': [['ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'], ['X', 'Y']]})
         runmove.Do()
-        # Calibrate Materials
-        for material in matList:
-            if 'PDMS' in material:
-                self.calink.Do({'material': material})
-                input('Wait about 30 minutes then press ENTER again.')
-            self.calink.Do({'material': material})
-        
-        if self.settings_mode == 'input':
-            # Configure Camera Settings
-            gain = []
-            gain.append( input('Enter the master gain setting (0-100): ') )
-            gain.append( input('Enter the red gain setting (0-100): ') )
-            gain.append( input('Enter the green gain setting (0-100): ') )
-            gain.append( input('Enter the blue gain setting (0-100): ') )
-            self.configure_camera.Do({'gain': gain, 'camera_name': 'camera'})
-        elif self.settings_mode == 'saved':
-            pass
-        else:
-            pass
-
-        # Initiate Touch probe
-        self.initTouch.Do()
-        self.measureTouch.Do({'point':{'X': 0, 'Y': -5}})
-        self.capture_image.Do({'point':{'X': 2, 'Y': 0}, 'file':'Data\\start.tif', 'camera_name': 'camera'})
         
 class ChangeMat(procedure):
     def Prepare(self):
@@ -213,8 +184,6 @@ class End(procedure):
         self.name = 'End'
         self.motionset = Procedures_A3200.A3200SetMotonType(self.apparatus, self.executor)
         self.pmove = Procedures_Motion.RefRelPriorityLineMotion(self.apparatus, self.executor)
-        self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
-        self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
 
     def Plan(self):
         # Renaming useful pieces of informaiton
@@ -233,5 +202,4 @@ class End(procedure):
         self.motionset.Do({'Type': 'default'})
         self.pmove.Do({'priority': [['ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'], ['X', 'Y']]})
         runmove.Do()
-        self.measureTouch.Do({'point':{'X': 0, 'Y': -5}})
-        self.capture_image.Do({'point':{'X': 2, 'Y': 0}, 'file':'Data\\end.tif', 'camera_name': 'camera'})            
+           

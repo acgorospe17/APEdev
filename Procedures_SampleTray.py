@@ -105,7 +105,7 @@ class SampleTray(procedure):
                         if dim in position:
                             self.apparatus['information']['alignments'][alignment][dim] = self.apparatus['information']['trays']['original_alignments'][alignment][dim] + position[dim]
             self.Report(string=position['sample'] + ' in progress.')
-            procedure.Do()
+            procedure.Do({'samplename': position['sample']})
             position['used'] = True
         # Return Alignments to original state
         for alignment in self.apparatus['information']['alignments']:

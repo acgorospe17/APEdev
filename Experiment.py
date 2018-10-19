@@ -2,10 +2,17 @@ import Apparatus
 import Procedures_Toolpath
 import Procedures_Alignments
 import Procedures_SampleTray
+import Procedures_Planner
+import Procedures_TouchProbe
+import Procedures_Camera
+import Procedures_InkCal
+import Procedures_DataFiles
+import Procedures_HeightCorrection
 import Executor
 import XlineTPGen as TPGen
 import FlexPrinterApparatus
 from Procedure import procedure
+import time
 
 MyApparatus = Apparatus.apparatus()
 MyExecutor = Executor.executor()
@@ -59,32 +66,86 @@ MyApparatus.Connect_All(MyExecutor, simulation=True)
 AlignPrinter = Procedures_Alignments.Align(MyApparatus, MyExecutor)
 BuildGrid = Procedures_SampleTray.Setup_XYGridTray(MyApparatus, MyExecutor)
 SampleGrid = Procedures_SampleTray.SampleTray(MyApparatus, MyExecutor)
+initTouch = Procedures_TouchProbe.Initialize_TouchProbe(MyApparatus, MyExecutor)
+calink = Procedures_InkCal.Calibrate(MyApparatus, MyExecutor)
+configure_camera = Procedures_Camera.Configure_Settings(MyApparatus, MyExecutor)
+initHeightCor = Procedures_HeightCorrection.Initialize_SPHeightCorrect(MyApparatus, MyExecutor)
+settings_mode = ['default', 'input', 'saved']
 
 # Create procedure to do at each position in the sample grid
-class Sample(procedure):
+class ProbeImagePrintImage(procedure):
     def Prepare(self):
-        self.name = 'Sample'
+        self.name = 'ProbeImagePrintImage'
+        self.requirements['samplename'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'name of this sample for logging purposes'}
         self.gentp = Procedures_Toolpath.Generate_Toolpath(MyApparatus, MyExecutor)
         self.printtp = Procedures_Toolpath.Print_Toolpath(MyApparatus, MyExecutor)
+        self.measureTouch = Procedures_TouchProbe.Measure_TouchProbeXY(self.apparatus, self.executor)
+        self.capture_image = Procedures_Camera.Capture_ImageXY(self.apparatus, self.executor)
+        self.planner = Procedures_Planner.Combinatorial_Planner(self.apparatus, self.executor)
+        self.heightlog = Procedures_DataFiles.DataListJSON_Store(self.apparatus, self.executor)
+        self.heightcor = Procedures_HeightCorrection.SPHeightCorrect(self.apparatus, self.executor)
+
     def Plan(self):
         # Renaming useful pieces of informaiton
+        samplename = self.requirements['samplename']['value']
 
         # Retreiving necessary device names
 
         # Retrieving information from apparatus
+        linelength = self.apparatus['information']['toolpaths']['parameters']['length']
 
         # Getting necessary eprocs
 
         # Assign apparatus addresses to procedures
 
         # Doing stuff
+        # Update Plan
+        space = {'tiph': [0.1*n for n in range(10)]}
+        space['trace_height'] = [0.1 * n for n in range(1, 6)]
+        addresses = {'tiph': ['information', 'toolpaths', 'parameters', 'tiph']}
+        addresses['trace_height'] = ['devices', 'nstuff', 'trace_height']
+        priority = ['tiph', 'trace_height']
+        file = 'Data//planner.json'
+        self.planner.Do({'space': space, 'Apparatus_Addresses': addresses, 'file': file, 'priority': priority})
+        # Generate Toolpath
         self.gentp.Do()
+        # Measure center point
+        heightlist = []
+        self.heightcor.Do({'point': {'X': linelength / 2, 'Y': 0}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        # Update start heights accordingly
+        # Do remaining height measurements for 3x3 grid
+        self.measureTouch.Do({'point': {'X': 0, 'Y': 0}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': linelength, 'Y': 0}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': 0, 'Y': 2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': linelength / 2, 'Y': 2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': linelength, 'Y': 2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': 0, 'Y': -2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': linelength / 2, 'Y': -2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.measureTouch.Do({'point': {'X': linelength, 'Y': -2}})
+        heightlist.append(self.apparatus.getValue(['information', 'height_data'])[0])
+        self.heightlog.Do({'filename': 'Data//heights.json', 'label': samplename + ' initial', 'value': heightlist, 'newentry': True})
+        # Take initial picture
+        filename = 'Data\\' + samplename + 'aE60' +'Initial.tif'
+        self.capture_image.Do({'point': {'X': linelength / 2, 'Y': 0}, 'file': filename, 'camera_name': 'camera'})
         self.printtp.Do({'toolpath': self.gentp.requirements['target']['value']})
+        # Take first of final pictures
+        filename = 'Data\\' + samplename + 'aE60' + '.tif'
+        self.capture_image.Do({'point': {'X': linelength / 2, 'Y': 0}, 'file': filename, 'camera_name': 'camera'})
 
-
-sample = Sample(MyApparatus, MyExecutor)
+sample = ProbeImagePrintImage(MyApparatus, MyExecutor)
 
 # Do the experiment
 AlignPrinter.Do({'primenoz': 'nstuff'})
-BuildGrid.Do({'trayname': 'test_tray', 'samplename': 'bleh', 'xspacing': 1, 'xsamples': 2, 'yspacing': 1, 'ysamples': 3})
+initTouch.Do()
+calink.Do({'material': 'stuff'})
+initHeightCor.Do()
+BuildGrid.Do({'trayname': 'test_tray', 'samplename': 'bleh', 'xspacing': 1, 'xsamples': 2, 'yspacing': 1, 'ysamples': 1})
 SampleGrid.Do({'trayname': 'test_tray', 'procedure': sample})
