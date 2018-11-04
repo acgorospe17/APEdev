@@ -27,7 +27,10 @@ def move_images(images, img_class):
 
 # -----ORGANIZE IMAGES-----
 base_dir = os.getcwd()
+<<<<<<< HEAD
 base_dirname = os.path.basename(base_dir)
+=======
+>>>>>>> 900cc4c488cc2aa68f627bcbc39914302ff14303
 
 images = {}
 for ls in ['Initial@E30', 'E30', 'E45', 'E60', 'W30', 'W45', 'W60']:
@@ -65,7 +68,11 @@ for line in zip(images['E30'], images['Initial@E30']):
     final = cv2.cvtColor(result, cv2.COLOR_GRAY2RGB)
     
     g = re.search(naming_convention, line[0])
+<<<<<<< HEAD
     cv2.imwrite(final_dir+base_dirname+g.group(2), final)
+=======
+    cv2.imwrite(final_dir+g.group(2), final)
+>>>>>>> 900cc4c488cc2aa68f627bcbc39914302ff14303
 
 # -----EXTRACT LINEs FROM REMAINING IMAGES-----   
 for ls in ['E45', 'E60', 'W30', 'W45', 'W60']:
@@ -79,4 +86,8 @@ for ls in ['E45', 'E60', 'W30', 'W45', 'W60']:
         final = cv2.cvtColor(result, cv2.COLOR_GRAY2RGB)
         
         g = re.search(naming_convention, line)
+<<<<<<< HEAD
         cv2.imwrite(final_dir+base_dirname+g.group(2), final)
+=======
+        cv2.imwrite(final_dir+g.group(2), final)
+>>>>>>> 900cc4c488cc2aa68f627bcbc39914302ff14303
