@@ -1,0 +1,2156 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system is connected.
+
+Keyence Touchprobe using gantry using ZZ1 bit 0
+
+camera is connected.
+camera is availible.
+
+camera is disconnected.
+
+['X', 'Y', 'ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'] measured to be [-362.7646673432187, -149.96760876903747, -72.03000009283691, -40.000923901879965, 4.2559814453125e-07, -5.0000040135498045]
+['X', 'Y', 'ZZ1'] measured to be [-268.41493062184276, -275.16799731036315, -95.04999995838622]
+['X', 'Y', 'ZZ1'] measured to be [-262.4149881376631, -269.1679855283094, -94.98999960948242]
+['X', 'Y', 'ZZ1'] measured to be [-127.13296719401076, -284.0201203790572, -83.12000108579834]
+['X', 'Y', 'ZZ2'] measured to be [-346.2252412457674, -280.99323467581877, -65.21968914384232]
+['X', 'Y', 'ZZ4'] measured to be [-579.4584979742989, -276.29320277175765, -10.19999325098877]
+camera is connected.
+camera is availible.
+
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ1 -72.030000 ZZ2 -40.000924 ZZ3 0.000000 ZZ4 -5.000004 F 40.000000 
+
+G01 X -362.764667 Y -149.967609 F 40.000000 
+
+
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -50.000000 F 40.000000 
+
+G01 X -200.000000 Y -250.000000 F 40.000000 
+
+
+Bit 0 on the ZZ1 set to 0
+$DO[0].ZZ1 = 0 
+
+
+system waited 0.5 s.
+AI Axis ZZ2 channel 0 measured to be 4.979194641113281
+AI Axis ZZ2 channel 0 measured to be 4.978951930999756
+AI Axis ZZ2 channel 0 measured to be 4.978829860687256
+AI Axis ZZ2 channel 0 measured to be 4.979289531707764
+AI Axis ZZ2 channel 0 measured to be 4.97929048538208
+AI Axis ZZ2 channel 0 measured to be 4.979974269866943
+AI Axis ZZ2 channel 0 measured to be 4.979831218719482
+AI Axis ZZ2 channel 0 measured to be 4.979472637176514
+AI Axis ZZ2 channel 0 measured to be 4.979617118835449
+AI Axis ZZ2 channel 0 measured to be 4.979513168334961
+AI Axis ZZ2 channel 0 measured to be 4.979493141174316
+AI Axis ZZ2 channel 0 measured to be 4.979366302490234
+AI Axis ZZ2 channel 0 measured to be 4.979116439819336
+AI Axis ZZ2 channel 0 measured to be 4.979295253753662
+AI Axis ZZ2 channel 0 measured to be 4.979190826416016
+AI Axis ZZ2 channel 0 measured to be 4.978990077972412
+AI Axis ZZ2 channel 0 measured to be 4.978917598724365
+AI Axis ZZ2 channel 0 measured to be 4.9790754318237305
+AI Axis ZZ2 channel 0 measured to be 4.97927188873291
+AI Axis ZZ2 channel 0 measured to be 4.9791579246521
+The following voltages were measured: 
+[4.979194641113281, 4.978951930999756, 4.978829860687256, 4.979289531707764, 4.97929048538208, 4.979974269866943, 4.979831218719482, 4.979472637176514, 4.979617118835449, 4.979513168334961, 4.979493141174316, 4.979366302490234, 4.979116439819336, 4.979295253753662, 4.979190826416016, 4.978990077972412, 4.978917598724365, 4.9790754318237305, 4.97927188873291, 4.9791579246521]
+Voltage settled in 0.0 ms at slow rate
+AI Axis ZZ2 channel 0 measured to be 4.979277610778809
+AI Axis ZZ2 channel 0 measured to be 4.979416847229004
+AI Axis ZZ2 channel 0 measured to be 4.979393482208252
+AI Axis ZZ2 channel 0 measured to be 4.979654312133789
+AI Axis ZZ2 channel 0 measured to be 4.979022979736328
+AI Axis ZZ2 channel 0 measured to be 4.97904109954834
+AI Axis ZZ2 channel 0 measured to be 4.97891902923584
+AI Axis ZZ2 channel 0 measured to be 4.978851795196533
+AI Axis ZZ2 channel 0 measured to be 4.979345321655273
+AI Axis ZZ2 channel 0 measured to be 4.979045391082764
+AI Axis ZZ2 channel 0 measured to be 4.978964805603027
+AI Axis ZZ2 channel 0 measured to be 4.978878021240234
+AI Axis ZZ2 channel 0 measured to be 4.979390621185303
+AI Axis ZZ2 channel 0 measured to be 4.97955846786499
+AI Axis ZZ2 channel 0 measured to be 4.9789886474609375
+AI Axis ZZ2 channel 0 measured to be 4.979459285736084
+AI Axis ZZ2 channel 0 measured to be 4.979191303253174
+AI Axis ZZ2 channel 0 measured to be 4.978669166564941
+AI Axis ZZ2 channel 0 measured to be 4.978831768035889
+AI Axis ZZ2 channel 0 measured to be 4.979382514953613
+AI Axis ZZ2 channel 0 measured to be 4.979024887084961
+AI Axis ZZ2 channel 0 measured to be 4.979377746582031
+AI Axis ZZ2 channel 0 measured to be 4.9791436195373535
+AI Axis ZZ2 channel 0 measured to be 4.97917366027832
+AI Axis ZZ2 channel 0 measured to be 4.979231357574463
+AI Axis ZZ2 channel 0 measured to be 4.97929048538208
+AI Axis ZZ2 channel 0 measured to be 4.979390621185303
+AI Axis ZZ2 channel 0 measured to be 4.979004859924316
+AI Axis ZZ2 channel 0 measured to be 4.97902250289917
+AI Axis ZZ2 channel 0 measured to be 4.979037284851074
+AI Axis ZZ2 channel 0 measured to be 4.979107856750488
+AI Axis ZZ2 channel 0 measured to be 4.9790730476379395
+AI Axis ZZ2 channel 0 measured to be 4.978878498077393
+AI Axis ZZ2 channel 0 measured to be 4.979061126708984
+AI Axis ZZ2 channel 0 measured to be 4.979127407073975
+AI Axis ZZ2 channel 0 measured to be 4.978965759277344
+AI Axis ZZ2 channel 0 measured to be 4.979329586029053
+AI Axis ZZ2 channel 0 measured to be 4.979189872741699
+AI Axis ZZ2 channel 0 measured to be 4.9789934158325195
+AI Axis ZZ2 channel 0 measured to be 4.978950500488281
+AI Axis ZZ2 channel 0 measured to be 4.979118347167969
+AI Axis ZZ2 channel 0 measured to be 4.979191303253174
+AI Axis ZZ2 channel 0 measured to be 4.9792985916137695
+AI Axis ZZ2 channel 0 measured to be 4.9788818359375
+AI Axis ZZ2 channel 0 measured to be 4.978785037994385
+AI Axis ZZ2 channel 0 measured to be 4.978870868682861
+AI Axis ZZ2 channel 0 measured to be 4.978899955749512
+AI Axis ZZ2 channel 0 measured to be 4.979298114776611
+AI Axis ZZ2 channel 0 measured to be 4.97893762588501
+AI Axis ZZ2 channel 0 measured to be 4.979014873504639
+AI Axis ZZ2 channel 0 measured to be 4.979100704193115
+AI Axis ZZ2 channel 0 measured to be 4.9791388511657715
+AI Axis ZZ2 channel 0 measured to be 4.979065895080566
+AI Axis ZZ2 channel 0 measured to be 4.978837490081787
+AI Axis ZZ2 channel 0 measured to be 4.978640556335449
+AI Axis ZZ2 channel 0 measured to be 4.979063987731934
+AI Axis ZZ2 channel 0 measured to be 4.979028224945068
+AI Axis ZZ2 channel 0 measured to be 4.978987216949463
+AI Axis ZZ2 channel 0 measured to be 4.9791765213012695
+AI Axis ZZ2 channel 0 measured to be 4.979032516479492
+AI Axis ZZ2 channel 0 measured to be 4.9789814949035645
+AI Axis ZZ2 channel 0 measured to be 4.979175090789795
+AI Axis ZZ2 channel 0 measured to be 4.9789137840271
+AI Axis ZZ2 channel 0 measured to be 4.978579521179199
+AI Axis ZZ2 channel 0 measured to be 4.978413105010986
+AI Axis ZZ2 channel 0 measured to be 4.978806972503662
+AI Axis ZZ2 channel 0 measured to be 4.978926658630371
+AI Axis ZZ2 channel 0 measured to be 4.978422164916992
+AI Axis ZZ2 channel 0 measured to be 4.978851795196533
+AI Axis ZZ2 channel 0 measured to be 4.978895664215088
+AI Axis ZZ2 channel 0 measured to be 4.978912353515625
+AI Axis ZZ2 channel 0 measured to be 4.9789347648620605
+AI Axis ZZ2 channel 0 measured to be 4.978445053100586
+AI Axis ZZ2 channel 0 measured to be 4.978403568267822
+AI Axis ZZ2 channel 0 measured to be 4.978835105895996
+AI Axis ZZ2 channel 0 measured to be 4.978870391845703
+AI Axis ZZ2 channel 0 measured to be 4.9790215492248535
+AI Axis ZZ2 channel 0 measured to be 4.978565692901611
+AI Axis ZZ2 channel 0 measured to be 4.978593826293945
+AI Axis ZZ2 channel 0 measured to be 4.978514194488525
+AI Axis ZZ2 channel 0 measured to be 4.978863716125488
+AI Axis ZZ2 channel 0 measured to be 4.978593826293945
+AI Axis ZZ2 channel 0 measured to be 4.978789329528809
+AI Axis ZZ2 channel 0 measured to be 4.979166030883789
+AI Axis ZZ2 channel 0 measured to be 4.979147911071777
+AI Axis ZZ2 channel 0 measured to be 4.978866100311279
+AI Axis ZZ2 channel 0 measured to be 4.979203224182129
+AI Axis ZZ2 channel 0 measured to be 4.978633880615234
+AI Axis ZZ2 channel 0 measured to be 4.978918075561523
+AI Axis ZZ2 channel 0 measured to be 4.97865104675293
+AI Axis ZZ2 channel 0 measured to be 4.978793144226074
+AI Axis ZZ2 channel 0 measured to be 4.978915214538574
+AI Axis ZZ2 channel 0 measured to be 4.97890567779541
+AI Axis ZZ2 channel 0 measured to be 4.979180335998535
+AI Axis ZZ2 channel 0 measured to be 4.9784955978393555
+AI Axis ZZ2 channel 0 measured to be 4.978909015655518
+AI Axis ZZ2 channel 0 measured to be 4.9789204597473145
+AI Axis ZZ2 channel 0 measured to be 4.978335380554199
+AI Axis ZZ2 channel 0 measured to be 4.978516101837158
+AI Axis ZZ2 channel 0 measured to be 4.978844165802002
+The following voltages were measured: 
+[4.979277610778809, 4.979416847229004, 4.979393482208252, 4.979654312133789, 4.979022979736328, 4.97904109954834, 4.97891902923584, 4.978851795196533, 4.979345321655273, 4.979045391082764, 4.978964805603027, 4.978878021240234, 4.979390621185303, 4.97955846786499, 4.9789886474609375, 4.979459285736084, 4.979191303253174, 4.978669166564941, 4.978831768035889, 4.979382514953613, 4.979024887084961, 4.979377746582031, 4.9791436195373535, 4.97917366027832, 4.979231357574463, 4.97929048538208, 4.979390621185303, 4.979004859924316, 4.97902250289917, 4.979037284851074, 4.979107856750488, 4.9790730476379395, 4.978878498077393, 4.979061126708984, 4.979127407073975, 4.978965759277344, 4.979329586029053, 4.979189872741699, 4.9789934158325195, 4.978950500488281, 4.979118347167969, 4.979191303253174, 4.9792985916137695, 4.9788818359375, 4.978785037994385, 4.978870868682861, 4.978899955749512, 4.979298114776611, 4.97893762588501, 4.979014873504639, 4.979100704193115, 4.9791388511657715, 4.979065895080566, 4.978837490081787, 4.978640556335449, 4.979063987731934, 4.979028224945068, 4.978987216949463, 4.9791765213012695, 4.979032516479492, 4.9789814949035645, 4.979175090789795, 4.9789137840271, 4.978579521179199, 4.978413105010986, 4.978806972503662, 4.978926658630371, 4.978422164916992, 4.978851795196533, 4.978895664215088, 4.978912353515625, 4.9789347648620605, 4.978445053100586, 4.978403568267822, 4.978835105895996, 4.978870391845703, 4.9790215492248535, 4.978565692901611, 4.978593826293945, 4.978514194488525, 4.978863716125488, 4.978593826293945, 4.978789329528809, 4.979166030883789, 4.979147911071777, 4.978866100311279, 4.979203224182129, 4.978633880615234, 4.978918075561523, 4.97865104675293, 4.978793144226074, 4.978915214538574, 4.97890567779541, 4.979180335998535, 4.9784955978393555, 4.978909015655518, 4.9789204597473145, 4.978335380554199, 4.978516101837158, 4.978844165802002]
+Bit 0 on the ZZ1 set to 1
+$DO[0].ZZ1 = 1 
+
+
+system waited 0.5 s.
+AI Axis ZZ2 channel 0 measured to be 1.0025931596755981
+AI Axis ZZ2 channel 0 measured to be 1.0027546882629395
+AI Axis ZZ2 channel 0 measured to be 1.0028045177459717
+AI Axis ZZ2 channel 0 measured to be 1.0019716024398804
+AI Axis ZZ2 channel 0 measured to be 1.0018084049224854
+AI Axis ZZ2 channel 0 measured to be 1.0016827583312988
+AI Axis ZZ2 channel 0 measured to be 1.0019649267196655
+AI Axis ZZ2 channel 0 measured to be 1.0020164251327515
+AI Axis ZZ2 channel 0 measured to be 1.0021945238113403
+AI Axis ZZ2 channel 0 measured to be 1.0018725395202637
+AI Axis ZZ2 channel 0 measured to be 1.0018370151519775
+AI Axis ZZ2 channel 0 measured to be 1.0015015602111816
+AI Axis ZZ2 channel 0 measured to be 1.0014870166778564
+AI Axis ZZ2 channel 0 measured to be 1.0017116069793701
+AI Axis ZZ2 channel 0 measured to be 1.0014270544052124
+AI Axis ZZ2 channel 0 measured to be 1.0017141103744507
+AI Axis ZZ2 channel 0 measured to be 1.0016738176345825
+AI Axis ZZ2 channel 0 measured to be 1.0014654397964478
+AI Axis ZZ2 channel 0 measured to be 1.0015190839767456
+AI Axis ZZ2 channel 0 measured to be 1.0012881755828857
+The following voltages were measured: 
+[1.0025931596755981, 1.0027546882629395, 1.0028045177459717, 1.0019716024398804, 1.0018084049224854, 1.0016827583312988, 1.0019649267196655, 1.0020164251327515, 1.0021945238113403, 1.0018725395202637, 1.0018370151519775, 1.0015015602111816, 1.0014870166778564, 1.0017116069793701, 1.0014270544052124, 1.0017141103744507, 1.0016738176345825, 1.0014654397964478, 1.0015190839767456, 1.0012881755828857]
+Voltage settled in 0.0 ms at slow rate
+AI Axis ZZ2 channel 0 measured to be 1.0013291835784912
+AI Axis ZZ2 channel 0 measured to be 1.0013331174850464
+AI Axis ZZ2 channel 0 measured to be 1.0013025999069214
+AI Axis ZZ2 channel 0 measured to be 1.0007801055908203
+AI Axis ZZ2 channel 0 measured to be 1.0006203651428223
+AI Axis ZZ2 channel 0 measured to be 1.0008244514465332
+AI Axis ZZ2 channel 0 measured to be 1.000818133354187
+AI Axis ZZ2 channel 0 measured to be 1.0006932020187378
+AI Axis ZZ2 channel 0 measured to be 1.0005449056625366
+AI Axis ZZ2 channel 0 measured to be 1.0005594491958618
+AI Axis ZZ2 channel 0 measured to be 1.0006356239318848
+AI Axis ZZ2 channel 0 measured to be 0.9998467564582825
+AI Axis ZZ2 channel 0 measured to be 1.000143051147461
+AI Axis ZZ2 channel 0 measured to be 1.0003031492233276
+AI Axis ZZ2 channel 0 measured to be 1.0000951290130615
+AI Axis ZZ2 channel 0 measured to be 1.0002782344818115
+AI Axis ZZ2 channel 0 measured to be 1.0000600814819336
+AI Axis ZZ2 channel 0 measured to be 1.0001949071884155
+AI Axis ZZ2 channel 0 measured to be 0.9997168779373169
+AI Axis ZZ2 channel 0 measured to be 0.9995739459991455
+AI Axis ZZ2 channel 0 measured to be 0.9995996952056885
+AI Axis ZZ2 channel 0 measured to be 0.9998184442520142
+AI Axis ZZ2 channel 0 measured to be 1.0002409219741821
+AI Axis ZZ2 channel 0 measured to be 0.9998363852500916
+AI Axis ZZ2 channel 0 measured to be 0.9996540546417236
+AI Axis ZZ2 channel 0 measured to be 0.9999204874038696
+AI Axis ZZ2 channel 0 measured to be 0.9995671510696411
+AI Axis ZZ2 channel 0 measured to be 0.9991404414176941
+AI Axis ZZ2 channel 0 measured to be 0.9992302656173706
+AI Axis ZZ2 channel 0 measured to be 0.9991486072540283
+AI Axis ZZ2 channel 0 measured to be 0.99969482421875
+AI Axis ZZ2 channel 0 measured to be 0.9995622038841248
+AI Axis ZZ2 channel 0 measured to be 0.9993767142295837
+AI Axis ZZ2 channel 0 measured to be 0.9993037581443787
+AI Axis ZZ2 channel 0 measured to be 0.9994984865188599
+AI Axis ZZ2 channel 0 measured to be 0.9991666674613953
+AI Axis ZZ2 channel 0 measured to be 0.999488353729248
+AI Axis ZZ2 channel 0 measured to be 0.999408483505249
+AI Axis ZZ2 channel 0 measured to be 0.999029278755188
+AI Axis ZZ2 channel 0 measured to be 0.9994502067565918
+AI Axis ZZ2 channel 0 measured to be 0.999271810054779
+AI Axis ZZ2 channel 0 measured to be 0.9990137815475464
+AI Axis ZZ2 channel 0 measured to be 0.9990302324295044
+AI Axis ZZ2 channel 0 measured to be 0.9985897541046143
+AI Axis ZZ2 channel 0 measured to be 0.998663604259491
+AI Axis ZZ2 channel 0 measured to be 0.9987867474555969
+AI Axis ZZ2 channel 0 measured to be 0.9992437958717346
+AI Axis ZZ2 channel 0 measured to be 0.9988850355148315
+AI Axis ZZ2 channel 0 measured to be 0.9988870620727539
+AI Axis ZZ2 channel 0 measured to be 0.9988754391670227
+AI Axis ZZ2 channel 0 measured to be 0.9990792274475098
+AI Axis ZZ2 channel 0 measured to be 0.9988808035850525
+AI Axis ZZ2 channel 0 measured to be 0.9990651607513428
+AI Axis ZZ2 channel 0 measured to be 0.9987836480140686
+AI Axis ZZ2 channel 0 measured to be 0.9988604784011841
+AI Axis ZZ2 channel 0 measured to be 0.9988237023353577
+AI Axis ZZ2 channel 0 measured to be 0.9987467527389526
+AI Axis ZZ2 channel 0 measured to be 0.9990673661231995
+AI Axis ZZ2 channel 0 measured to be 0.9983254671096802
+AI Axis ZZ2 channel 0 measured to be 0.998918354511261
+AI Axis ZZ2 channel 0 measured to be 0.9984458088874817
+AI Axis ZZ2 channel 0 measured to be 0.9987170696258545
+AI Axis ZZ2 channel 0 measured to be 0.9984135031700134
+AI Axis ZZ2 channel 0 measured to be 0.9983810186386108
+AI Axis ZZ2 channel 0 measured to be 0.998659610748291
+AI Axis ZZ2 channel 0 measured to be 0.9987901449203491
+AI Axis ZZ2 channel 0 measured to be 0.998661458492279
+AI Axis ZZ2 channel 0 measured to be 0.9984314441680908
+AI Axis ZZ2 channel 0 measured to be 0.9985982775688171
+AI Axis ZZ2 channel 0 measured to be 0.9984716176986694
+AI Axis ZZ2 channel 0 measured to be 0.998365581035614
+AI Axis ZZ2 channel 0 measured to be 0.9988630414009094
+AI Axis ZZ2 channel 0 measured to be 0.9984946846961975
+AI Axis ZZ2 channel 0 measured to be 0.99882572889328
+AI Axis ZZ2 channel 0 measured to be 0.9987363815307617
+AI Axis ZZ2 channel 0 measured to be 0.9986521005630493
+AI Axis ZZ2 channel 0 measured to be 0.9987241625785828
+AI Axis ZZ2 channel 0 measured to be 0.998808741569519
+AI Axis ZZ2 channel 0 measured to be 0.9984365105628967
+AI Axis ZZ2 channel 0 measured to be 0.9986518621444702
+AI Axis ZZ2 channel 0 measured to be 0.998605489730835
+AI Axis ZZ2 channel 0 measured to be 0.9986231327056885
+AI Axis ZZ2 channel 0 measured to be 0.9986501336097717
+AI Axis ZZ2 channel 0 measured to be 0.9987630844116211
+AI Axis ZZ2 channel 0 measured to be 0.9985525608062744
+AI Axis ZZ2 channel 0 measured to be 0.9987635016441345
+AI Axis ZZ2 channel 0 measured to be 0.9983540177345276
+AI Axis ZZ2 channel 0 measured to be 0.998271644115448
+AI Axis ZZ2 channel 0 measured to be 0.9982370734214783
+AI Axis ZZ2 channel 0 measured to be 0.9979972243309021
+AI Axis ZZ2 channel 0 measured to be 0.9982253313064575
+AI Axis ZZ2 channel 0 measured to be 0.9982535243034363
+AI Axis ZZ2 channel 0 measured to be 0.9985063076019287
+AI Axis ZZ2 channel 0 measured to be 0.9982139468193054
+AI Axis ZZ2 channel 0 measured to be 0.9982131719589233
+AI Axis ZZ2 channel 0 measured to be 0.9981077909469604
+AI Axis ZZ2 channel 0 measured to be 0.9979268312454224
+AI Axis ZZ2 channel 0 measured to be 0.9979915618896484
+AI Axis ZZ2 channel 0 measured to be 0.9982147812843323
+AI Axis ZZ2 channel 0 measured to be 0.9984263181686401
+The following voltages were measured: 
+[1.0013291835784912, 1.0013331174850464, 1.0013025999069214, 1.0007801055908203, 1.0006203651428223, 1.0008244514465332, 1.000818133354187, 1.0006932020187378, 1.0005449056625366, 1.0005594491958618, 1.0006356239318848, 0.9998467564582825, 1.000143051147461, 1.0003031492233276, 1.0000951290130615, 1.0002782344818115, 1.0000600814819336, 1.0001949071884155, 0.9997168779373169, 0.9995739459991455, 0.9995996952056885, 0.9998184442520142, 1.0002409219741821, 0.9998363852500916, 0.9996540546417236, 0.9999204874038696, 0.9995671510696411, 0.9991404414176941, 0.9992302656173706, 0.9991486072540283, 0.99969482421875, 0.9995622038841248, 0.9993767142295837, 0.9993037581443787, 0.9994984865188599, 0.9991666674613953, 0.999488353729248, 0.999408483505249, 0.999029278755188, 0.9994502067565918, 0.999271810054779, 0.9990137815475464, 0.9990302324295044, 0.9985897541046143, 0.998663604259491, 0.9987867474555969, 0.9992437958717346, 0.9988850355148315, 0.9988870620727539, 0.9988754391670227, 0.9990792274475098, 0.9988808035850525, 0.9990651607513428, 0.9987836480140686, 0.9988604784011841, 0.9988237023353577, 0.9987467527389526, 0.9990673661231995, 0.9983254671096802, 0.998918354511261, 0.9984458088874817, 0.9987170696258545, 0.9984135031700134, 0.9983810186386108, 0.998659610748291, 0.9987901449203491, 0.998661458492279, 0.9984314441680908, 0.9985982775688171, 0.9984716176986694, 0.998365581035614, 0.9988630414009094, 0.9984946846961975, 0.99882572889328, 0.9987363815307617, 0.9986521005630493, 0.9987241625785828, 0.998808741569519, 0.9984365105628967, 0.9986518621444702, 0.998605489730835, 0.9986231327056885, 0.9986501336097717, 0.9987630844116211, 0.9985525608062744, 0.9987635016441345, 0.9983540177345276, 0.998271644115448, 0.9982370734214783, 0.9979972243309021, 0.9982253313064575, 0.9982535243034363, 0.9985063076019287, 0.9982139468193054, 0.9982131719589233, 0.9981077909469604, 0.9979268312454224, 0.9979915618896484, 0.9982147812843323, 0.9984263181686401]
+Bit 0 on the ZZ1 set to 0
+$DO[0].ZZ1 = 0 
+
+
+Voltage window set to 4.978977360725403 to 0.9991661310195923
+Bit 0 on the ZZ1 set to 1
+$DO[0].ZZ1 = 1 
+
+
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 0.9981389045715332
+['ZZ2'] measured to be [-49.99999986315528]
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.00465251860237]
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.05632623285059]
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.186376423931144]
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.37509832830337]
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.574969690229636]
+AI Axis ZZ2 channel 0 measured to be 0.9978998899459839
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-50.844326249264284]
+system waited 0.02 s.
+['ZZ2'] measured to be [-51.04433356787458]
+system waited 0.02 s.
+['ZZ2'] measured to be [-51.2443675892735]
+system waited 0.02 s.
+['ZZ2'] measured to be [-51.444397902786676]
+system waited 0.02 s.
+['ZZ2'] measured to be [-51.64422222568792]
+AI Axis ZZ2 channel 0 measured to be 0.9985775351524353
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-51.934401930247084]
+system waited 0.02 s.
+['ZZ2'] measured to be [-52.13410462380245]
+system waited 0.02 s.
+['ZZ2'] measured to be [-52.334224084752165]
+system waited 0.02 s.
+['ZZ2'] measured to be [-52.53421037462032]
+AI Axis ZZ2 channel 0 measured to be 0.9980955719947815
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-52.80405024598829]
+system waited 0.02 s.
+['ZZ2'] measured to be [-53.0041579742343]
+system waited 0.02 s.
+['ZZ2'] measured to be [-53.20421850585051]
+system waited 0.02 s.
+['ZZ2'] measured to be [-53.404242614737235]
+system waited 0.02 s.
+['ZZ2'] measured to be [-53.60417520903655]
+AI Axis ZZ2 channel 0 measured to be 0.9985113143920898
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-53.872226455679616]
+system waited 0.02 s.
+['ZZ2'] measured to be [-54.07205926855909]
+system waited 0.02 s.
+['ZZ2'] measured to be [-54.27212389033643]
+system waited 0.02 s.
+['ZZ2'] measured to be [-54.47206270339796]
+system waited 0.02 s.
+['ZZ2'] measured to be [-54.671883962947604]
+AI Axis ZZ2 channel 0 measured to be 0.9981942176818848
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-54.94040444299298]
+system waited 0.02 s.
+['ZZ2'] measured to be [-55.15015432443404]
+system waited 0.02 s.
+['ZZ2'] measured to be [-55.360268125623]
+system waited 0.02 s.
+['ZZ2'] measured to be [-55.570245856560504]
+AI Axis ZZ2 channel 0 measured to be 0.9984076619148254
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-55.859440767374515]
+system waited 0.02 s.
+['ZZ2'] measured to be [-56.079399526435694]
+system waited 0.02 s.
+['ZZ2'] measured to be [-56.27940591175064]
+system waited 0.02 s.
+['ZZ2'] measured to be [-56.47936837464126]
+system waited 0.02 s.
+['ZZ2'] measured to be [-56.68912299665329]
+AI Axis ZZ2 channel 0 measured to be 0.99813312292099
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-56.96301994544831]
+system waited 0.02 s.
+['ZZ2'] measured to be [-57.17292063309459]
+system waited 0.02 s.
+['ZZ2'] measured to be [-57.382990607044775]
+system waited 0.02 s.
+['ZZ2'] measured to be [-57.59301024224987]
+AI Axis ZZ2 channel 0 measured to be 0.9978718757629395
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-57.871541702641224]
+system waited 0.02 s.
+['ZZ2'] measured to be [-58.081455787519786]
+system waited 0.02 s.
+['ZZ2'] measured to be [-58.29144111429714]
+system waited 0.02 s.
+['ZZ2'] measured to be [-58.501579387546656]
+AI Axis ZZ2 channel 0 measured to be 0.9980554580688477
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-58.80146399006304]
+system waited 0.02 s.
+['ZZ2'] measured to be [-59.01153610097697]
+system waited 0.02 s.
+['ZZ2'] measured to be [-59.221490279333906]
+system waited 0.02 s.
+['ZZ2'] measured to be [-59.43160433165324]
+system waited 0.02 s.
+['ZZ2'] measured to be [-59.6414680591873]
+AI Axis ZZ2 channel 0 measured to be 0.9980816841125488
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-59.90563110308683]
+system waited 0.02 s.
+['ZZ2'] measured to be [-60.125374054680094]
+system waited 0.02 s.
+['ZZ2'] measured to be [-60.32540124471915]
+system waited 0.02 s.
+['ZZ2'] measured to be [-60.535534593149315]
+AI Axis ZZ2 channel 0 measured to be 0.9979672431945801
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-60.8053935708791]
+system waited 0.02 s.
+['ZZ2'] measured to be [-61.01548730612922]
+system waited 0.02 s.
+['ZZ2'] measured to be [-61.22549328261846]
+system waited 0.02 s.
+['ZZ2'] measured to be [-61.425534985255176]
+system waited 0.02 s.
+['ZZ2'] measured to be [-61.62545804317758]
+AI Axis ZZ2 channel 0 measured to be 0.9980177283287048
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-61.90156365232487]
+system waited 0.02 s.
+['ZZ2'] measured to be [-62.101511468356755]
+system waited 0.02 s.
+['ZZ2'] measured to be [-62.30143622338606]
+system waited 0.02 s.
+['ZZ2'] measured to be [-62.50151950960431]
+AI Axis ZZ2 channel 0 measured to be 0.9977861642837524
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-62.77148431835919]
+system waited 0.02 s.
+['ZZ2'] measured to be [-62.971513657128725]
+system waited 0.02 s.
+['ZZ2'] measured to be [-63.18144664558807]
+system waited 0.02 s.
+['ZZ2'] measured to be [-63.38145020346159]
+system waited 0.02 s.
+['ZZ2'] measured to be [-63.581485377546066]
+AI Axis ZZ2 channel 0 measured to be 0.9977205991744995
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-63.85061866636947]
+system waited 0.02 s.
+['ZZ2'] measured to be [-64.05055392369638]
+system waited 0.02 s.
+['ZZ2'] measured to be [-64.25061457698007]
+system waited 0.02 s.
+['ZZ2'] measured to be [-64.4506338942042]
+system waited 0.02 s.
+['ZZ2'] measured to be [-64.65046926273486]
+AI Axis ZZ2 channel 0 measured to be 0.9977487325668335
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-64.91325611494936]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.11309035163556]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.3130449963255]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.51317677266827]
+AI Axis ZZ2 channel 0 measured to be 0.9975494146347046
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.78310664463653]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.98307699824981]
+system waited 0.02 s.
+['ZZ2'] measured to be [-66.19314444607447]
+system waited 0.02 s.
+['ZZ2'] measured to be [-66.40319630867457]
+system waited 0.02 s.
+['ZZ2'] measured to be [-66.61312608570337]
+AI Axis ZZ2 channel 0 measured to be 0.9977413415908813
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-66.89939159398556]
+system waited 0.02 s.
+['ZZ2'] measured to be [-67.10931084863208]
+system waited 0.02 s.
+['ZZ2'] measured to be [-67.31924741849292]
+system waited 0.02 s.
+['ZZ2'] measured to be [-67.52946080567551]
+AI Axis ZZ2 channel 0 measured to be 0.9977955222129822
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-67.82929358699288]
+system waited 0.02 s.
+['ZZ2'] measured to be [-68.03937340853707]
+system waited 0.02 s.
+['ZZ2'] measured to be [-68.24933672917429]
+system waited 0.02 s.
+['ZZ2'] measured to be [-68.4593137293159]
+system waited 0.02 s.
+['ZZ2'] measured to be [-68.66919507049388]
+AI Axis ZZ2 channel 0 measured to be 0.997942328453064
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-68.93827095338912]
+system waited 0.02 s.
+['ZZ2'] measured to be [-69.14798623735608]
+system waited 0.02 s.
+['ZZ2'] measured to be [-69.35811528691174]
+system waited 0.02 s.
+['ZZ2'] measured to be [-69.56805080161632]
+AI Axis ZZ2 channel 0 measured to be 0.997641921043396
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-69.84769495796401]
+system waited 0.02 s.
+['ZZ2'] measured to be [-70.05760042002787]
+system waited 0.02 s.
+['ZZ2'] measured to be [-70.26764545508647]
+system waited 0.02 s.
+['ZZ2'] measured to be [-70.47759352054057]
+system waited 0.02 s.
+['ZZ2'] measured to be [-70.68731062642644]
+AI Axis ZZ2 channel 0 measured to be 0.9978448748588562
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-70.94889288404532]
+system waited 0.02 s.
+['ZZ2'] measured to be [-71.15853759206682]
+system waited 0.02 s.
+['ZZ2'] measured to be [-71.3587032658705]
+system waited 0.02 s.
+['ZZ2'] measured to be [-71.56853277680071]
+AI Axis ZZ2 channel 0 measured to be 0.997839093208313
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-71.83810053558264]
+system waited 0.02 s.
+['ZZ2'] measured to be [-72.0481273071443]
+system waited 0.02 s.
+['ZZ2'] measured to be [-72.24817175255446]
+system waited 0.02 s.
+['ZZ2'] measured to be [-72.44820792770093]
+system waited 0.02 s.
+['ZZ2'] measured to be [-72.64800659208113]
+AI Axis ZZ2 channel 0 measured to be 0.9978446960449219
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-72.92111880351406]
+system waited 0.02 s.
+['ZZ2'] measured to be [-73.12100442320296]
+system waited 0.02 s.
+['ZZ2'] measured to be [-73.3309974438304]
+system waited 0.02 s.
+['ZZ2'] measured to be [-73.53106443572494]
+AI Axis ZZ2 channel 0 measured to be 0.9982240200042725
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-73.80096199306249]
+system waited 0.02 s.
+['ZZ2'] measured to be [-74.00102482955553]
+system waited 0.02 s.
+['ZZ2'] measured to be [-74.21106806091787]
+system waited 0.02 s.
+['ZZ2'] measured to be [-74.41104832927724]
+system waited 0.02 s.
+['ZZ2'] measured to be [-74.6109914730028]
+AI Axis ZZ2 channel 0 measured to be 0.9978119134902954
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-74.8875971717822]
+system waited 0.02 s.
+['ZZ2'] measured to be [-75.08749028736915]
+system waited 0.02 s.
+['ZZ2'] measured to be [-75.2875297079624]
+system waited 0.02 s.
+['ZZ2'] measured to be [-75.4875019822544]
+system waited 0.02 s.
+['ZZ2'] measured to be [-75.68723035217796]
+AI Axis ZZ2 channel 0 measured to be 0.9977124929428101
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-75.94193542979025]
+system waited 0.02 s.
+['ZZ2'] measured to be [-76.14146901101492]
+system waited 0.02 s.
+['ZZ2'] measured to be [-76.3415675012737]
+system waited 0.02 s.
+['ZZ2'] measured to be [-76.54164112733571]
+AI Axis ZZ2 channel 0 measured to be 0.9976250529289246
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-76.82146395584344]
+system waited 0.02 s.
+['ZZ2'] measured to be [-77.02153680296817]
+system waited 0.02 s.
+['ZZ2'] measured to be [-77.23153595361268]
+system waited 0.02 s.
+['ZZ2'] measured to be [-77.43159118732854]
+system waited 0.02 s.
+['ZZ2'] measured to be [-77.64142827722438]
+AI Axis ZZ2 channel 0 measured to be 0.997565507888794
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-77.9240704928112]
+system waited 0.02 s.
+['ZZ2'] measured to be [-78.12386031475381]
+system waited 0.02 s.
+['ZZ2'] measured to be [-78.33382297929973]
+system waited 0.02 s.
+['ZZ2'] measured to be [-78.54389061668498]
+AI Axis ZZ2 channel 0 measured to be 0.9981163740158081
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-78.83366678590183]
+system waited 0.02 s.
+['ZZ2'] measured to be [-79.04372757190554]
+system waited 0.02 s.
+['ZZ2'] measured to be [-79.2537081833777]
+system waited 0.02 s.
+['ZZ2'] measured to be [-79.4636547067151]
+system waited 0.02 s.
+['ZZ2'] measured to be [-79.67347089964626]
+AI Axis ZZ2 channel 0 measured to be 0.9982286691665649
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-79.9417087749254]
+system waited 0.02 s.
+['ZZ2'] measured to be [-80.15140113655504]
+system waited 0.02 s.
+['ZZ2'] measured to be [-80.36154096787098]
+system waited 0.02 s.
+['ZZ2'] measured to be [-80.57142454308338]
+AI Axis ZZ2 channel 0 measured to be 0.9979807138442993
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-80.86060835790748]
+system waited 0.02 s.
+['ZZ2'] measured to be [-81.07057495240561]
+system waited 0.02 s.
+['ZZ2'] measured to be [-81.28060447571617]
+system waited 0.02 s.
+['ZZ2'] measured to be [-81.49060784546228]
+system waited 0.02 s.
+['ZZ2'] measured to be [-81.70000995908777]
+AI Axis ZZ2 channel 0 measured to be 0.9976571202278137
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-81.97302941364124]
+system waited 0.02 s.
+['ZZ2'] measured to be [-82.17294860521665]
+system waited 0.02 s.
+['ZZ2'] measured to be [-82.37297613060727]
+system waited 0.02 s.
+['ZZ2'] measured to be [-82.57290786132016]
+AI Axis ZZ2 channel 0 measured to be 0.9981337189674377
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-82.84226789553898]
+system waited 0.02 s.
+['ZZ2'] measured to be [-83.04227533326396]
+system waited 0.02 s.
+['ZZ2'] measured to be [-83.24234168223857]
+system waited 0.02 s.
+['ZZ2'] measured to be [-83.4422965276121]
+system waited 0.02 s.
+['ZZ2'] measured to be [-83.64215612047293]
+AI Axis ZZ2 channel 0 measured to be 0.9980496168136597
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-83.90628069469881]
+system waited 0.02 s.
+['ZZ2'] measured to be [-84.10618788340298]
+system waited 0.02 s.
+['ZZ2'] measured to be [-84.3061281012985]
+system waited 0.02 s.
+['ZZ2'] measured to be [-84.5061461695358]
+AI Axis ZZ2 channel 0 measured to be 0.9977530241012573
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-84.77612819944248]
+system waited 0.02 s.
+['ZZ2'] measured to be [-84.9761455810343]
+system waited 0.02 s.
+['ZZ2'] measured to be [-85.1761832988331]
+system waited 0.02 s.
+['ZZ2'] measured to be [-85.3761871062794]
+system waited 0.02 s.
+['ZZ2'] measured to be [-85.57618023257332]
+AI Axis ZZ2 channel 0 measured to be 0.9978688359260559
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-85.84547263915202]
+system waited 0.02 s.
+['ZZ2'] measured to be [-86.0454547847907]
+system waited 0.02 s.
+['ZZ2'] measured to be [-86.24545633498602]
+system waited 0.02 s.
+['ZZ2'] measured to be [-86.44542829075993]
+system waited 0.02 s.
+['ZZ2'] measured to be [-86.64532281095397]
+AI Axis ZZ2 channel 0 measured to be 0.9974128603935242
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-86.90894380891075]
+system waited 0.02 s.
+['ZZ2'] measured to be [-87.1188281620388]
+system waited 0.02 s.
+['ZZ2'] measured to be [-87.31871210079613]
+system waited 0.02 s.
+['ZZ2'] measured to be [-87.5288875742141]
+AI Axis ZZ2 channel 0 measured to be 0.997758150100708
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-87.82854393257591]
+system waited 0.02 s.
+['ZZ2'] measured to be [-88.02858248544214]
+system waited 0.02 s.
+['ZZ2'] measured to be [-88.23862287407984]
+system waited 0.02 s.
+['ZZ2'] measured to be [-88.45851308020045]
+system waited 0.02 s.
+['ZZ2'] measured to be [-88.66841660621536]
+AI Axis ZZ2 channel 0 measured to be 0.9977554082870483
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-88.92776495345504]
+system waited 0.02 s.
+['ZZ2'] measured to be [-89.12747354542165]
+system waited 0.02 s.
+['ZZ2'] measured to be [-89.33750426778008]
+system waited 0.02 s.
+['ZZ2'] measured to be [-89.5475363023943]
+AI Axis ZZ2 channel 0 measured to be 0.9979630708694458
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-89.86640700300126]
+system waited 0.02 s.
+['ZZ2'] measured to be [-90.07634802346641]
+system waited 0.02 s.
+['ZZ2'] measured to be [-90.28635096180625]
+system waited 0.02 s.
+['ZZ2'] measured to be [-90.49643361968955]
+system waited 0.02 s.
+['ZZ2'] measured to be [-90.70563977337443]
+AI Axis ZZ2 channel 0 measured to be 0.9976166486740112
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-90.97619082572534]
+system waited 0.02 s.
+['ZZ2'] measured to be [-91.18618519093701]
+system waited 0.02 s.
+['ZZ2'] measured to be [-91.39623809587842]
+system waited 0.02 s.
+['ZZ2'] measured to be [-91.60622694442333]
+AI Axis ZZ2 channel 0 measured to be 0.9973925352096558
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-91.89310685006714]
+system waited 0.02 s.
+['ZZ2'] measured to be [-92.1030434663982]
+system waited 0.02 s.
+['ZZ2'] measured to be [-92.31306567288259]
+system waited 0.02 s.
+['ZZ2'] measured to be [-92.52319169253835]
+AI Axis ZZ2 channel 0 measured to be 0.9975137710571289
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-92.79306477424346]
+system waited 0.02 s.
+['ZZ2'] measured to be [-92.99303064794951]
+system waited 0.02 s.
+['ZZ2'] measured to be [-93.20312945810544]
+system waited 0.02 s.
+['ZZ2'] measured to be [-93.41319081045653]
+system waited 0.02 s.
+['ZZ2'] measured to be [-93.61309933129394]
+AI Axis ZZ2 channel 0 measured to be 0.9974000453948975
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-93.88042772389035]
+system waited 0.02 s.
+['ZZ2'] measured to be [-94.08030205245025]
+system waited 0.02 s.
+['ZZ2'] measured to be [-94.2803509764859]
+system waited 0.02 s.
+['ZZ2'] measured to be [-94.48029929932525]
+system waited 0.02 s.
+['ZZ2'] measured to be [-94.68006081693373]
+AI Axis ZZ2 channel 0 measured to be 0.9977715611457825
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-94.9367120376432]
+system waited 0.02 s.
+['ZZ2'] measured to be [-95.13640709562273]
+system waited 0.02 s.
+['ZZ2'] measured to be [-95.33642446144304]
+system waited 0.02 s.
+['ZZ2'] measured to be [-95.53652716204118]
+AI Axis ZZ2 channel 0 measured to be 0.997242271900177
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-95.81620192971526]
+system waited 0.02 s.
+['ZZ2'] measured to be [-96.0163380853962]
+system waited 0.02 s.
+['ZZ2'] measured to be [-96.21634586985664]
+system waited 0.02 s.
+['ZZ2'] measured to be [-96.426337077674]
+system waited 0.02 s.
+['ZZ2'] measured to be [-96.62623771491656]
+AI Axis ZZ2 channel 0 measured to be 0.99735426902771
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-96.90223768330807]
+system waited 0.02 s.
+['ZZ2'] measured to be [-97.11219614597658]
+system waited 0.02 s.
+['ZZ2'] measured to be [-97.31213996036865]
+system waited 0.02 s.
+['ZZ2'] measured to be [-97.51222566624025]
+AI Axis ZZ2 channel 0 measured to be 0.9974876046180725
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-97.79225083960006]
+system waited 0.02 s.
+['ZZ2'] measured to be [-97.99222518682906]
+system waited 0.02 s.
+['ZZ2'] measured to be [-98.19231604495025]
+system waited 0.02 s.
+['ZZ2'] measured to be [-98.39225666964506]
+system waited 0.02 s.
+['ZZ2'] measured to be [-98.59218160830471]
+AI Axis ZZ2 channel 0 measured to be 0.9978891015052795
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-98.86082548377648]
+system waited 0.02 s.
+['ZZ2'] measured to be [-99.06081621079747]
+system waited 0.02 s.
+['ZZ2'] measured to be [-99.26089862103916]
+system waited 0.02 s.
+['ZZ2'] measured to be [-99.47086498005528]
+system waited 0.02 s.
+['ZZ2'] measured to be [-99.68067218665388]
+AI Axis ZZ2 channel 0 measured to be 0.9973554611206055
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-99.9470359544399]
+system waited 0.02 s.
+['ZZ2'] measured to be [-100.15676730798118]
+system waited 0.02 s.
+['ZZ2'] measured to be [-100.3668376478054]
+system waited 0.02 s.
+['ZZ2'] measured to be [-100.58681543093286]
+AI Axis ZZ2 channel 0 measured to be 0.9975621104240417
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-100.8751551227972]
+system waited 0.02 s.
+['ZZ2'] measured to be [-101.09514051075936]
+system waited 0.02 s.
+['ZZ2'] measured to be [-101.30512367060557]
+system waited 0.02 s.
+['ZZ2'] measured to be [-101.51527554688242]
+AI Axis ZZ2 channel 0 measured to be 0.9979910254478455
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-101.80508772211475]
+system waited 0.02 s.
+['ZZ2'] measured to be [-102.01518241025447]
+system waited 0.02 s.
+['ZZ2'] measured to be [-102.22520830162654]
+system waited 0.02 s.
+['ZZ2'] measured to be [-102.4353073283746]
+system waited 0.02 s.
+['ZZ2'] measured to be [-102.6450767211146]
+AI Axis ZZ2 channel 0 measured to be 0.9978876113891602
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-102.92859725246551]
+system waited 0.02 s.
+['ZZ2'] measured to be [-103.13841420765422]
+system waited 0.02 s.
+['ZZ2'] measured to be [-103.34857332254678]
+system waited 0.02 s.
+['ZZ2'] measured to be [-103.55858916503948]
+AI Axis ZZ2 channel 0 measured to be 0.9973000288009644
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-103.84836628312803]
+system waited 0.02 s.
+['ZZ2'] measured to be [-104.05826963556393]
+system waited 0.02 s.
+['ZZ2'] measured to be [-104.2683115782617]
+system waited 0.02 s.
+['ZZ2'] measured to be [-104.46825574172607]
+system waited 0.02 s.
+['ZZ2'] measured to be [-104.67809223823745]
+AI Axis ZZ2 channel 0 measured to be 1.1573362350463867
+MOVEINC ZZ2 0.500000 10.000000
+
+
+system waited 0.1 s.
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.713961124420166
+AI Axis ZZ2 channel 0 measured to be 3.7931058406829834
+AI Axis ZZ2 channel 0 measured to be 3.751573324203491
+AI Axis ZZ2 channel 0 measured to be 3.605532169342041
+AI Axis ZZ2 channel 0 measured to be 3.3107547760009766
+The following voltages were measured: 
+[3.713961124420166, 3.7931058406829834, 3.751573324203491, 3.605532169342041, 3.3107547760009766]
+AI Axis ZZ2 channel 0 measured to be 3.00071120262146
+AI Axis ZZ2 channel 0 measured to be 2.6848630905151367
+AI Axis ZZ2 channel 0 measured to be 2.3274664878845215
+AI Axis ZZ2 channel 0 measured to be 2.031729221343994
+AI Axis ZZ2 channel 0 measured to be 1.815629243850708
+The following voltages were measured: 
+[3.00071120262146, 2.6848630905151367, 2.3274664878845215, 2.031729221343994, 1.815629243850708]
+AI Axis ZZ2 channel 0 measured to be 1.6345213651657104
+AI Axis ZZ2 channel 0 measured to be 1.5290067195892334
+AI Axis ZZ2 channel 0 measured to be 1.4796383380889893
+AI Axis ZZ2 channel 0 measured to be 1.4618887901306152
+AI Axis ZZ2 channel 0 measured to be 1.4603164196014404
+The following voltages were measured: 
+[1.6345213651657104, 1.5290067195892334, 1.4796383380889893, 1.4618887901306152, 1.4603164196014404]
+AI Axis ZZ2 channel 0 measured to be 1.4602479934692383
+AI Axis ZZ2 channel 0 measured to be 1.4602516889572144
+AI Axis ZZ2 channel 0 measured to be 1.460494041442871
+AI Axis ZZ2 channel 0 measured to be 1.460382342338562
+AI Axis ZZ2 channel 0 measured to be 1.4604781866073608
+The following voltages were measured: 
+[1.4602479934692383, 1.4602516889572144, 1.460494041442871, 1.460382342338562, 1.4604781866073608]
+Voltage settled in 206.13741874694824 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 1.460477590560913
+AI Axis ZZ2 channel 0 measured to be 1.4601590633392334
+AI Axis ZZ2 channel 0 measured to be 1.4601337909698486
+The following voltages were measured: 
+[1.460477590560913, 1.4601590633392334, 1.4601337909698486]
+G01 ZZ2 -0.200000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.5807030200958252
+AI Axis ZZ2 channel 0 measured to be 1.6872682571411133
+AI Axis ZZ2 channel 0 measured to be 1.8256675004959106
+AI Axis ZZ2 channel 0 measured to be 1.9635717868804932
+AI Axis ZZ2 channel 0 measured to be 2.0995030403137207
+The following voltages were measured: 
+[1.5807030200958252, 1.6872682571411133, 1.8256675004959106, 1.9635717868804932, 2.0995030403137207]
+AI Axis ZZ2 channel 0 measured to be 2.2059669494628906
+AI Axis ZZ2 channel 0 measured to be 2.2557291984558105
+AI Axis ZZ2 channel 0 measured to be 2.2555036544799805
+AI Axis ZZ2 channel 0 measured to be 2.2552661895751953
+AI Axis ZZ2 channel 0 measured to be 2.255438804626465
+The following voltages were measured: 
+[2.2059669494628906, 2.2557291984558105, 2.2555036544799805, 2.2552661895751953, 2.255438804626465]
+AI Axis ZZ2 channel 0 measured to be 2.255561590194702
+AI Axis ZZ2 channel 0 measured to be 2.2558722496032715
+AI Axis ZZ2 channel 0 measured to be 2.2556934356689453
+AI Axis ZZ2 channel 0 measured to be 2.2560670375823975
+AI Axis ZZ2 channel 0 measured to be 2.2553584575653076
+The following voltages were measured: 
+[2.255561590194702, 2.2558722496032715, 2.2556934356689453, 2.2560670375823975, 2.2553584575653076]
+Voltage settled in 146.09813690185547 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.2554304599761963
+AI Axis ZZ2 channel 0 measured to be 2.255087375640869
+AI Axis ZZ2 channel 0 measured to be 2.2555689811706543
+The following voltages were measured: 
+[2.2554304599761963, 2.255087375640869, 2.2555689811706543]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.225939989089966
+AI Axis ZZ2 channel 0 measured to be 2.17285418510437
+AI Axis ZZ2 channel 0 measured to be 2.1052727699279785
+AI Axis ZZ2 channel 0 measured to be 2.051335096359253
+AI Axis ZZ2 channel 0 measured to be 1.9826850891113281
+The following voltages were measured: 
+[2.225939989089966, 2.17285418510437, 2.1052727699279785, 2.051335096359253, 1.9826850891113281]
+AI Axis ZZ2 channel 0 measured to be 1.9283133745193481
+AI Axis ZZ2 channel 0 measured to be 1.8655848503112793
+AI Axis ZZ2 channel 0 measured to be 1.8586195707321167
+AI Axis ZZ2 channel 0 measured to be 1.8580676317214966
+AI Axis ZZ2 channel 0 measured to be 1.8579189777374268
+The following voltages were measured: 
+[1.9283133745193481, 1.8655848503112793, 1.8586195707321167, 1.8580676317214966, 1.8579189777374268]
+AI Axis ZZ2 channel 0 measured to be 1.8577046394348145
+AI Axis ZZ2 channel 0 measured to be 1.858221173286438
+AI Axis ZZ2 channel 0 measured to be 1.8579000234603882
+AI Axis ZZ2 channel 0 measured to be 1.8577322959899902
+AI Axis ZZ2 channel 0 measured to be 1.8578245639801025
+The following voltages were measured: 
+[1.8577046394348145, 1.858221173286438, 1.8579000234603882, 1.8577322959899902, 1.8578245639801025]
+Voltage settled in 144.09732818603516 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 1.8579423427581787
+AI Axis ZZ2 channel 0 measured to be 1.8580286502838135
+AI Axis ZZ2 channel 0 measured to be 1.8582947254180908
+The following voltages were measured: 
+[1.8579423427581787, 1.8580286502838135, 1.8582947254180908]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.8283885717391968
+AI Axis ZZ2 channel 0 measured to be 1.7743995189666748
+AI Axis ZZ2 channel 0 measured to be 1.7223845720291138
+AI Axis ZZ2 channel 0 measured to be 1.6589679718017578
+AI Axis ZZ2 channel 0 measured to be 1.6015315055847168
+The following voltages were measured: 
+[1.8283885717391968, 1.7743995189666748, 1.7223845720291138, 1.6589679718017578, 1.6015315055847168]
+AI Axis ZZ2 channel 0 measured to be 1.5379054546356201
+AI Axis ZZ2 channel 0 measured to be 1.4815813302993774
+AI Axis ZZ2 channel 0 measured to be 1.4598610401153564
+AI Axis ZZ2 channel 0 measured to be 1.459845781326294
+AI Axis ZZ2 channel 0 measured to be 1.4598205089569092
+The following voltages were measured: 
+[1.5379054546356201, 1.4815813302993774, 1.4598610401153564, 1.459845781326294, 1.4598205089569092]
+AI Axis ZZ2 channel 0 measured to be 1.4597207307815552
+AI Axis ZZ2 channel 0 measured to be 1.45946204662323
+AI Axis ZZ2 channel 0 measured to be 1.4595048427581787
+AI Axis ZZ2 channel 0 measured to be 1.459606647491455
+AI Axis ZZ2 channel 0 measured to be 1.4595621824264526
+The following voltages were measured: 
+[1.4597207307815552, 1.45946204662323, 1.4595048427581787, 1.459606647491455, 1.4595621824264526]
+Voltage settled in 137.09115982055664 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 1.4602059125900269
+AI Axis ZZ2 channel 0 measured to be 1.4599041938781738
+AI Axis ZZ2 channel 0 measured to be 1.4602389335632324
+The following voltages were measured: 
+[1.4602059125900269, 1.4599041938781738, 1.4602389335632324]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.4689102172851562
+AI Axis ZZ2 channel 0 measured to be 1.5009870529174805
+AI Axis ZZ2 channel 0 measured to be 1.5299434661865234
+AI Axis ZZ2 channel 0 measured to be 1.5620602369308472
+AI Axis ZZ2 channel 0 measured to be 1.5928977727890015
+The following voltages were measured: 
+[1.4689102172851562, 1.5009870529174805, 1.5299434661865234, 1.5620602369308472, 1.5928977727890015]
+AI Axis ZZ2 channel 0 measured to be 1.62234365940094
+AI Axis ZZ2 channel 0 measured to be 1.6527910232543945
+AI Axis ZZ2 channel 0 measured to be 1.6581834554672241
+AI Axis ZZ2 channel 0 measured to be 1.658345341682434
+AI Axis ZZ2 channel 0 measured to be 1.6585077047348022
+The following voltages were measured: 
+[1.62234365940094, 1.6527910232543945, 1.6581834554672241, 1.658345341682434, 1.6585077047348022]
+AI Axis ZZ2 channel 0 measured to be 1.6585838794708252
+AI Axis ZZ2 channel 0 measured to be 1.6586713790893555
+AI Axis ZZ2 channel 0 measured to be 1.6582164764404297
+AI Axis ZZ2 channel 0 measured to be 1.65804123878479
+AI Axis ZZ2 channel 0 measured to be 1.6581953763961792
+The following voltages were measured: 
+[1.6585838794708252, 1.6586713790893555, 1.6582164764404297, 1.65804123878479, 1.6581953763961792]
+Voltage settled in 142.09342002868652 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 1.6580631732940674
+AI Axis ZZ2 channel 0 measured to be 1.658247947692871
+AI Axis ZZ2 channel 0 measured to be 1.6584908962249756
+The following voltages were measured: 
+[1.6580631732940674, 1.658247947692871, 1.6584908962249756]
+AI Axis ZZ2 channel 0 measured to be 1.6584093570709229
+AI Axis ZZ2 channel 0 measured to be 1.658365249633789
+AI Axis ZZ2 channel 0 measured to be 1.6584093570709229
+AI Axis ZZ2 channel 0 measured to be 1.658095359802246
+AI Axis ZZ2 channel 0 measured to be 1.6584731340408325
+AI Axis ZZ2 channel 0 measured to be 1.6584010124206543
+AI Axis ZZ2 channel 0 measured to be 1.6584737300872803
+AI Axis ZZ2 channel 0 measured to be 1.6587615013122559
+AI Axis ZZ2 channel 0 measured to be 1.6586170196533203
+AI Axis ZZ2 channel 0 measured to be 1.65883207321167
+The following voltages were measured: 
+[1.6584093570709229, 1.658365249633789, 1.6584093570709229, 1.658095359802246, 1.6584731340408325, 1.6584010124206543, 1.6584737300872803, 1.6587615013122559, 1.6586170196533203, 1.65883207321167]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 1.6578295230865479
+AI Axis ZZ2 channel 0 measured to be 1.6581374406814575
+AI Axis ZZ2 channel 0 measured to be 1.658236026763916
+AI Axis ZZ2 channel 0 measured to be 1.6584765911102295
+AI Axis ZZ2 channel 0 measured to be 1.658401608467102
+AI Axis ZZ2 channel 0 measured to be 1.6585822105407715
+AI Axis ZZ2 channel 0 measured to be 1.658554196357727
+AI Axis ZZ2 channel 0 measured to be 1.6585057973861694
+AI Axis ZZ2 channel 0 measured to be 1.6588428020477295
+AI Axis ZZ2 channel 0 measured to be 1.658540964126587
+The following voltages were measured: 
+[1.6578295230865479, 1.6581374406814575, 1.658236026763916, 1.6584765911102295, 1.658401608467102, 1.6585822105407715, 1.658554196357727, 1.6585057973861694, 1.6588428020477295, 1.658540964126587]
+['ZZ2'] measured to be [-104.55000009899176]
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.6584627628326416
+AI Axis ZZ2 channel 0 measured to be 1.6584100723266602
+AI Axis ZZ2 channel 0 measured to be 1.6585133075714111
+AI Axis ZZ2 channel 0 measured to be 1.6579573154449463
+AI Axis ZZ2 channel 0 measured to be 1.658538579940796
+The following voltages were measured: 
+[1.6584627628326416, 1.6584100723266602, 1.6585133075714111, 1.6579573154449463, 1.658538579940796]
+Voltage settled in 0.0 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 1.6587663888931274
+AI Axis ZZ2 channel 0 measured to be 1.6587421894073486
+AI Axis ZZ2 channel 0 measured to be 1.6590906381607056
+The following voltages were measured: 
+[1.6587663888931274, 1.6587421894073486, 1.6590906381607056]
+G01 ZZ2 -0.200000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.770089864730835
+AI Axis ZZ2 channel 0 measured to be 1.8794442415237427
+AI Axis ZZ2 channel 0 measured to be 2.012387275695801
+AI Axis ZZ2 channel 0 measured to be 2.1218361854553223
+AI Axis ZZ2 channel 0 measured to be 2.2610487937927246
+The following voltages were measured: 
+[1.770089864730835, 1.8794442415237427, 2.012387275695801, 2.1218361854553223, 2.2610487937927246]
+AI Axis ZZ2 channel 0 measured to be 2.39398193359375
+AI Axis ZZ2 channel 0 measured to be 2.4491689205169678
+AI Axis ZZ2 channel 0 measured to be 2.454214096069336
+AI Axis ZZ2 channel 0 measured to be 2.4541542530059814
+AI Axis ZZ2 channel 0 measured to be 2.4543471336364746
+The following voltages were measured: 
+[2.39398193359375, 2.4491689205169678, 2.454214096069336, 2.4541542530059814, 2.4543471336364746]
+AI Axis ZZ2 channel 0 measured to be 2.454167366027832
+AI Axis ZZ2 channel 0 measured to be 2.4539794921875
+AI Axis ZZ2 channel 0 measured to be 2.4537665843963623
+AI Axis ZZ2 channel 0 measured to be 2.4539499282836914
+AI Axis ZZ2 channel 0 measured to be 2.454167127609253
+The following voltages were measured: 
+[2.454167366027832, 2.4539794921875, 2.4537665843963623, 2.4539499282836914, 2.454167127609253]
+Voltage settled in 146.09766006469727 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.4544999599456787
+AI Axis ZZ2 channel 0 measured to be 2.4544506072998047
+AI Axis ZZ2 channel 0 measured to be 2.4543304443359375
+The following voltages were measured: 
+[2.4544999599456787, 2.4544506072998047, 2.4543304443359375]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.4166419506073
+AI Axis ZZ2 channel 0 measured to be 2.357598304748535
+AI Axis ZZ2 channel 0 measured to be 2.2965047359466553
+AI Axis ZZ2 channel 0 measured to be 2.240452766418457
+AI Axis ZZ2 channel 0 measured to be 2.1796674728393555
+The following voltages were measured: 
+[2.4166419506073, 2.357598304748535, 2.2965047359466553, 2.240452766418457, 2.1796674728393555]
+AI Axis ZZ2 channel 0 measured to be 2.1201298236846924
+AI Axis ZZ2 channel 0 measured to be 2.0696423053741455
+AI Axis ZZ2 channel 0 measured to be 2.0574607849121094
+AI Axis ZZ2 channel 0 measured to be 2.056864023208618
+AI Axis ZZ2 channel 0 measured to be 2.0563406944274902
+The following voltages were measured: 
+[2.1201298236846924, 2.0696423053741455, 2.0574607849121094, 2.056864023208618, 2.0563406944274902]
+AI Axis ZZ2 channel 0 measured to be 2.0561792850494385
+AI Axis ZZ2 channel 0 measured to be 2.0564560890197754
+AI Axis ZZ2 channel 0 measured to be 2.0570132732391357
+AI Axis ZZ2 channel 0 measured to be 2.0567984580993652
+AI Axis ZZ2 channel 0 measured to be 2.056704044342041
+The following voltages were measured: 
+[2.0561792850494385, 2.0564560890197754, 2.0570132732391357, 2.0567984580993652, 2.056704044342041]
+Voltage settled in 135.09035110473633 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.056450843811035
+AI Axis ZZ2 channel 0 measured to be 2.05646014213562
+AI Axis ZZ2 channel 0 measured to be 2.056870698928833
+The following voltages were measured: 
+[2.056450843811035, 2.05646014213562, 2.056870698928833]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.0639231204986572
+AI Axis ZZ2 channel 0 measured to be 2.096788167953491
+AI Axis ZZ2 channel 0 measured to be 2.1253345012664795
+AI Axis ZZ2 channel 0 measured to be 2.154780387878418
+AI Axis ZZ2 channel 0 measured to be 2.18522572517395
+The following voltages were measured: 
+[2.0639231204986572, 2.096788167953491, 2.1253345012664795, 2.154780387878418, 2.18522572517395]
+AI Axis ZZ2 channel 0 measured to be 2.2155542373657227
+AI Axis ZZ2 channel 0 measured to be 2.2458293437957764
+AI Axis ZZ2 channel 0 measured to be 2.255659341812134
+AI Axis ZZ2 channel 0 measured to be 2.2557358741760254
+AI Axis ZZ2 channel 0 measured to be 2.2557547092437744
+The following voltages were measured: 
+[2.2155542373657227, 2.2458293437957764, 2.255659341812134, 2.2557358741760254, 2.2557547092437744]
+AI Axis ZZ2 channel 0 measured to be 2.2556183338165283
+AI Axis ZZ2 channel 0 measured to be 2.2554590702056885
+AI Axis ZZ2 channel 0 measured to be 2.255368232727051
+AI Axis ZZ2 channel 0 measured to be 2.2554783821105957
+AI Axis ZZ2 channel 0 measured to be 2.2558541297912598
+The following voltages were measured: 
+[2.2556183338165283, 2.2554590702056885, 2.255368232727051, 2.2554783821105957, 2.2558541297912598]
+Voltage settled in 145.0977325439453 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.2560648918151855
+AI Axis ZZ2 channel 0 measured to be 2.256025552749634
+AI Axis ZZ2 channel 0 measured to be 2.255533456802368
+The following voltages were measured: 
+[2.2560648918151855, 2.256025552749634, 2.255533456802368]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.2623467445373535
+AI Axis ZZ2 channel 0 measured to be 2.297952175140381
+AI Axis ZZ2 channel 0 measured to be 2.3298850059509277
+AI Axis ZZ2 channel 0 measured to be 2.358236312866211
+AI Axis ZZ2 channel 0 measured to be 2.3920962810516357
+The following voltages were measured: 
+[2.2623467445373535, 2.297952175140381, 2.3298850059509277, 2.358236312866211, 2.3920962810516357]
+AI Axis ZZ2 channel 0 measured to be 2.422577142715454
+AI Axis ZZ2 channel 0 measured to be 2.452428102493286
+AI Axis ZZ2 channel 0 measured to be 2.454122543334961
+AI Axis ZZ2 channel 0 measured to be 2.4544200897216797
+AI Axis ZZ2 channel 0 measured to be 2.454134941101074
+The following voltages were measured: 
+[2.422577142715454, 2.452428102493286, 2.454122543334961, 2.4544200897216797, 2.454134941101074]
+AI Axis ZZ2 channel 0 measured to be 2.45485258102417
+AI Axis ZZ2 channel 0 measured to be 2.454529047012329
+AI Axis ZZ2 channel 0 measured to be 2.45461368560791
+AI Axis ZZ2 channel 0 measured to be 2.4544544219970703
+AI Axis ZZ2 channel 0 measured to be 2.454284906387329
+The following voltages were measured: 
+[2.45485258102417, 2.454529047012329, 2.45461368560791, 2.4544544219970703, 2.454284906387329]
+Voltage settled in 141.09325408935547 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.454115867614746
+AI Axis ZZ2 channel 0 measured to be 2.4541683197021484
+AI Axis ZZ2 channel 0 measured to be 2.4540624618530273
+The following voltages were measured: 
+[2.454115867614746, 2.4541683197021484, 2.4540624618530273]
+G01 ZZ2 0.025000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.4511728286743164
+AI Axis ZZ2 channel 0 measured to be 2.434635639190674
+AI Axis ZZ2 channel 0 measured to be 2.4194743633270264
+AI Axis ZZ2 channel 0 measured to be 2.4035332202911377
+AI Axis ZZ2 channel 0 measured to be 2.3900322914123535
+The following voltages were measured: 
+[2.4511728286743164, 2.434635639190674, 2.4194743633270264, 2.4035332202911377, 2.3900322914123535]
+AI Axis ZZ2 channel 0 measured to be 2.3726372718811035
+AI Axis ZZ2 channel 0 measured to be 2.3581783771514893
+AI Axis ZZ2 channel 0 measured to be 2.3552589416503906
+AI Axis ZZ2 channel 0 measured to be 2.3555495738983154
+AI Axis ZZ2 channel 0 measured to be 2.3555667400360107
+The following voltages were measured: 
+[2.3726372718811035, 2.3581783771514893, 2.3552589416503906, 2.3555495738983154, 2.3555667400360107]
+AI Axis ZZ2 channel 0 measured to be 2.355142831802368
+AI Axis ZZ2 channel 0 measured to be 2.355639934539795
+AI Axis ZZ2 channel 0 measured to be 2.3556132316589355
+AI Axis ZZ2 channel 0 measured to be 2.355206251144409
+AI Axis ZZ2 channel 0 measured to be 2.3554036617279053
+The following voltages were measured: 
+[2.355142831802368, 2.355639934539795, 2.3556132316589355, 2.355206251144409, 2.3554036617279053]
+Voltage settled in 143.0954933166504 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.3552653789520264
+AI Axis ZZ2 channel 0 measured to be 2.355168104171753
+AI Axis ZZ2 channel 0 measured to be 2.3555734157562256
+The following voltages were measured: 
+[2.3552653789520264, 2.355168104171753, 2.3555734157562256]
+AI Axis ZZ2 channel 0 measured to be 2.3554036617279053
+AI Axis ZZ2 channel 0 measured to be 2.355835199356079
+AI Axis ZZ2 channel 0 measured to be 2.3554978370666504
+AI Axis ZZ2 channel 0 measured to be 2.3553991317749023
+AI Axis ZZ2 channel 0 measured to be 2.355407238006592
+AI Axis ZZ2 channel 0 measured to be 2.355480432510376
+AI Axis ZZ2 channel 0 measured to be 2.355465888977051
+AI Axis ZZ2 channel 0 measured to be 2.355243444442749
+AI Axis ZZ2 channel 0 measured to be 2.3551738262176514
+AI Axis ZZ2 channel 0 measured to be 2.355034112930298
+The following voltages were measured: 
+[2.3554036617279053, 2.355835199356079, 2.3554978370666504, 2.3553991317749023, 2.355407238006592, 2.355480432510376, 2.355465888977051, 2.355243444442749, 2.3551738262176514, 2.355034112930298]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 2.3551509380340576
+AI Axis ZZ2 channel 0 measured to be 2.3549602031707764
+AI Axis ZZ2 channel 0 measured to be 2.355504274368286
+AI Axis ZZ2 channel 0 measured to be 2.3555514812469482
+AI Axis ZZ2 channel 0 measured to be 2.355518102645874
+AI Axis ZZ2 channel 0 measured to be 2.355272054672241
+AI Axis ZZ2 channel 0 measured to be 2.3554697036743164
+AI Axis ZZ2 channel 0 measured to be 2.355461597442627
+AI Axis ZZ2 channel 0 measured to be 2.3551270961761475
+AI Axis ZZ2 channel 0 measured to be 2.3552019596099854
+The following voltages were measured: 
+[2.3551509380340576, 2.3549602031707764, 2.355504274368286, 2.3555514812469482, 2.355518102645874, 2.355272054672241, 2.3554697036743164, 2.355461597442627, 2.3551270961761475, 2.3552019596099854]
+['ZZ2'] measured to be [-104.72499968772469]
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.3554346561431885
+AI Axis ZZ2 channel 0 measured to be 2.355773687362671
+AI Axis ZZ2 channel 0 measured to be 2.355489492416382
+AI Axis ZZ2 channel 0 measured to be 2.3553948402404785
+AI Axis ZZ2 channel 0 measured to be 2.3551974296569824
+The following voltages were measured: 
+[2.3554346561431885, 2.355773687362671, 2.355489492416382, 2.3553948402404785, 2.3551974296569824]
+Voltage settled in 0.0 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.354710340499878
+AI Axis ZZ2 channel 0 measured to be 2.3550477027893066
+AI Axis ZZ2 channel 0 measured to be 2.355323076248169
+The following voltages were measured: 
+[2.354710340499878, 2.3550477027893066, 2.355323076248169]
+G01 ZZ2 -0.200000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.4590954780578613
+AI Axis ZZ2 channel 0 measured to be 2.5649657249450684
+AI Axis ZZ2 channel 0 measured to be 2.699842929840088
+AI Axis ZZ2 channel 0 measured to be 2.8066351413726807
+AI Axis ZZ2 channel 0 measured to be 2.9296798706054688
+The following voltages were measured: 
+[2.4590954780578613, 2.5649657249450684, 2.699842929840088, 2.8066351413726807, 2.9296798706054688]
+AI Axis ZZ2 channel 0 measured to be 3.046036958694458
+AI Axis ZZ2 channel 0 measured to be 3.1391148567199707
+AI Axis ZZ2 channel 0 measured to be 3.1498563289642334
+AI Axis ZZ2 channel 0 measured to be 3.1496124267578125
+AI Axis ZZ2 channel 0 measured to be 3.149807929992676
+The following voltages were measured: 
+[3.046036958694458, 3.1391148567199707, 3.1498563289642334, 3.1496124267578125, 3.149807929992676]
+AI Axis ZZ2 channel 0 measured to be 3.1499087810516357
+AI Axis ZZ2 channel 0 measured to be 3.149968385696411
+AI Axis ZZ2 channel 0 measured to be 3.1495962142944336
+AI Axis ZZ2 channel 0 measured to be 3.1496567726135254
+AI Axis ZZ2 channel 0 measured to be 3.149993896484375
+The following voltages were measured: 
+[3.1499087810516357, 3.149968385696411, 3.1495962142944336, 3.1496567726135254, 3.149993896484375]
+Voltage settled in 145.0974941253662 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.14969539642334
+AI Axis ZZ2 channel 0 measured to be 3.149617910385132
+AI Axis ZZ2 channel 0 measured to be 3.1496012210845947
+The following voltages were measured: 
+[3.14969539642334, 3.149617910385132, 3.1496012210845947]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.123839855194092
+AI Axis ZZ2 channel 0 measured to be 3.054584503173828
+AI Axis ZZ2 channel 0 measured to be 2.986774444580078
+AI Axis ZZ2 channel 0 measured to be 2.9337546825408936
+AI Axis ZZ2 channel 0 measured to be 2.864561080932617
+The following voltages were measured: 
+[3.123839855194092, 3.054584503173828, 2.986774444580078, 2.9337546825408936, 2.864561080932617]
+AI Axis ZZ2 channel 0 measured to be 2.7960264682769775
+AI Axis ZZ2 channel 0 measured to be 2.754399299621582
+AI Axis ZZ2 channel 0 measured to be 2.753049373626709
+AI Axis ZZ2 channel 0 measured to be 2.7532167434692383
+AI Axis ZZ2 channel 0 measured to be 2.7529077529907227
+The following voltages were measured: 
+[2.7960264682769775, 2.754399299621582, 2.753049373626709, 2.7532167434692383, 2.7529077529907227]
+AI Axis ZZ2 channel 0 measured to be 2.7529752254486084
+AI Axis ZZ2 channel 0 measured to be 2.753018379211426
+AI Axis ZZ2 channel 0 measured to be 2.7525899410247803
+AI Axis ZZ2 channel 0 measured to be 2.7527003288269043
+AI Axis ZZ2 channel 0 measured to be 2.752714157104492
+The following voltages were measured: 
+[2.7529752254486084, 2.753018379211426, 2.7525899410247803, 2.7527003288269043, 2.752714157104492]
+Voltage settled in 143.0947780609131 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.752774715423584
+AI Axis ZZ2 channel 0 measured to be 2.752699851989746
+AI Axis ZZ2 channel 0 measured to be 2.752668619155884
+The following voltages were measured: 
+[2.752774715423584, 2.752699851989746, 2.752668619155884]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.760317802429199
+AI Axis ZZ2 channel 0 measured to be 2.795295476913452
+AI Axis ZZ2 channel 0 measured to be 2.821587562561035
+AI Axis ZZ2 channel 0 measured to be 2.856191396713257
+AI Axis ZZ2 channel 0 measured to be 2.888503074645996
+The following voltages were measured: 
+[2.760317802429199, 2.795295476913452, 2.821587562561035, 2.856191396713257, 2.888503074645996]
+AI Axis ZZ2 channel 0 measured to be 2.918142080307007
+AI Axis ZZ2 channel 0 measured to be 2.9492762088775635
+AI Axis ZZ2 channel 0 measured to be 2.950657606124878
+AI Axis ZZ2 channel 0 measured to be 2.9505014419555664
+AI Axis ZZ2 channel 0 measured to be 2.9509615898132324
+The following voltages were measured: 
+[2.918142080307007, 2.9492762088775635, 2.950657606124878, 2.9505014419555664, 2.9509615898132324]
+AI Axis ZZ2 channel 0 measured to be 2.9511566162109375
+AI Axis ZZ2 channel 0 measured to be 2.9508399963378906
+AI Axis ZZ2 channel 0 measured to be 2.95119309425354
+AI Axis ZZ2 channel 0 measured to be 2.9512410163879395
+AI Axis ZZ2 channel 0 measured to be 2.9510772228240967
+The following voltages were measured: 
+[2.9511566162109375, 2.9508399963378906, 2.95119309425354, 2.9512410163879395, 2.9510772228240967]
+Voltage settled in 144.09708976745605 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.951112985610962
+AI Axis ZZ2 channel 0 measured to be 2.9513943195343018
+AI Axis ZZ2 channel 0 measured to be 2.951565980911255
+The following voltages were measured: 
+[2.951112985610962, 2.9513943195343018, 2.951565980911255]
+AI Axis ZZ2 channel 0 measured to be 2.9514811038970947
+AI Axis ZZ2 channel 0 measured to be 2.9515087604522705
+AI Axis ZZ2 channel 0 measured to be 2.9513142108917236
+AI Axis ZZ2 channel 0 measured to be 2.9513235092163086
+AI Axis ZZ2 channel 0 measured to be 2.9513773918151855
+AI Axis ZZ2 channel 0 measured to be 2.9513180255889893
+AI Axis ZZ2 channel 0 measured to be 2.951432466506958
+AI Axis ZZ2 channel 0 measured to be 2.951348066329956
+AI Axis ZZ2 channel 0 measured to be 2.9511260986328125
+AI Axis ZZ2 channel 0 measured to be 2.9514365196228027
+The following voltages were measured: 
+[2.9514811038970947, 2.9515087604522705, 2.9513142108917236, 2.9513235092163086, 2.9513773918151855, 2.9513180255889893, 2.951432466506958, 2.951348066329956, 2.9511260986328125, 2.9514365196228027]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 2.9511351585388184
+AI Axis ZZ2 channel 0 measured to be 2.951296806335449
+AI Axis ZZ2 channel 0 measured to be 2.9514737129211426
+AI Axis ZZ2 channel 0 measured to be 2.950953960418701
+AI Axis ZZ2 channel 0 measured to be 2.9513823986053467
+AI Axis ZZ2 channel 0 measured to be 2.951216220855713
+AI Axis ZZ2 channel 0 measured to be 2.9513955116271973
+AI Axis ZZ2 channel 0 measured to be 2.9512557983398438
+AI Axis ZZ2 channel 0 measured to be 2.951043128967285
+AI Axis ZZ2 channel 0 measured to be 2.9509615898132324
+The following voltages were measured: 
+[2.9511351585388184, 2.951296806335449, 2.9514737129211426, 2.950953960418701, 2.9513823986053467, 2.951216220855713, 2.9513955116271973, 2.9512557983398438, 2.951043128967285, 2.9509615898132324]
+['ZZ2'] measured to be [-104.87500028888435]
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 2.9512321949005127
+AI Axis ZZ2 channel 0 measured to be 2.9509902000427246
+AI Axis ZZ2 channel 0 measured to be 2.951359510421753
+AI Axis ZZ2 channel 0 measured to be 2.950718879699707
+AI Axis ZZ2 channel 0 measured to be 2.9513473510742188
+The following voltages were measured: 
+[2.9512321949005127, 2.9509902000427246, 2.951359510421753, 2.950718879699707, 2.9513473510742188]
+Voltage settled in 0.0 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 2.951151132583618
+AI Axis ZZ2 channel 0 measured to be 2.9508626461029053
+AI Axis ZZ2 channel 0 measured to be 2.951533317565918
+The following voltages were measured: 
+[2.951151132583618, 2.9508626461029053, 2.951533317565918]
+G01 ZZ2 -0.200000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.058380603790283
+AI Axis ZZ2 channel 0 measured to be 3.1865882873535156
+AI Axis ZZ2 channel 0 measured to be 3.3095452785491943
+AI Axis ZZ2 channel 0 measured to be 3.4132165908813477
+AI Axis ZZ2 channel 0 measured to be 3.5515663623809814
+The following voltages were measured: 
+[3.058380603790283, 3.1865882873535156, 3.3095452785491943, 3.4132165908813477, 3.5515663623809814]
+AI Axis ZZ2 channel 0 measured to be 3.684417963027954
+AI Axis ZZ2 channel 0 measured to be 3.742227554321289
+AI Axis ZZ2 channel 0 measured to be 3.7462987899780273
+AI Axis ZZ2 channel 0 measured to be 3.7464494705200195
+AI Axis ZZ2 channel 0 measured to be 3.7468743324279785
+The following voltages were measured: 
+[3.684417963027954, 3.742227554321289, 3.7462987899780273, 3.7464494705200195, 3.7468743324279785]
+AI Axis ZZ2 channel 0 measured to be 3.746511459350586
+AI Axis ZZ2 channel 0 measured to be 3.7471463680267334
+AI Axis ZZ2 channel 0 measured to be 3.7470831871032715
+AI Axis ZZ2 channel 0 measured to be 3.746877670288086
+AI Axis ZZ2 channel 0 measured to be 3.746929407119751
+The following voltages were measured: 
+[3.746511459350586, 3.7471463680267334, 3.7470831871032715, 3.746877670288086, 3.746929407119751]
+Voltage settled in 143.0950164794922 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.7470474243164062
+AI Axis ZZ2 channel 0 measured to be 3.7470686435699463
+AI Axis ZZ2 channel 0 measured to be 3.7470688819885254
+The following voltages were measured: 
+[3.7470474243164062, 3.7470686435699463, 3.7470688819885254]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.716648817062378
+AI Axis ZZ2 channel 0 measured to be 3.6628386974334717
+AI Axis ZZ2 channel 0 measured to be 3.5958683490753174
+AI Axis ZZ2 channel 0 measured to be 3.54219913482666
+AI Axis ZZ2 channel 0 measured to be 3.4745845794677734
+The following voltages were measured: 
+[3.716648817062378, 3.6628386974334717, 3.5958683490753174, 3.54219913482666, 3.4745845794677734]
+AI Axis ZZ2 channel 0 measured to be 3.420050621032715
+AI Axis ZZ2 channel 0 measured to be 3.3560845851898193
+AI Axis ZZ2 channel 0 measured to be 3.349780559539795
+AI Axis ZZ2 channel 0 measured to be 3.3492307662963867
+AI Axis ZZ2 channel 0 measured to be 3.349470615386963
+The following voltages were measured: 
+[3.420050621032715, 3.3560845851898193, 3.349780559539795, 3.3492307662963867, 3.349470615386963]
+AI Axis ZZ2 channel 0 measured to be 3.34883713722229
+AI Axis ZZ2 channel 0 measured to be 3.3487887382507324
+AI Axis ZZ2 channel 0 measured to be 3.3489737510681152
+AI Axis ZZ2 channel 0 measured to be 3.349074125289917
+AI Axis ZZ2 channel 0 measured to be 3.3493456840515137
+The following voltages were measured: 
+[3.34883713722229, 3.3487887382507324, 3.3489737510681152, 3.349074125289917, 3.3493456840515137]
+Voltage settled in 143.0957317352295 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.349775791168213
+AI Axis ZZ2 channel 0 measured to be 3.34948992729187
+AI Axis ZZ2 channel 0 measured to be 3.3495523929595947
+The following voltages were measured: 
+[3.349775791168213, 3.34948992729187, 3.3495523929595947]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.3572659492492676
+AI Axis ZZ2 channel 0 measured to be 3.389251470565796
+AI Axis ZZ2 channel 0 measured to be 3.4183475971221924
+AI Axis ZZ2 channel 0 measured to be 3.449702262878418
+AI Axis ZZ2 channel 0 measured to be 3.478455066680908
+The following voltages were measured: 
+[3.3572659492492676, 3.389251470565796, 3.4183475971221924, 3.449702262878418, 3.478455066680908]
+AI Axis ZZ2 channel 0 measured to be 3.5101823806762695
+AI Axis ZZ2 channel 0 measured to be 3.5432937145233154
+AI Axis ZZ2 channel 0 measured to be 3.5474987030029297
+AI Axis ZZ2 channel 0 measured to be 3.5476648807525635
+AI Axis ZZ2 channel 0 measured to be 3.548292875289917
+The following voltages were measured: 
+[3.5101823806762695, 3.5432937145233154, 3.5474987030029297, 3.5476648807525635, 3.548292875289917]
+AI Axis ZZ2 channel 0 measured to be 3.5484039783477783
+AI Axis ZZ2 channel 0 measured to be 3.5483062267303467
+AI Axis ZZ2 channel 0 measured to be 3.54785418510437
+AI Axis ZZ2 channel 0 measured to be 3.5481512546539307
+AI Axis ZZ2 channel 0 measured to be 3.547940254211426
+The following voltages were measured: 
+[3.5484039783477783, 3.5483062267303467, 3.54785418510437, 3.5481512546539307, 3.547940254211426]
+Voltage settled in 143.0954933166504 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.5481271743774414
+AI Axis ZZ2 channel 0 measured to be 3.548215389251709
+AI Axis ZZ2 channel 0 measured to be 3.5482490062713623
+The following voltages were measured: 
+[3.5481271743774414, 3.548215389251709, 3.5482490062713623]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.557722568511963
+AI Axis ZZ2 channel 0 measured to be 3.585710287094116
+AI Axis ZZ2 channel 0 measured to be 3.6140682697296143
+AI Axis ZZ2 channel 0 measured to be 3.6464080810546875
+AI Axis ZZ2 channel 0 measured to be 3.672075033187866
+The following voltages were measured: 
+[3.557722568511963, 3.585710287094116, 3.6140682697296143, 3.6464080810546875, 3.672075033187866]
+AI Axis ZZ2 channel 0 measured to be 3.703141689300537
+AI Axis ZZ2 channel 0 measured to be 3.732637405395508
+AI Axis ZZ2 channel 0 measured to be 3.746873140335083
+AI Axis ZZ2 channel 0 measured to be 3.7472054958343506
+AI Axis ZZ2 channel 0 measured to be 3.7465896606445312
+The following voltages were measured: 
+[3.703141689300537, 3.732637405395508, 3.746873140335083, 3.7472054958343506, 3.7465896606445312]
+AI Axis ZZ2 channel 0 measured to be 3.7465991973876953
+AI Axis ZZ2 channel 0 measured to be 3.746722936630249
+AI Axis ZZ2 channel 0 measured to be 3.7467172145843506
+AI Axis ZZ2 channel 0 measured to be 3.7469611167907715
+AI Axis ZZ2 channel 0 measured to be 3.7467355728149414
+The following voltages were measured: 
+[3.7465991973876953, 3.746722936630249, 3.7467172145843506, 3.7469611167907715, 3.7467355728149414]
+Voltage settled in 139.09363746643066 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.746781826019287
+AI Axis ZZ2 channel 0 measured to be 3.7468981742858887
+AI Axis ZZ2 channel 0 measured to be 3.74654483795166
+The following voltages were measured: 
+[3.746781826019287, 3.7468981742858887, 3.74654483795166]
+G01 ZZ2 0.025000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.744382381439209
+AI Axis ZZ2 channel 0 measured to be 3.730761766433716
+AI Axis ZZ2 channel 0 measured to be 3.714010715484619
+AI Axis ZZ2 channel 0 measured to be 3.699575901031494
+AI Axis ZZ2 channel 0 measured to be 3.683776378631592
+The following voltages were measured: 
+[3.744382381439209, 3.730761766433716, 3.714010715484619, 3.699575901031494, 3.683776378631592]
+AI Axis ZZ2 channel 0 measured to be 3.668659210205078
+AI Axis ZZ2 channel 0 measured to be 3.6530444622039795
+AI Axis ZZ2 channel 0 measured to be 3.647916555404663
+AI Axis ZZ2 channel 0 measured to be 3.6473548412323
+AI Axis ZZ2 channel 0 measured to be 3.6475424766540527
+The following voltages were measured: 
+[3.668659210205078, 3.6530444622039795, 3.647916555404663, 3.6473548412323, 3.6475424766540527]
+AI Axis ZZ2 channel 0 measured to be 3.647280216217041
+AI Axis ZZ2 channel 0 measured to be 3.6475234031677246
+AI Axis ZZ2 channel 0 measured to be 3.6475512981414795
+AI Axis ZZ2 channel 0 measured to be 3.647627592086792
+AI Axis ZZ2 channel 0 measured to be 3.647744655609131
+The following voltages were measured: 
+[3.647280216217041, 3.6475234031677246, 3.6475512981414795, 3.647627592086792, 3.647744655609131]
+Voltage settled in 144.09685134887695 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.6475765705108643
+AI Axis ZZ2 channel 0 measured to be 3.6475541591644287
+AI Axis ZZ2 channel 0 measured to be 3.6475417613983154
+The following voltages were measured: 
+[3.6475765705108643, 3.6475541591644287, 3.6475417613983154]
+AI Axis ZZ2 channel 0 measured to be 3.6476566791534424
+AI Axis ZZ2 channel 0 measured to be 3.647444725036621
+AI Axis ZZ2 channel 0 measured to be 3.647380828857422
+AI Axis ZZ2 channel 0 measured to be 3.6473655700683594
+AI Axis ZZ2 channel 0 measured to be 3.6471855640411377
+AI Axis ZZ2 channel 0 measured to be 3.647284507751465
+AI Axis ZZ2 channel 0 measured to be 3.6472325325012207
+AI Axis ZZ2 channel 0 measured to be 3.6473755836486816
+AI Axis ZZ2 channel 0 measured to be 3.647611618041992
+AI Axis ZZ2 channel 0 measured to be 3.6475131511688232
+The following voltages were measured: 
+[3.6476566791534424, 3.647444725036621, 3.647380828857422, 3.6473655700683594, 3.6471855640411377, 3.647284507751465, 3.6472325325012207, 3.6473755836486816, 3.647611618041992, 3.6475131511688232]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 3.6470673084259033
+AI Axis ZZ2 channel 0 measured to be 3.6474361419677734
+AI Axis ZZ2 channel 0 measured to be 3.6475558280944824
+AI Axis ZZ2 channel 0 measured to be 3.647625684738159
+AI Axis ZZ2 channel 0 measured to be 3.647489547729492
+AI Axis ZZ2 channel 0 measured to be 3.647355556488037
+AI Axis ZZ2 channel 0 measured to be 3.6476502418518066
+AI Axis ZZ2 channel 0 measured to be 3.6476526260375977
+AI Axis ZZ2 channel 0 measured to be 3.6471967697143555
+AI Axis ZZ2 channel 0 measured to be 3.6478524208068848
+The following voltages were measured: 
+[3.6470673084259033, 3.6474361419677734, 3.6475558280944824, 3.647625684738159, 3.647489547729492, 3.647355556488037, 3.6476502418518066, 3.6476526260375977, 3.6471967697143555, 3.6478524208068848]
+['ZZ2'] measured to be [-105.05000058465794]
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.647477149963379
+AI Axis ZZ2 channel 0 measured to be 3.647566795349121
+AI Axis ZZ2 channel 0 measured to be 3.6472601890563965
+AI Axis ZZ2 channel 0 measured to be 3.6472601890563965
+AI Axis ZZ2 channel 0 measured to be 3.6470866203308105
+The following voltages were measured: 
+[3.647477149963379, 3.647566795349121, 3.6472601890563965, 3.6472601890563965, 3.6470866203308105]
+Voltage settled in 0.0 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.6472795009613037
+AI Axis ZZ2 channel 0 measured to be 3.647489309310913
+AI Axis ZZ2 channel 0 measured to be 3.647730588912964
+The following voltages were measured: 
+[3.6472795009613037, 3.647489309310913, 3.647730588912964]
+G01 ZZ2 -0.200000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 3.7755095958709717
+AI Axis ZZ2 channel 0 measured to be 3.8878731727600098
+AI Axis ZZ2 channel 0 measured to be 4.025950908660889
+AI Axis ZZ2 channel 0 measured to be 4.1562957763671875
+AI Axis ZZ2 channel 0 measured to be 4.268043041229248
+The following voltages were measured: 
+[3.7755095958709717, 3.8878731727600098, 4.025950908660889, 4.1562957763671875, 4.268043041229248]
+AI Axis ZZ2 channel 0 measured to be 4.396463871002197
+AI Axis ZZ2 channel 0 measured to be 4.441319465637207
+AI Axis ZZ2 channel 0 measured to be 4.442859649658203
+AI Axis ZZ2 channel 0 measured to be 4.442626953125
+AI Axis ZZ2 channel 0 measured to be 4.442429065704346
+The following voltages were measured: 
+[4.396463871002197, 4.441319465637207, 4.442859649658203, 4.442626953125, 4.442429065704346]
+AI Axis ZZ2 channel 0 measured to be 4.44243049621582
+AI Axis ZZ2 channel 0 measured to be 4.4427032470703125
+AI Axis ZZ2 channel 0 measured to be 4.44267463684082
+AI Axis ZZ2 channel 0 measured to be 4.442686080932617
+AI Axis ZZ2 channel 0 measured to be 4.442708492279053
+The following voltages were measured: 
+[4.44243049621582, 4.4427032470703125, 4.44267463684082, 4.442686080932617, 4.442708492279053]
+Voltage settled in 143.0954933166504 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 4.442380428314209
+AI Axis ZZ2 channel 0 measured to be 4.44245719909668
+AI Axis ZZ2 channel 0 measured to be 4.442557334899902
+The following voltages were measured: 
+[4.442380428314209, 4.44245719909668, 4.442557334899902]
+G01 ZZ2 0.100000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 4.415340423583984
+AI Axis ZZ2 channel 0 measured to be 4.353582382202148
+AI Axis ZZ2 channel 0 measured to be 4.296255588531494
+AI Axis ZZ2 channel 0 measured to be 4.242979049682617
+AI Axis ZZ2 channel 0 measured to be 4.1807637214660645
+The following voltages were measured: 
+[4.415340423583984, 4.353582382202148, 4.296255588531494, 4.242979049682617, 4.1807637214660645]
+AI Axis ZZ2 channel 0 measured to be 4.124573230743408
+AI Axis ZZ2 channel 0 measured to be 4.057608604431152
+AI Axis ZZ2 channel 0 measured to be 4.046320915222168
+AI Axis ZZ2 channel 0 measured to be 4.045959949493408
+AI Axis ZZ2 channel 0 measured to be 4.0457682609558105
+The following voltages were measured: 
+[4.124573230743408, 4.057608604431152, 4.046320915222168, 4.045959949493408, 4.0457682609558105]
+AI Axis ZZ2 channel 0 measured to be 4.0456671714782715
+AI Axis ZZ2 channel 0 measured to be 4.045792579650879
+AI Axis ZZ2 channel 0 measured to be 4.045724391937256
+AI Axis ZZ2 channel 0 measured to be 4.046120643615723
+AI Axis ZZ2 channel 0 measured to be 4.045775890350342
+The following voltages were measured: 
+[4.0456671714782715, 4.045792579650879, 4.045724391937256, 4.046120643615723, 4.045775890350342]
+Voltage settled in 137.09163665771484 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 4.045799255371094
+AI Axis ZZ2 channel 0 measured to be 4.045543193817139
+AI Axis ZZ2 channel 0 measured to be 4.045631408691406
+The following voltages were measured: 
+[4.045799255371094, 4.045543193817139, 4.045631408691406]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 4.0554423332214355
+AI Axis ZZ2 channel 0 measured to be 4.081815719604492
+AI Axis ZZ2 channel 0 measured to be 4.113474369049072
+AI Axis ZZ2 channel 0 measured to be 4.142317771911621
+AI Axis ZZ2 channel 0 measured to be 4.173609733581543
+The following voltages were measured: 
+[4.0554423332214355, 4.081815719604492, 4.113474369049072, 4.142317771911621, 4.173609733581543]
+AI Axis ZZ2 channel 0 measured to be 4.202340602874756
+AI Axis ZZ2 channel 0 measured to be 4.23553991317749
+AI Axis ZZ2 channel 0 measured to be 4.243641376495361
+AI Axis ZZ2 channel 0 measured to be 4.24429178237915
+AI Axis ZZ2 channel 0 measured to be 4.244243621826172
+The following voltages were measured: 
+[4.202340602874756, 4.23553991317749, 4.243641376495361, 4.24429178237915, 4.244243621826172]
+AI Axis ZZ2 channel 0 measured to be 4.244170188903809
+AI Axis ZZ2 channel 0 measured to be 4.244119644165039
+AI Axis ZZ2 channel 0 measured to be 4.243937015533447
+AI Axis ZZ2 channel 0 measured to be 4.243735313415527
+AI Axis ZZ2 channel 0 measured to be 4.244207382202148
+The following voltages were measured: 
+[4.244170188903809, 4.244119644165039, 4.243937015533447, 4.243735313415527, 4.244207382202148]
+Voltage settled in 142.09485054016113 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 4.244001865386963
+AI Axis ZZ2 channel 0 measured to be 4.24406623840332
+AI Axis ZZ2 channel 0 measured to be 4.244226932525635
+The following voltages were measured: 
+[4.244001865386963, 4.24406623840332, 4.244226932525635]
+G01 ZZ2 -0.050000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 4.250448703765869
+AI Axis ZZ2 channel 0 measured to be 4.284873008728027
+AI Axis ZZ2 channel 0 measured to be 4.3160247802734375
+AI Axis ZZ2 channel 0 measured to be 4.3533220291137695
+AI Axis ZZ2 channel 0 measured to be 4.3807597160339355
+The following voltages were measured: 
+[4.250448703765869, 4.284873008728027, 4.3160247802734375, 4.3533220291137695, 4.3807597160339355]
+AI Axis ZZ2 channel 0 measured to be 4.414505481719971
+AI Axis ZZ2 channel 0 measured to be 4.440670967102051
+AI Axis ZZ2 channel 0 measured to be 4.442598819732666
+AI Axis ZZ2 channel 0 measured to be 4.442756652832031
+AI Axis ZZ2 channel 0 measured to be 4.442629814147949
+The following voltages were measured: 
+[4.414505481719971, 4.440670967102051, 4.442598819732666, 4.442756652832031, 4.442629814147949]
+AI Axis ZZ2 channel 0 measured to be 4.442596912384033
+AI Axis ZZ2 channel 0 measured to be 4.442604064941406
+AI Axis ZZ2 channel 0 measured to be 4.442592620849609
+AI Axis ZZ2 channel 0 measured to be 4.442619323730469
+AI Axis ZZ2 channel 0 measured to be 4.443228721618652
+The following voltages were measured: 
+[4.442596912384033, 4.442604064941406, 4.442592620849609, 4.442619323730469, 4.443228721618652]
+Voltage settled in 143.0954933166504 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 4.443175315856934
+AI Axis ZZ2 channel 0 measured to be 4.442898273468018
+AI Axis ZZ2 channel 0 measured to be 4.442873477935791
+The following voltages were measured: 
+[4.443175315856934, 4.442898273468018, 4.442873477935791]
+G01 ZZ2 0.025000 F 10.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 4.440969467163086
+AI Axis ZZ2 channel 0 measured to be 4.425531387329102
+AI Axis ZZ2 channel 0 measured to be 4.409910202026367
+AI Axis ZZ2 channel 0 measured to be 4.394980430603027
+AI Axis ZZ2 channel 0 measured to be 4.379176139831543
+The following voltages were measured: 
+[4.440969467163086, 4.425531387329102, 4.409910202026367, 4.394980430603027, 4.379176139831543]
+AI Axis ZZ2 channel 0 measured to be 4.363042831420898
+AI Axis ZZ2 channel 0 measured to be 4.348803520202637
+AI Axis ZZ2 channel 0 measured to be 4.344132423400879
+AI Axis ZZ2 channel 0 measured to be 4.344002723693848
+AI Axis ZZ2 channel 0 measured to be 4.344038486480713
+The following voltages were measured: 
+[4.363042831420898, 4.348803520202637, 4.344132423400879, 4.344002723693848, 4.344038486480713]
+AI Axis ZZ2 channel 0 measured to be 4.3438920974731445
+AI Axis ZZ2 channel 0 measured to be 4.343717575073242
+AI Axis ZZ2 channel 0 measured to be 4.343750476837158
+AI Axis ZZ2 channel 0 measured to be 4.344152450561523
+AI Axis ZZ2 channel 0 measured to be 4.344336032867432
+The following voltages were measured: 
+[4.3438920974731445, 4.343717575073242, 4.343750476837158, 4.344152450561523, 4.344336032867432]
+Voltage settled in 141.09444618225098 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 4.343774795532227
+AI Axis ZZ2 channel 0 measured to be 4.343358993530273
+AI Axis ZZ2 channel 0 measured to be 4.343628406524658
+The following voltages were measured: 
+[4.343774795532227, 4.343358993530273, 4.343628406524658]
+AI Axis ZZ2 channel 0 measured to be 4.343762397766113
+AI Axis ZZ2 channel 0 measured to be 4.343505382537842
+AI Axis ZZ2 channel 0 measured to be 4.343595027923584
+AI Axis ZZ2 channel 0 measured to be 4.3437395095825195
+AI Axis ZZ2 channel 0 measured to be 4.343457221984863
+AI Axis ZZ2 channel 0 measured to be 4.343134880065918
+AI Axis ZZ2 channel 0 measured to be 4.343185901641846
+AI Axis ZZ2 channel 0 measured to be 4.343504428863525
+AI Axis ZZ2 channel 0 measured to be 4.343278884887695
+AI Axis ZZ2 channel 0 measured to be 4.343432903289795
+The following voltages were measured: 
+[4.343762397766113, 4.343505382537842, 4.343595027923584, 4.3437395095825195, 4.343457221984863, 4.343134880065918, 4.343185901641846, 4.343504428863525, 4.343278884887695, 4.343432903289795]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 4.343313217163086
+AI Axis ZZ2 channel 0 measured to be 4.344056129455566
+AI Axis ZZ2 channel 0 measured to be 4.343605995178223
+AI Axis ZZ2 channel 0 measured to be 4.343421936035156
+AI Axis ZZ2 channel 0 measured to be 4.3436055183410645
+AI Axis ZZ2 channel 0 measured to be 4.343730926513672
+AI Axis ZZ2 channel 0 measured to be 4.343325614929199
+AI Axis ZZ2 channel 0 measured to be 4.343393325805664
+AI Axis ZZ2 channel 0 measured to be 4.343493461608887
+AI Axis ZZ2 channel 0 measured to be 4.343506813049316
+The following voltages were measured: 
+[4.343313217163086, 4.344056129455566, 4.343605995178223, 4.343421936035156, 4.3436055183410645, 4.343730926513672, 4.343325614929199, 4.343393325805664, 4.343493461608887, 4.343506813049316]
+['ZZ2'] measured to be [-105.2249991054709]
+Height to voltage slope is -0.25140800814235154
+
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 0.000000 F 40.000000 
+
+G01 ZZ1 -83.120001 F 40.000000 
+
+G01 X -127.132967 Y -284.020120 F 40.000000 
+
+
+system waited  s.
+Bit 2 on the ZZ1 set to 1
+$DO[2].ZZ1 = 1 
+
+aeropump0 is on.
+
+system waited  s.
+system waited 60 s.
+system waited  s.
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system waited  s.
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ2 -40.000924 F 40.000000 
+
+G01 X -340.225299 Y -274.993223 F 40.000000 
+
+G01 ZZ2 -65.159689 F 40.000000 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.008533000946045
+AI Axis ZZ2 channel 0 measured to be 1.0099599361419678
+AI Axis ZZ2 channel 0 measured to be 1.014999270439148
+AI Axis ZZ2 channel 0 measured to be 1.0219401121139526
+The following voltages were measured: 
+[1.0099599361419678, 1.014999270439148, 1.0219401121139526]
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 1.0286028385162354
+['ZZ2'] measured to be [-65.1596936203223]
+MOVEINC ZZ2 -1.000000 10.000000
+
+
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.16542538482642]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.22542237878673]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.3717334560986]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.5747497495426]
+system waited 0.02 s.
+['ZZ2'] measured to be [-65.78468627220373]
+AI Axis ZZ2 channel 0 measured to be 1.9014817476272583
+MOVEINC ZZ2 0.500000 10.000000
+
+
+system waited 0.1 s.
+G91 
+
+
+AI Axis ZZ2 channel 0 measured to be 4.980039119720459
+AI Axis ZZ2 channel 0 measured to be 4.979851722717285
+AI Axis ZZ2 channel 0 measured to be 4.979840278625488
+AI Axis ZZ2 channel 0 measured to be 4.979459285736084
+AI Axis ZZ2 channel 0 measured to be 4.910916805267334
+The following voltages were measured: 
+[4.980039119720459, 4.979851722717285, 4.979840278625488, 4.979459285736084, 4.910916805267334]
+AI Axis ZZ2 channel 0 measured to be 4.538802146911621
+AI Axis ZZ2 channel 0 measured to be 4.203868389129639
+AI Axis ZZ2 channel 0 measured to be 3.8522300720214844
+AI Axis ZZ2 channel 0 measured to be 3.5586941242218018
+AI Axis ZZ2 channel 0 measured to be 3.3026621341705322
+The following voltages were measured: 
+[4.538802146911621, 4.203868389129639, 3.8522300720214844, 3.5586941242218018, 3.3026621341705322]
+AI Axis ZZ2 channel 0 measured to be 3.166879415512085
+AI Axis ZZ2 channel 0 measured to be 3.075192451477051
+AI Axis ZZ2 channel 0 measured to be 3.037257194519043
+AI Axis ZZ2 channel 0 measured to be 3.0277884006500244
+AI Axis ZZ2 channel 0 measured to be 3.0265049934387207
+The following voltages were measured: 
+[3.166879415512085, 3.075192451477051, 3.037257194519043, 3.0277884006500244, 3.0265049934387207]
+AI Axis ZZ2 channel 0 measured to be 3.0260252952575684
+AI Axis ZZ2 channel 0 measured to be 3.026242256164551
+AI Axis ZZ2 channel 0 measured to be 3.026465892791748
+AI Axis ZZ2 channel 0 measured to be 3.026291847229004
+AI Axis ZZ2 channel 0 measured to be 3.0261597633361816
+The following voltages were measured: 
+[3.0260252952575684, 3.026242256164551, 3.026465892791748, 3.026291847229004, 3.0261597633361816]
+Voltage settled in 205.1370143890381 ms at fast rate
+AI Axis ZZ2 channel 0 measured to be 3.0259103775024414
+AI Axis ZZ2 channel 0 measured to be 3.026127815246582
+AI Axis ZZ2 channel 0 measured to be 3.025951862335205
+The following voltages were measured: 
+[3.0259103775024414, 3.026127815246582, 3.025951862335205]
+AI Axis ZZ2 channel 0 measured to be 3.0256600379943848
+AI Axis ZZ2 channel 0 measured to be 3.0254733562469482
+AI Axis ZZ2 channel 0 measured to be 3.025557041168213
+AI Axis ZZ2 channel 0 measured to be 3.025777816772461
+AI Axis ZZ2 channel 0 measured to be 3.0259642601013184
+AI Axis ZZ2 channel 0 measured to be 3.025913715362549
+AI Axis ZZ2 channel 0 measured to be 3.026038646697998
+AI Axis ZZ2 channel 0 measured to be 3.0258727073669434
+AI Axis ZZ2 channel 0 measured to be 3.0257344245910645
+AI Axis ZZ2 channel 0 measured to be 3.025740146636963
+The following voltages were measured: 
+[3.0256600379943848, 3.0254733562469482, 3.025557041168213, 3.025777816772461, 3.0259642601013184, 3.025913715362549, 3.026038646697998, 3.0258727073669434, 3.0257344245910645, 3.025740146636963]
+Voltage settled in 0.0 ms at normal rate
+AI Axis ZZ2 channel 0 measured to be 3.0261099338531494
+AI Axis ZZ2 channel 0 measured to be 3.0254065990448
+AI Axis ZZ2 channel 0 measured to be 3.0252883434295654
+AI Axis ZZ2 channel 0 measured to be 3.0251848697662354
+AI Axis ZZ2 channel 0 measured to be 3.02579665184021
+The following voltages were measured: 
+[3.0261099338531494, 3.0254065990448, 3.0252883434295654, 3.0251848697662354, 3.02579665184021]
+['ZZ2'] measured to be [-65.65968887843998]
+Bit 0 on the ZZ1 set to 0
+$DO[0].ZZ1 = 0 
+
+
+
+G91 
+
+
+G01 ZZ2 5.000000 F 40.000000 
+
+
+G90 
+
+
+camera configured the following settings:
+	['gain']
+
+system ran a program
+
+Commands Loaded
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ4 -5.000004 F 40.000000 
+
+G01 X -570.958555 Y -270.293191 F 40.000000 
+
+G01 ZZ4 -10.139993 F 40.000000 
+
+

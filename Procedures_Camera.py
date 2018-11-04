@@ -79,8 +79,9 @@ class Capture_ImageXY(procedure):
 class Configure_Settings(procedure): 
     def Prepare(self):
         self.name = 'Configure_Settings'
-        self.requirements['gain'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'values for master and RGB gains (0-100)'}
         self.requirements['camera_name'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'name of the camera to be used'}
+        self.requirements['gain'] = {'source': 'apparatus', 'address': '', 'value': '', 'desc': 'values for master and RGB gains (0-100)'}
+        
         
     def Plan(self):
         # Renaming useful pieces of informaiton
