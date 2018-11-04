@@ -654,7 +654,7 @@ class Keyence_TouchProbe(Sensor):
         self.DObit = '' #0
         self.AIaxis = '' #ZZ2
         self.AIchannel = '' #0
-        self.axis = 'ZZ3'
+        self.axis = 'ZZ2'
         self.dependent_device = True
         self.dependencies =['A3200', 'system']
         self.extend_delay = 1
@@ -723,6 +723,7 @@ class Keyence_TouchProbe(Sensor):
         
         # Calibration routine
         if not self.simulation:
+            import numpy as np
             datavessel = [0]
             self.set_voltage_window()
             v = []
@@ -939,7 +940,6 @@ class Ueye_Camera(Sensor):
         
     def Connect(self):
         self.fConnect()
-        self.fDisconnect()
         self.addlog(self.name + ' is availible.')
         return self.returnlog()
 
@@ -955,7 +955,7 @@ class Ueye_Camera(Sensor):
         self.addlog(self.name + ' is connected.')
 
     def Disconnect(self):
-        self.fDisconnect
+        self.fDisconnect()
         return self.returnlog()
 
     def fDisconnect(self):
@@ -965,9 +965,7 @@ class Ueye_Camera(Sensor):
 
     def Measure(self, file):
         if not self.simulation:
-            self.fConnect()
             self.handle.save_image(file)
-            self.fDisconnect()
         self.addlog(self.name + ' took image and saved at ' + str(file))
         return self.returnlog()
     
@@ -976,15 +974,13 @@ class Ueye_Camera(Sensor):
             if 'gain' in kwargs:
                 gain = kwargs['gain']
                 self.handle.set_gain(master=gain[0], red=gain[1], green=gain[2], blue=gain[3])
-            if 'framerate' in kwargs:
-                print('not implemented')
+            
         self.addlog(self.name + ' configured the following settings:\n\t' + str([k for k in kwargs.keys()]))
         return self.returnlog()
-
 
 if __name__ == '__main__':
     testcamera = Ueye_Camera('Test Gantry')
     print(testcamera.Connect())
-    print(testcamera.Configure(gain=[20,100,10,10], framerate=50))
+    print(testcamera.Configure(gain=[50,25,0,45]))
     print(testcamera.Measure('Data\\test.tif'))
     print(testcamera.Disconnect())

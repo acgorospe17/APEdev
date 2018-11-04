@@ -1,0 +1,45 @@
+gantry is connected
+
+Ultimus pump0 is connected on port 9
+
+Ultimus/A3200 pump0/gantry aeropump0 is connected using ZZ1 bit 2
+Bit 2 on the ZZ1 set to 0
+$DO[2].ZZ1 = 0 
+
+aeropump0 is off.
+
+system is connected.
+
+Keyence Touchprobe using gantry using ZZ1 bit 0
+
+camera is connected.
+camera is disconnected.
+camera is availible.
+
+['X', 'Y', 'ZZ1', 'ZZ2', 'ZZ3', 'ZZ4'] measured to be [-386.29985263124024, -184.39993492978815, -76.66016921366777, -0.0018051212702823386, -38.970000735942385, -8.992491292731957]
+['X', 'Y', 'ZZ1'] measured to be [-308.4636445725065, -300.61401620689213, -95.34312661519155]
+['X', 'Y', 'ZZ1'] measured to be [-303.70053452208316, -290.22882811454946, -95.30312654378284]
+['X', 'Y', 'ZZ1'] measured to be [-167.0953993816586, -312.3947349837942, -94.02066473663572]
+['X', 'Y', 'ZZ3'] measured to be [-490.3058737060072, -306.7981349770108, -65.39656597293585]
+['X', 'Y', 'ZZ4'] measured to be [-620.9552308934552, -302.6706072539486, -10.07850313538023]
+
+Commands Loaded
+
+Commands Loaded
+
+Axis mask changed to {}
+G90 
+
+G71 
+
+RAMP RATE 1000
+
+CoordinatedAccelLimit = 1000
+
+VELOCITY ON 
+
+G01 ZZ3 -50.000000 F 40.000000 
+
+G01 X -200.000000 Y -250.000000 F 40.000000 
+
+
